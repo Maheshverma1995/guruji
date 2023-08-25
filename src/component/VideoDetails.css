@@ -1,0 +1,98 @@
+
+.secondpage-container{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(231, 241, 182); 
+}
+.secondPage{
+    padding: 30px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 12px 1px rgba(0, 0, 0, 0.589);
+}
+.secondPage .video-container{
+    width: 80%;
+    height: 600px;
+    box-shadow: 5px 5px 12px 1px rgba(0, 0, 0, 0.589);
+}
+.secondPage .video-container img{
+    width: 100%;
+    height: 600px;
+}
+.secondPage .secondPage-heading h2{
+    color: red;
+    margin: 50px 0px;
+    font-size: 3rem;
+}
+.secondPage .secondPage-content{
+    width:80%;
+}
+.secondPage .secondPage-content p{
+
+    font-size: 1.5rem;
+    letter-spacing: 0.7px;
+    text-align: justify;
+}
+.partition{
+    width:100%;
+    padding: 105px 0px;
+}
+.partition .partition1 h2{
+    background: red;
+    color: white;
+    font-size: 3rem;
+    width:350px;
+    padding: 3px 2px;
+    border-top-right-radius:7px;
+}
+.partition .partition2{
+    border-bottom: 4px solid red;
+}
+.secondpage_cards{
+    width: 100%;
+    padding: 35px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.secondpage_cards .card1{
+    width:450px;
+    border:none;
+    box-shadow: 0px 3px 15px 5px rgba(0, 0, 0, 0.548);
+    border-radius:10px;
+    margin:15px;
+}
+.secondpage_cards .card1 .card1_video img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.secondpage_cards .card1 .card1_heading1 h2{
+    margin: 15px 0px;
+    width: 100%;
+    font-size: 2rem;
+    padding: 3px 25px;
+}
+.secondpage_cards .card1 .card1_content p{
+    width: 100%;
+    font-size: 1.5rem;  
+    padding:0 25px 35px 25px;
+}
+.secondpage_cards .card1 .card1_button button{
+    color: white;
+    background: red;
+    padding:15px 25px ;
+    font-size: 1.5rem;
+    margin-left: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    outline: none;
+    border: none;
+    box-shadow: 5px 5px 12px 1px rgba(0, 0, 0, 0.589);
+}
+
+
