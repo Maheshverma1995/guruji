@@ -1,10 +1,12 @@
 import React from 'react'
 import { FaDownload } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import HomeSection2 from './HomeSection2';
 
 const Videos = () => {
     return (
         <div className='body'>
+            <HomeSection2/>
             <h1 className='text-center'>Videos</h1>
             <div className='container'>
                 <div className='row'>

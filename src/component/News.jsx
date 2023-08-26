@@ -2,42 +2,14 @@ import React from 'react'
 import './Home.css'
 import sagar from './Pics/Acharya_Vishuddh_Sagar_Ji.jpg';
 import { Link } from 'react-router-dom';
+import HomeSection2 from './HomeSection2';
 
 const News = () => {
   return (
-    <div>
+    <div className='body'>
+      <HomeSection2/>
     <div className="grid">
-      <div className="bg-layoutt" id='frame'>
-        <div className="row m-1" >
-          <div className="col-lg-3 col-md-6  my-3   " >
-            <div className="card p-2">
-              <h2 className='bg-primary text-center p-2' style={{ width: "100%" }}>Live Updates</h2>
-              <p >Itaque, veritatis quas. Aliquam Lorem ipsum dolor sit amet conse ctetur. Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Enim? lorem 100 sequi asperiores qui alias persp iciatis, expedita ducimus iste quod quibusdam cumque suscipit quis in molestias dolore facilis fugit?  sit amet ctetur adipisicing elit.</p>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-6  my-3   " >
-            <div className="card p-2">
-              <h2 className='bg-primary text-center p-2' style={{ width: "100%" }}>Calender</h2>
-              <p >Itaque, veritatis quas. Aliquam Lorem ipsum dolor sit amet conse ctetur. Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Enim? lorem 100 sequi asperiores qui alias persp iciatis, expedita ducimus iste quod quibusdam cumque suscipit quis in molestias dolore facilis fugit?  sit amet ctetur adipisicing elit.</p>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-6  my-3   " >
-            <div className="card p-2">
-              <h2 className='bg-primary text-center p-2' style={{ width: "100%" }}>Thoughts</h2>
-              <p >Itaque, veritatis quas. Aliquam Lorem ipsum dolor sit amet conse ctetur. Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Enim? lorem 100 sequi asperiores qui alias persp iciatis, expedita ducimus iste quod quibusdam cumque suscipit quis in molestias dolore facilis fugit?  sit amet ctetur adipisicing elit.</p>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-6  my-3   " >
-            <div className="card p-2">
-              <h2 className='bg-primary text-center p-2' style={{ width: "100%" }}>Live Sessions</h2>
-              <p >Itaque, veritatis quas. Aliquam Lorem ipsum dolor sit amet conse ctetur. Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Enim? lorem 100 sequi asperiores qui alias persp iciatis, expedita ducimus iste quod quibusdam cumque suscipit quis in molestias dolore facilis fugit?  sit amet ctetur adipisicing elit.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
       {/* ////////////////////////////////////////////////////////////////////////////// */}
       <div className="row py-3" style={{ width: "100%", margin: "auto", backgroundColor: "#fceccb" }}>

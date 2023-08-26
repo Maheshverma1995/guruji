@@ -10,19 +10,19 @@
     background-position: center;
     /* background-repeat: no-repeat; */
     /* background-attachment: fixed; */
-    background-image: url("./Pics/front.png");
+    
 
 }
+.home-img{
+    
+    margin-top: -150px;
+    width: 100%;
+    
+}
 .first-h1{
-    /* position: absolute; */
-    font-size: 2vw;
-    /* margin-top: 300px; */
-    margin-left: 5%;
-    color: white;
-    text-align: justify;
-    padding-top: 30%;
-    width: 40%;
-    /* margin-bottom: 80px; */
+    
+    color: black;
+    
 
     
 

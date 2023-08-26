@@ -1,26 +1,33 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
 import "./Home.css";
-import  vill  from './Pics/baba_5.png';
-import  sagar  from './Pics/Acharya_Vishuddh_Sagar_Ji.jpg';
+import vill from './Pics/baba_5.png';
+import sagar from './Pics/Acharya_Vishuddh_Sagar_Ji.jpg';
 import { Link } from 'react-router-dom';
+import HomeSection2 from './HomeSection2';
 
 const Home = () => {
     return (
         <div>
-
-            <div className='first-img img-fluid'>
-                <div className='first-dev'>
-                    <h1 className='first-h1'>
-                        " ज्ञान गुणी होता है, ज्ञान के बिना परमात्मा और आत्मा की परिकल्पना भी नहीं कर सकते। जिस व्यक्ति के पास ज्ञान है वो कभी भी उग्र नहीं हो सकता। वह शीतल जल के सामान शांत रहता है।"
-                    </h1>
-                    <p className='first-p py-3'>श्री 108 विशुद्धसागर जी महाराज</p>
+            <div className='container-fluid'>
+                <img className='home-img img-fluid ' src="./images/3page_8.png" alt="" />
+                <div className='row position-absolute top-50 start-'>
+                    <div className='col-md-6 '>
+                    <h4>
+                                    " ज्ञान गुणी होता है, ज्ञान के बिना परमात्मा और आत्मा की परिकल्पना भी नहीं कर सकते। जिस व्यक्ति के पास ज्ञान है वो कभी भी उग्र नहीं हो सकता। वह शीतल जल के सामान शांत रहता है।"
+                                </h4>
+                                <p>श्री 108 विशुद्धसागर जी महाराज</p>
+                        
+                    </div>
+                    <div className='col-md-6'> hi</div>
                 </div>
-
-
             </div>
+            <div className='container-fluid'>
+                <HomeSection2/>
+            </div>
+
             {/* ///////////////////////////////// /////////////////////////// */}
-            <div className='grid'>
+            {/* <div className='grid'>
                 <div className="bg-layoutt" id='frame'>
                     <div className="row py-5  " style={{ width: "90%", margin: "auto" }}>
                         <div className="col-lg-3 col-md-6  my-3   " >
@@ -86,7 +93,7 @@ const Home = () => {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
 
             {/* /////////////////////////////carousel//////////////////////////////// */}
 
@@ -99,7 +106,7 @@ const Home = () => {
                         <img src="https://cdn.wallpapersafari.com/22/29/fdqrYk.jpg" clas sName="d-block w-100 three" alt="jnj" />
                     </div>
                     <div class="carousel-item">
-                        <img src="https://wallpapercave.com/wp/wp7737090.jpg" className= "d-block w-100 three" alt="jj" />
+                        <img src="https://wallpapercave.com/wp/wp7737090.jpg" className="d-block w-100 three" alt="jj" />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -128,7 +135,7 @@ const Home = () => {
 
                     <div className="col-md-5 my-4 drop-shadow " style={{ margin: "auto" }} >
                         <div className="card p-2">
-                            <img src={vill} className='img-fluid' style={{ height: "100%" }} alt='..'  />
+                            <img src={vill} className='img-fluid' style={{ height: "100%" }} alt='..' />
 
 
                         </div>
@@ -146,7 +153,7 @@ const Home = () => {
                     <div className="col-sm-4 my-2 ">
                         <div className="card">
                             <img src={sagar} className="card-img-top" alt="sss" />
-                             <div className="card-body mx-0">
+                            <div className="card-body mx-0">
                                 <h5 className="card-title">lorem jad cmd</h5>
                                 <p className="card-text">lorem</p>
                                 <Link to="#" class="btn btn-primary">See more</Link>
@@ -157,7 +164,7 @@ const Home = () => {
                     <div className="col-sm-4 my-2 ">
                         <div className="card">
                             <img src={sagar} className="card-img-top" alt="sss" />
-                             <div className="card-body mx-0">
+                            <div className="card-body mx-0">
                                 <h5 className="card-title">lorem jad cmd</h5>
                                 <p className="card-text">lorem</p>
                                 <Link to="#" class="btn btn-primary">See more</Link>
@@ -168,7 +175,7 @@ const Home = () => {
                     <div className="col-sm-4 my-2  ">
                         <div className="card">
                             <img src={sagar} className="card-img-top height" alt="sss" />
-                             <div className="card-body mx-0">
+                            <div className="card-body mx-0">
                                 <h5 className="card-title">lorem jad cmd</h5>
                                 <p className="card-text">lorem</p>
                                 <Link to="#" class="btn btn-primary">See more</Link>
@@ -190,7 +197,7 @@ const Home = () => {
                     <div className="col-sm-4 my-2 ">
                         <div className="card" >
                             <img src={sagar} className="card-img-top" alt="sss" />
-                             <div className="card-body mx-0">
+                            <div className="card-body mx-0">
                                 <h5 className="card-title py-8">lorem</h5>
                                 <p className="card-text">lorem</p>
                                 <Link to="#" className="btn btn-primary">Go somewhere</Link>
@@ -201,7 +208,7 @@ const Home = () => {
                     <div className="col-sm-4 my-2 " >
                         <div className="card">
                             <img src={sagar} className="card-img-top height" alt="sss" />
-                             <div className="card-body mx-0">
+                            <div className="card-body mx-0">
                                 <h5 className="card-title">lorem jad cmd</h5>
                                 <p className="card-text">lorem</p>
                                 <Link to="#" class="btn btn-primary">See more</Link>
@@ -212,7 +219,7 @@ const Home = () => {
                     <div className="col-sm-4 my-2  ">
                         <div className="card">
                             <img src={sagar} className="card-img-top height" alt="sss" />
-                             <div className="card-body mx-0">
+                            <div className="card-body mx-0">
                                 <h5 className="card-title">lorem jad cmd</h5>
                                 <p className="card-text">lorem</p>
                                 <Link to="#" class="btn btn-primary">See more</Link>
@@ -222,7 +229,7 @@ const Home = () => {
 
                 </div>
                 {/* /////////////////////////////////////////////////////////////////// */}
-                <div className="row py-3" style={{ width: "100%", margin: "auto" }}>
+                {/* <div className="row py-3" style={{ width: "100%", margin: "auto" }}>
 
 
                     <div className="col-md-3 my-2 ">
@@ -263,7 +270,7 @@ const Home = () => {
                     </div>
 
 
-                </div>
+                </div> */}
             </div>
 
         </div>

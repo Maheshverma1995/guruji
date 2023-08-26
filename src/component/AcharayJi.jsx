@@ -1,9 +1,11 @@
 import React from 'react'
 import '../App.css'
+import HomeSection2 from './HomeSection2'
 
 const AcharayJi = () => {
   return (
     <div className='body'>
+      <HomeSection2/>
       <div className='container'>
         <div className='row'>
           <div className='col'>

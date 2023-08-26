@@ -17,14 +17,16 @@ import News from './component/News';
 import Mahotsav from './component/Mahotsav';
 import JivenParichay from './component/JivenParichay';
 import VideoDetails from './component/VideoDetails';
+import Icons from './component/Icons';
+import Maharaj from './component/Maharaj';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
     <NavBar/>
-      <Routes>
 
+      <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="acharayJi" element={<AcharayJi/>}></Route>
           <Route path='gallery' element={<Gallery/>} />
@@ -34,9 +36,11 @@ root.render(
           <Route path='news' element={<News/>} />
           <Route path="videos" element={<Videos/>} />
           <Route path="jainDharam" element={<JainDharam/>} />
+          <Route path="maharaj" element={<Maharaj/>} />
           <Route path="*" element={<NoPage/>} />
         
       </Routes>
+      <Icons/>
       <Footer/>
     </BrowserRouter>
   </React.StrictMode>

@@ -19,9 +19,9 @@ const NavBar = () => {
     return (
         <div className='navbar-header'>
 
-            <nav class="navbar navbar-light bg-light">
+            <nav class="navbar navbar-light ">
                 <div class="container-fluid">
-                    <Link class=" link-text-color navbar-brand">Navbar</Link>
+                    <Link class=" link-text-color navbar-brand">Logo</Link>
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                         <button class="btn btn-outline-success" type="submit">Search</button>
@@ -29,7 +29,7 @@ const NavBar = () => {
                 </div>
             </nav>
             <div className={`navbar ${stickyClass}`}>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg  " >
                     <div class="container-fluid">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -37,7 +37,7 @@ const NavBar = () => {
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <Link class=" link-text-color nav-link active" aria-current="page" to="">Home</Link>
+                                    <Link class=" link-text-color nav-link "  to="">Home</Link>
                                 </li>
                                 <li class="nav-item">
                                     <Link class=" link-text-color nav-link" to="gallery">Gallery</Link>
@@ -47,6 +47,9 @@ const NavBar = () => {
                                 </li>
                                 <li class="nav-item">
                                     <Link class=" link-text-color nav-link" to="videos">Videos</Link>
+                                </li>
+                                <li class="nav-item">
+                                    <Link class=" link-text-color nav-link" to="maharaj">Maharaj</Link>
                                 </li>
                                 <li class="nav-item">
                                     <Link class=" link-text-color nav-link" to="news">News</Link>

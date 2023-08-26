@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import HomeSection2 from './HomeSection2'
 
 const Gallery = () => {
     return (
         <div className='body'>
-            <div className="container">
+            <HomeSection2/>
+            <div className="container ">
                 <h1 className='text-center text-danger'> Gallery </h1>
                 <div className="row">
                     <div className="col-md-4 text-center mt-2 mb-4">

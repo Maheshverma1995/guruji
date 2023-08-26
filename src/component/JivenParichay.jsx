@@ -1,9 +1,11 @@
 import React from 'react'
 import './JivenParichay.css'
+import HomeSection2 from './HomeSection2'
 
 const JivenParichay = () => {
   return (
-    <div>
+    <div className='body'>
+        <HomeSection2/>
       <div class="third_container">
         <div class="thirdpage">
             <div class="thirdpage_head">

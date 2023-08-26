@@ -1,8 +1,10 @@
 import React from 'react'
+import HomeSection2 from './HomeSection2'
 
 const JainDharam = () => {
     return (
         <div className='body'>
+            <HomeSection2/>
             <div className='container'>
                 <div className='row'>
                     <div className='col d-flex justify-content-center'>
