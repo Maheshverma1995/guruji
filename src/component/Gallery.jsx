@@ -7,7 +7,7 @@ const Gallery = () => {
         <div className='body'>
             <HomeSection2/>
             <div className="container ">
-                <h1 className='text-center text-danger'> Gallery </h1>
+                <h1 className='text-center text-danger'> फोटो गैलरी </h1>
                 <div className="row">
                     <div className="col-md-4 text-center mt-2 mb-4">
                         <img src="./images/01_03_2017-01agcrr007.jpg" className="img-fluid gallery-img rounded-3 shadow" alt="..." />                                       

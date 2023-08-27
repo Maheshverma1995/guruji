@@ -20,20 +20,12 @@ const Mahotsav = () => {
             />
           </div>
           <div className="data3">
-            <h1>Heading</h1>
+            <h1>शीर्षक</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-              voluptatibus assumenda illo, debitis corporis beatae aperiam totam
-              dolorum, ipsam suscipit optio! Reiciendis, aut. Doloribus sed
-              neque tenetur, temporibus, esse rerum velit distinctio veniam vel
-              ut laborum adipisci suscipit quas voluptas ducimus praesentium ex
-              iste quis fuga! Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Magnam quas mollitia libero distinctio autem, dolores,
-              maxime voluptatem perferendis eius rem eos officia cumque
-              aspernatur illo debitis numquam! Veniam numquam, illum quam rerum
-              soluta deserunt enim totam nihil, distinctio culpa nulla vitae
-              reiciendis atque voluptatum quisquam tempore non saepe et, quidem
-              dolorem velit Delectus cupiditate voluptatibus fugiat!
+            बीजांकुर न्याय के समान श्रुतज्ञान की परम्परा और आचार्यपरम्परा एक दूसरे के पूरक हैं। आचरंति यस्माद् व्रतानी त्याचार्यः ।।3।। यस्माद् सम्यग्ज्ञानादि गुणाधारा हृदय व्रतानि स्वर्गापवर्ग सुखामृत बीजानि भव्या हितार्थ माचरति स आचार्यः |(त.वा. 9/20) जिनसे व्रतों को धारण कर आचरण किया जाता है, वे आचार्य हैं। जिन सम्यक्दर्शनज्ञान आदि गुणों के आधारभूत महापुरुषों से भव्यजीव स्वर्ग-मोक्षरूप अमृत बीजभूत व्रतों को ग्रहण कर अपने हित के लिए आचरण करते हैं, व्रतों का पालन करते हैं व जो दीक्षा देते हैं, वे आचार्य कहलाते हैं।
+श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
+यह भारतभूमि पूर्व की भांति साधु-सन्तों के अवतरण, निष्क्रमण, आचरण एवं साधना से पवित्र, पावन, पुनीत होती रही है। तथा भूत, भविष्य एवं वर्तमान काल में अनेक भव्यजीव अपनी आत्मा का उद्धार कर रहे हैं। उन्हीं में से मुनिकुंजर, समाधिसम्राट्, अप्रतिम उपसर्गविजेता, आदर्श तपस्वी, महामुनि, दक्षिण भारत के वयोवृद्ध सन्त, आचार्यपरमेष्ठी श्री 108 आचार्य आदिसागर जी महाराज 'अंकलीकर' के पट्टाधीश आचार्य महावीरकीर्ति जी महाराज के शिष्य वात्सल्यरत्नाकर आचार्य श्री विमलसागर जी महाराज, इन महापुरुषों के उद्धार की प्रणाली आगमोक्त रही है। इन्होंने स्वात्महित के साथ परहित भी किया है तथा अपनी तपोपूत आत्मा से भव्य आत्माओं को हितोपदेश दिया है, वह उपदेश ग्रन्थ रूप में लीपिबद्ध है।
+
             </p>
           </div>
         </div>
@@ -41,19 +33,12 @@ const Mahotsav = () => {
         <div className="section2">
           <img className="img-fluid" src="images/jain.jpg" alt="" />
           <div className="page-5-contant2">
-            <h1>Heading</h1>
+            <h1>शीर्षक</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
-              neque aut reiciendis nulla laudantium amet praesentium dolorem
-              corrupti consequatur doloremque consectetur soluta quas dolorum,
-              esse sunt reprehenderit ab non earum illo suscipit perferendis
-              veritatis. Veritatis eius, omnis fugit impedit, officiis
-              distinctio optio illo dolorem aut quis deserunt ab ducimus. Modi
-              inventore illo exercitationem laborum culpa tenetur ab doloribus
-              ad reiciendis architecto laboriosam perspiciatis facere debitis
-              iure fugit totam, deserunt deleniti blanditiis quos! Asperiores
-              esse, illum porro nostrum earum recusandae commodi eaque culpa
-              repellendus totam.
+              बीजांकुर न्याय के समान श्रुतज्ञान की परम्परा और आचार्यपरम्परा एक दूसरे के पूरक हैं। आचरंति यस्माद् व्रतानी त्याचार्यः ।।3।। यस्माद् सम्यग्ज्ञानादि गुणाधारा हृदय व्रतानि स्वर्गापवर्ग सुखामृत बीजानि भव्या हितार्थ माचरति स आचार्यः |(त.वा. 9/20) जिनसे व्रतों को धारण कर आचरण किया जाता है, वे आचार्य हैं। जिन सम्यक्दर्शनज्ञान आदि गुणों के आधारभूत महापुरुषों से भव्यजीव स्वर्ग-मोक्षरूप अमृत बीजभूत व्रतों को ग्रहण कर अपने हित के लिए आचरण करते हैं, व्रतों का पालन करते हैं व जो दीक्षा देते हैं, वे आचार्य कहलाते हैं।
+श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
+यह भारतभूमि पूर्व की भांति साधु-सन्तों के अवतरण, निष्क्रमण, आचरण एवं साधना से पवित्र, पावन, पुनीत होती रही है। तथा भूत, भविष्य एवं वर्तमान काल में अनेक भव्यजीव अपनी आत्मा का उद्धार कर रहे हैं। उन्हीं में से मुनिकुंजर, समाधिसम्राट्, अप्रतिम उपसर्गविजेता, आदर्श तपस्वी, महामुनि, दक्षिण भारत के वयोवृद्ध सन्त, आचार्यपरमेष्ठी श्री 108 आचार्य आदिसागर जी महाराज 'अंकलीकर' के पट्टाधीश आचार्य महावीरकीर्ति जी महाराज के शिष्य वात्सल्यरत्नाकर आचार्य श्री विमलसागर जी महाराज, इन महापुरुषों के उद्धार की प्रणाली आगमोक्त रही है। इन्होंने स्वात्महित के साथ परहित भी किया है तथा अपनी तपोपूत आत्मा से भव्य आत्माओं को हितोपदेश दिया है, वह उपदेश ग्रन्थ रूप में लीपिबद्ध है।
+
             </p>
           </div>
         </div>
@@ -61,19 +46,12 @@ const Mahotsav = () => {
         <div className="section1">
           <img className="img-fluid" src="images/jain.jpg" alt="" />
           <div className="page-5-contant3">
-            <h1>Heading</h1>
+            <h1>शीर्षक</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
-              neque aut reiciendis nulla laudantium amet praesentium dolorem
-              corrupti consequatur doloremque consectetur soluta quas dolorum,
-              esse sunt reprehenderit ab non earum illo suscipit perferendis
-              veritatis. Veritatis eius, omnis fugit impedit, officiis
-              distinctio optio illo dolorem aut quis deserunt ab ducimus. Modi
-              inventore illo exercitationem laborum culpa tenetur ab doloribus
-              ad reiciendis architecto laboriosam perspiciatis facere debitis
-              iure fugit totam, deserunt deleniti blanditiis quos! Asperiores
-              esse, illum porro nostrum earum recusandae commodi eaque culpa
-              repellendus totam.
+              बीजांकुर न्याय के समान श्रुतज्ञान की परम्परा और आचार्यपरम्परा एक दूसरे के पूरक हैं। आचरंति यस्माद् व्रतानी त्याचार्यः ।।3।। यस्माद् सम्यग्ज्ञानादि गुणाधारा हृदय व्रतानि स्वर्गापवर्ग सुखामृत बीजानि भव्या हितार्थ माचरति स आचार्यः |(त.वा. 9/20) जिनसे व्रतों को धारण कर आचरण किया जाता है, वे आचार्य हैं। जिन सम्यक्दर्शनज्ञान आदि गुणों के आधारभूत महापुरुषों से भव्यजीव स्वर्ग-मोक्षरूप अमृत बीजभूत व्रतों को ग्रहण कर अपने हित के लिए आचरण करते हैं, व्रतों का पालन करते हैं व जो दीक्षा देते हैं, वे आचार्य कहलाते हैं।
+श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
+यह भारतभूमि पूर्व की भांति साधु-सन्तों के अवतरण, निष्क्रमण, आचरण एवं साधना से पवित्र, पावन, पुनीत होती रही है। तथा भूत, भविष्य एवं वर्तमान काल में अनेक भव्यजीव अपनी आत्मा का उद्धार कर रहे हैं। उन्हीं में से मुनिकुंजर, समाधिसम्राट्, अप्रतिम उपसर्गविजेता, आदर्श तपस्वी, महामुनि, दक्षिण भारत के वयोवृद्ध सन्त, आचार्यपरमेष्ठी श्री 108 आचार्य आदिसागर जी महाराज 'अंकलीकर' के पट्टाधीश आचार्य महावीरकीर्ति जी महाराज के शिष्य वात्सल्यरत्नाकर आचार्य श्री विमलसागर जी महाराज, इन महापुरुषों के उद्धार की प्रणाली आगमोक्त रही है। इन्होंने स्वात्महित के साथ परहित भी किया है तथा अपनी तपोपूत आत्मा से भव्य आत्माओं को हितोपदेश दिया है, वह उपदेश ग्रन्थ रूप में लीपिबद्ध है।
+
             </p>
           </div>
         </div>
@@ -85,18 +63,11 @@ const Mahotsav = () => {
             alt=".."
           />
           <div className="page-5-contant3">
-            <h1>Heading section1</h1>
+            <h1>शीर्षक section1</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-              porro incidunt odit nostrum similique voluptatum earum quo,
-              accusantium beatae, quibusdam tempora omnis quas labore optio
-              consequatur quidem dolorum adipisci, vel numquam itaque laudantium
-              fuga! Alias porro, eveniet ad quam, illum expedita quae eos
-              suscipit dolorum officiis iste commodi nisi. Repellendus, dolorem
-              alias, laboriosam tempore commodi reiciendis dignissimos sunt,
-              tenetur reprehenderit sapiente ipsam dolore suscipit? Nostrum
-              ullam quos nemo veritatis velit dolore nesciunt tenetur quis
-              repudiandae, quo in dolores vel corporis porro amet.
+            बीजांकुर न्याय के समान श्रुतज्ञान की परम्परा और आचार्यपरम्परा एक दूसरे के पूरक हैं। आचरंति यस्माद् व्रतानी त्याचार्यः ।।3।। यस्माद् सम्यग्ज्ञानादि गुणाधारा हृदय व्रतानि स्वर्गापवर्ग सुखामृत बीजानि भव्या हितार्थ माचरति स आचार्यः |(त.वा. 9/20) जिनसे व्रतों को धारण कर आचरण किया जाता है, वे आचार्य हैं। जिन सम्यक्दर्शनज्ञान आदि गुणों के आधारभूत महापुरुषों से भव्यजीव स्वर्ग-मोक्षरूप अमृत बीजभूत व्रतों को ग्रहण कर अपने हित के लिए आचरण करते हैं, व्रतों का पालन करते हैं व जो दीक्षा देते हैं, वे आचार्य कहलाते हैं।
+
+
             </p>
           </div>
         </div>
@@ -105,33 +76,19 @@ const Mahotsav = () => {
           <img className="img-fluid" src="images/hq720.jpg" alt="" />
         </div>
         <div className="page-5-contant4">
-          <h1>Heading section 3</h1>
+          <h1>शीर्षक </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum hic
-            mollitia beatae, natus quisquam voluptas nemo, ab et quasi deleniti
-            voluptatem nulla quam tempora accusamus inventore! Nesciunt
-            inventore eveniet et aut mollitia voluptate quisquam repudiandae
-            facilis! In rem odit possimus exercitationem provident, harum
-            repellendus quod modi excepturi recusandae est nemo esse, facilis
-            sed totam aliquam reiciendis quos non quidem deleniti! Magnam odit
-            magni quisquam tempore sunt in assumenda neque laboriosam, obcaecati
-            enim provident at aspernatur, animi itaque nulla rerum ducimus odio
-            minus recusandae fuga quaerat impedit expedita praesentium?
+          बीजांकुर न्याय के समान श्रुतज्ञान की परम्परा और आचार्यपरम्परा एक दूसरे के पूरक हैं। आचरंति यस्माद् व्रतानी त्याचार्यः ।।3।। यस्माद् सम्यग्ज्ञानादि गुणाधारा हृदय व्रतानि स्वर्गापवर्ग सुखामृत बीजानि भव्या हितार्थ माचरति स आचार्यः |(त.वा. 9/20) जिनसे व्रतों को धारण कर आचरण किया जाता है, वे आचार्य हैं। जिन सम्यक्दर्शनज्ञान आदि गुणों के आधारभूत महापुरुषों से भव्यजीव स्वर्ग-मोक्षरूप अमृत बीजभूत व्रतों को ग्रहण कर अपने हित के लिए आचरण करते हैं, व्रतों का पालन करते हैं व जो दीक्षा देते हैं, वे आचार्य कहलाते हैं।
+श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
+यह भारतभूमि पूर्व की भांति साधु-सन्तों के अवतरण, निष्क्रमण, आचरण एवं साधना से पवित्र, पावन, पुनीत होती रही है। तथा भूत, भविष्य एवं वर्तमान काल में अनेक भव्यजीव अपनी आत्मा का उद्धार कर रहे हैं। उन्हीं में से मुनिकुंजर, समाधिसम्राट्, अप्रतिम उपसर्गविजेता, आदर्श तपस्वी, महामुनि, दक्षिण भारत के वयोवृद्ध सन्त, आचार्यपरमेष्ठी श्री 108 आचार्य आदिसागर जी महाराज 'अंकलीकर' के पट्टाधीश आचार्य महावीरकीर्ति जी महाराज के शिष्य वात्सल्यरत्नाकर आचार्य श्री विमलसागर जी महाराज, इन महापुरुषों के उद्धार की प्रणाली आगमोक्त रही है। इन्होंने स्वात्महित के साथ परहित भी किया है तथा अपनी तपोपूत आत्मा से भव्य आत्माओं को हितोपदेश दिया है, वह उपदेश ग्रन्थ रूप में लीपिबद्ध है।
+
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-            libero, voluptate eaque optio, dolorem quod sint facere autem, quasi
-            culpa voluptatum officia incidunt soluta magni a voluptatem laborum
-            accusamus deleniti labore aspernatur praesentium et. Porro sint,
-            eveniet nemo eos inventore amet alias ullam dignissimos ex excepturi
-            neque repellendus omnis tenetur sequi. Et quos consequatur, dolore
-            quas qui, eaque perspiciatis sit animi doloribus ab soluta sunt iure
-            nesciunt! Molestias in eveniet, officiis consectetur dignissimos
-            aliquam corporis explicabo qui nemo autem repudiandae est, non
-            quaerat sunt, consequuntur atque veniam impedit iste labore nostrum.
-            Molestias, vero quia? Placeat libero accusamus autem consectetur
-            error .
+          बीजांकुर न्याय के समान श्रुतज्ञान की परम्परा और आचार्यपरम्परा एक दूसरे के पूरक हैं। आचरंति यस्माद् व्रतानी त्याचार्यः ।।3।। यस्माद् सम्यग्ज्ञानादि गुणाधारा हृदय व्रतानि स्वर्गापवर्ग सुखामृत बीजानि भव्या हितार्थ माचरति स आचार्यः |(त.वा. 9/20) जिनसे व्रतों को धारण कर आचरण किया जाता है, वे आचार्य हैं। जिन सम्यक्दर्शनज्ञान आदि गुणों के आधारभूत महापुरुषों से भव्यजीव स्वर्ग-मोक्षरूप अमृत बीजभूत व्रतों को ग्रहण कर अपने हित के लिए आचरण करते हैं, व्रतों का पालन करते हैं व जो दीक्षा देते हैं, वे आचार्य कहलाते हैं।
+श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
+यह भारतभूमि पूर्व की भांति साधु-सन्तों के अवतरण, निष्क्रमण, आचरण एवं साधना से पवित्र, पावन, पुनीत होती रही है। तथा भूत, भविष्य एवं वर्तमान काल में अनेक भव्यजीव अपनी आत्मा का उद्धार कर रहे हैं। उन्हीं में से मुनिकुंजर, समाधिसम्राट्, अप्रतिम उपसर्गविजेता, आदर्श तपस्वी, महामुनि, दक्षिण भारत के वयोवृद्ध सन्त, आचार्यपरमेष्ठी श्री 108 आचार्य आदिसागर जी महाराज 'अंकलीकर' के पट्टाधीश आचार्य महावीरकीर्ति जी महाराज के शिष्य वात्सल्यरत्नाकर आचार्य श्री विमलसागर जी महाराज, इन महापुरुषों के उद्धार की प्रणाली आगमोक्त रही है। इन्होंने स्वात्महित के साथ परहित भी किया है तथा अपनी तपोपूत आत्मा से भव्य आत्माओं को हितोपदेश दिया है, वह उपदेश ग्रन्थ रूप में लीपिबद्ध है।
+
           </p>
         </div>
         <div className="images-box11">
@@ -149,25 +106,12 @@ const Mahotsav = () => {
         </div>
 
         <div className="section6">
-          <h1>Heading section 6</h1>
+          <h1>शीर्षक </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Consequatur commodi aut, vero eligendi dignissimos explicabo
-            doloribus quo voluptas eum eveniet unde accusamus reiciendis totam
-            in quae iusto, natus nisi tenetur. Magnam harum rem nulla distinctio
-            facere labore autem ex fugit? Officia quis tempora omnis! Dolore
-            voluptates iusto illo ea vitae, magni, repellat quod delectus quos
-            consectetur est sed consequatur eaque nostrum! Explicabo, dolores.
-            Fuga reiciendis saepe non animi placeat error cumque doloremque
-            blanditiis omnis optio dignissimos molestiae ipsam minus cupiditate
-            culpa possimus praesentium reprehenderit commodi, dolorem earum sed
-            aspernatur modi amet! Excepturi, qui labore temporibus quibusdam
-            sint, vel porro veritatis perferendis rem error cupiditate dolor
-            doloribus voluptatem et, pariatur vitae minus libero. Debitis illum
-            ducimus numquam, facere inventore ratione eos dolorum sint tenetur
-            exercitationem, maiores totam, repellendus quo facilis magnam nemo
-            blanditiis ea cum. Minima impedit sequi, magni accusamus reiciendis
-            ut quidem, nobis quia eos unde dolorum voluptatem voluptatum? Culpa!
+          बीजांकुर न्याय के समान श्रुतज्ञान की परम्परा और आचार्यपरम्परा एक दूसरे के पूरक हैं। आचरंति यस्माद् व्रतानी त्याचार्यः ।।3।। यस्माद् सम्यग्ज्ञानादि गुणाधारा हृदय व्रतानि स्वर्गापवर्ग सुखामृत बीजानि भव्या हितार्थ माचरति स आचार्यः |(त.वा. 9/20) जिनसे व्रतों को धारण कर आचरण किया जाता है, वे आचार्य हैं। जिन सम्यक्दर्शनज्ञान आदि गुणों के आधारभूत महापुरुषों से भव्यजीव स्वर्ग-मोक्षरूप अमृत बीजभूत व्रतों को ग्रहण कर अपने हित के लिए आचरण करते हैं, व्रतों का पालन करते हैं व जो दीक्षा देते हैं, वे आचार्य कहलाते हैं।
+श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
+यह भारतभूमि पूर्व की भांति साधु-सन्तों के अवतरण, निष्क्रमण, आचरण एवं साधना से पवित्र, पावन, पुनीत होती रही है। तथा भूत, भविष्य एवं वर्तमान काल में अनेक भव्यजीव अपनी आत्मा का उद्धार कर रहे हैं। उन्हीं में से मुनिकुंजर, समाधिसम्राट्, अप्रतिम उपसर्गविजेता, आदर्श तपस्वी, महामुनि, दक्षिण भारत के वयोवृद्ध सन्त, आचार्यपरमेष्ठी श्री 108 आचार्य आदिसागर जी महाराज 'अंकलीकर' के पट्टाधीश आचार्य महावीरकीर्ति जी महाराज के शिष्य वात्सल्यरत्नाकर आचार्य श्री विमलसागर जी महाराज, इन महापुरुषों के उद्धार की प्रणाली आगमोक्त रही है। इन्होंने स्वात्महित के साथ परहित भी किया है तथा अपनी तपोपूत आत्मा से भव्य आत्माओं को हितोपदेश दिया है, वह उपदेश ग्रन्थ रूप में लीपिबद्ध है।
+
           </p>
         </div>
         <div className="container">
@@ -181,25 +125,12 @@ const Mahotsav = () => {
           </div>
         </div>
         <div className="section7">
-          <h1>Heading section 7</h1>
+          <h1>शीर्षक section 7</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Consequatur commodi aut, vero eligendi dignissimos explicabo
-            doloribus quo voluptas eum eveniet unde accusamus reiciendis totam
-            in quae iusto, natus nisi tenetur. Magnam harum rem nulla distinctio
-            facere labore autem ex fugit? Officia quis tempora omnis! Dolore
-            voluptates iusto illo ea vitae, magni, repellat quod delectus quos
-            consectetur est sed consequatur eaque nostrum! Explicabo, dolores.
-            Fuga reiciendis saepe non animi placeat error cumque doloremque
-            blanditiis omnis optio dignissimos molestiae ipsam minus cupiditate
-            culpa possimus praesentium reprehenderit commodi, dolorem earum sed
-            aspernatur modi amet! Excepturi, qui labore temporibus quibusdam
-            sint, vel porro veritatis perferendis rem error cupiditate dolor
-            doloribus voluptatem et, pariatur vitae minus libero. Debitis illum
-            ducimus numquam, facere inventore ratione eos dolorum sint tenetur
-            exercitationem, maiores totam, repellendus quo facilis magnam nemo
-            blanditiis ea cum. Minima impedit sequi, magni accusamus reiciendis
-            ut quidem, nobis quia eos unde dolorum voluptatem voluptatum? Culpa!
+          बीजांकुर न्याय के समान श्रुतज्ञान की परम्परा और आचार्यपरम्परा एक दूसरे के पूरक हैं। आचरंति यस्माद् व्रतानी त्याचार्यः ।।3।। यस्माद् सम्यग्ज्ञानादि गुणाधारा हृदय व्रतानि स्वर्गापवर्ग सुखामृत बीजानि भव्या हितार्थ माचरति स आचार्यः |(त.वा. 9/20) जिनसे व्रतों को धारण कर आचरण किया जाता है, वे आचार्य हैं। जिन सम्यक्दर्शनज्ञान आदि गुणों के आधारभूत महापुरुषों से भव्यजीव स्वर्ग-मोक्षरूप अमृत बीजभूत व्रतों को ग्रहण कर अपने हित के लिए आचरण करते हैं, व्रतों का पालन करते हैं व जो दीक्षा देते हैं, वे आचार्य कहलाते हैं।
+श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
+यह भारतभूमि पूर्व की भांति साधु-सन्तों के अवतरण, निष्क्रमण, आचरण एवं साधना से पवित्र, पावन, पुनीत होती रही है। तथा भूत, भविष्य एवं वर्तमान काल में अनेक भव्यजीव अपनी आत्मा का उद्धार कर रहे हैं। उन्हीं में से मुनिकुंजर, समाधिसम्राट्, अप्रतिम उपसर्गविजेता, आदर्श तपस्वी, महामुनि, दक्षिण भारत के वयोवृद्ध सन्त, आचार्यपरमेष्ठी श्री 108 आचार्य आदिसागर जी महाराज 'अंकलीकर' के पट्टाधीश आचार्य महावीरकीर्ति जी महाराज के शिष्य वात्सल्यरत्नाकर आचार्य श्री विमलसागर जी महाराज, इन महापुरुषों के उद्धार की प्रणाली आगमोक्त रही है। इन्होंने स्वात्महित के साथ परहित भी किया है तथा अपनी तपोपूत आत्मा से भव्य आत्माओं को हितोपदेश दिया है, वह उपदेश ग्रन्थ रूप में लीपिबद्ध है।
+
           </p>
         </div>
 
@@ -213,21 +144,18 @@ const Mahotsav = () => {
           </div>
         </div>
         <div className="section8">
-          <h1>Heading section 8</h1>
+          <h1>शीर्षक section 8</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-            voluptatibus assumenda illo, debitis corporis beatae aperiam totam
-            dolorum, ipsam suscipit optio! Reiciendis, aut. Doloribus sed neque
-            tenetur, temporibus, esse rerum velit distinctio veniam vel ut
-            laborum adipisci suscipit quas voluptas ducimus praesentium ex iste
-            quis fuga.
+          बीजांकुर न्याय के समान श्रुतज्ञान की परम्परा और आचार्यपरम्परा एक दूसरे के पूरक हैं। आचरंति यस्माद् व्रतानी त्याचार्यः ।।3।। यस्माद् सम्यग्ज्ञानादि गुणाधारा हृदय व्रतानि स्वर्गापवर्ग सुखामृत बीजानि भव्या हितार्थ माचरति स आचार्यः |(त.वा. 9/20) जिनसे व्रतों को धारण कर आचरण किया जाता है, वे आचार्य हैं। जिन सम्यक्दर्शनज्ञान आदि गुणों के आधारभूत महापुरुषों से भव्यजीव स्वर्ग-मोक्षरूप अमृत बीजभूत व्रतों को ग्रहण कर अपने हित के लिए आचरण करते हैं, व्रतों का पालन करते हैं व जो दीक्षा देते हैं, वे आचार्य कहलाते हैं।
+
+
           </p>
 
           <p>
-            Doloribus sed quidem dolorem velit Delectus cupiditate voluptatibus
-            fugiat! neque tenetur, temporibus, esse rerum velit distinctio
-            veniam vel ut laborum adipisci suscipit quas voluptas ducimus
-            praesentium ex iste quis fuga!
+          
+श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
+यह भारतभूमि पूर्व की भांति साधु-सन्तों के अवतरण, निष्क्रमण, आचरण एवं साधना से पवित्र, पावन, पुनीत होती रही है। तथा भूत, भविष्य एवं वर्तमान काल में अनेक भव्यजीव अपनी आत्मा का उद्धार कर रहे हैं। उन्हीं में से मुनिकुंजर, समाधिसम्राट्, अप्रतिम उपसर्गविजेता, आदर्श तपस्वी, महामुनि, दक्षिण भारत के वयोवृद्ध सन्त, आचार्यपरमेष्ठी श्री 108 आचार्य आदिसागर जी महाराज 'अंकलीकर' के पट्टाधीश आचार्य महावीरकीर्ति जी महाराज के शिष्य वात्सल्यरत्नाकर आचार्य श्री विमलसागर जी महाराज, इन महापुरुषों के उद्धार की प्रणाली आगमोक्त रही है। इन्होंने स्वात्महित के साथ परहित भी किया है तथा अपनी तपोपूत आत्मा से भव्य आत्माओं को हितोपदेश दिया है, वह उपदेश ग्रन्थ रूप में लीपिबद्ध है।
+
           </p>
         </div>
         <div className="container">
@@ -236,36 +164,19 @@ const Mahotsav = () => {
           </div>
         </div>
         <div className="section9">
-          <h1>Heading</h1>
+          <h1>शीर्षक</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            totam eos iure enim sit. Qui eveniet illo exercitationem? Voluptate
-            tenetur ea reprehenderit doloribus dicta. Necessitatibus, at!
-            Consequuntur molestias harum aliquid explicabo nemo, at voluptas
-            consequatur perspiciatis quisquam, distinctio molestiae suscipit,
-            dicta accusamus numquam cumque rerum maxime quia aperiam
-            necessitatibus! Provident nobis est commodi perspiciatis ipsam,
-            consequatur quisquam repudiandae dolore impedit vero magni cum
-            laborum sed odit, modi asperiores debitis error. Facere quae placeat
-            similique laborum, ipsam fuga officiis fugiat reprehenderit sed
-            esse, eius impedit eaque voluptas nam quam laboriosam ullam enim in
-            tempora qui totam. Quod quia aliquam eaque maxime.
+          बीजांकुर न्याय के समान श्रुतज्ञान की परम्परा और आचार्यपरम्परा एक दूसरे के पूरक हैं। आचरंति यस्माद् व्रतानी त्याचार्यः ।।3।। यस्माद् सम्यग्ज्ञानादि गुणाधारा हृदय व्रतानि स्वर्गापवर्ग सुखामृत बीजानि भव्या हितार्थ माचरति स आचार्यः |(त.वा. 9/20) जिनसे व्रतों को धारण कर आचरण किया जाता है, वे आचार्य हैं। जिन सम्यक्दर्शनज्ञान आदि गुणों के आधारभूत महापुरुषों से भव्यजीव स्वर्ग-मोक्षरूप अमृत बीजभूत व्रतों को ग्रहण कर अपने हित के लिए आचरण करते हैं, व्रतों का पालन करते हैं व जो दीक्षा देते हैं, वे आचार्य कहलाते हैं।
+श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
+यह भारतभूमि पूर्व की भांति साधु-सन्तों के अवतरण, निष्क्रमण, आचरण एवं साधना से पवित्र, पावन, पुनीत होती रही है। तथा भूत, भविष्य एवं वर्तमान काल में अनेक भव्यजीव अपनी आत्मा का उद्धार कर रहे हैं। उन्हीं में से मुनिकुंजर, समाधिसम्राट्, अप्रतिम उपसर्गविजेता, आदर्श तपस्वी, महामुनि, दक्षिण भारत के वयोवृद्ध सन्त, आचार्यपरमेष्ठी श्री 108 आचार्य आदिसागर जी महाराज 'अंकलीकर' के पट्टाधीश आचार्य महावीरकीर्ति जी महाराज के शिष्य वात्सल्यरत्नाकर आचार्य श्री विमलसागर जी महाराज, इन महापुरुषों के उद्धार की प्रणाली आगमोक्त रही है। इन्होंने स्वात्महित के साथ परहित भी किया है तथा अपनी तपोपूत आत्मा से भव्य आत्माओं को हितोपदेश दिया है, वह उपदेश ग्रन्थ रूप में लीपिबद्ध है।
+
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
-            neque. Magnam eveniet dolorum iste accusantium natus modi, quis
-            eligendi maiores delectus! Consequatur eum nam animi, at autem
-            laboriosam, quidem doloremque accusantium voluptate repellat id fuga
-            nostrum voluptatum? In eius id quidem aliquid maxime, repellendus
-            odit accusamus corporis suscipit rerum recusandae animi
-            exercitationem corrupti voluptas hic ab atque ratione consequuntur
-            sequi, commodi autem perspiciatis illum, velit vel! Architecto
-            maiores earum unde molestias veniam officia sunt voluptatibus odit
-            ea eum temporibus, harum saepe perspiciatis provident dignissimos
-            quaerat sint praesentium assumenda illo quibusdam perferendis
-            tempore. Aperiam recusandae iusto, suscipit qui pariatur excepturi
-            temporibus!
+          बीजांकुर न्याय के समान श्रुतज्ञान की परम्परा और आचार्यपरम्परा एक दूसरे के पूरक हैं। आचरंति यस्माद् व्रतानी त्याचार्यः ।।3।। यस्माद् सम्यग्ज्ञानादि गुणाधारा हृदय व्रतानि स्वर्गापवर्ग सुखामृत बीजानि भव्या हितार्थ माचरति स आचार्यः |(त.वा. 9/20) जिनसे व्रतों को धारण कर आचरण किया जाता है, वे आचार्य हैं। जिन सम्यक्दर्शनज्ञान आदि गुणों के आधारभूत महापुरुषों से भव्यजीव स्वर्ग-मोक्षरूप अमृत बीजभूत व्रतों को ग्रहण कर अपने हित के लिए आचरण करते हैं, व्रतों का पालन करते हैं व जो दीक्षा देते हैं, वे आचार्य कहलाते हैं।
+श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
+यह भारतभूमि पूर्व की भांति साधु-सन्तों के अवतरण, निष्क्रमण, आचरण एवं साधना से पवित्र, पावन, पुनीत होती रही है। तथा भूत, भविष्य एवं वर्तमान काल में अनेक भव्यजीव अपनी आत्मा का उद्धार कर रहे हैं। उन्हीं में से मुनिकुंजर, समाधिसम्राट्, अप्रतिम उपसर्गविजेता, आदर्श तपस्वी, महामुनि, दक्षिण भारत के वयोवृद्ध सन्त, आचार्यपरमेष्ठी श्री 108 आचार्य आदिसागर जी महाराज 'अंकलीकर' के पट्टाधीश आचार्य महावीरकीर्ति जी महाराज के शिष्य वात्सल्यरत्नाकर आचार्य श्री विमलसागर जी महाराज, इन महापुरुषों के उद्धार की प्रणाली आगमोक्त रही है। इन्होंने स्वात्महित के साथ परहित भी किया है तथा अपनी तपोपूत आत्मा से भव्य आत्माओं को हितोपदेश दिया है, वह उपदेश ग्रन्थ रूप में लीपिबद्ध है।
+
           </p>
         </div>
       </div>

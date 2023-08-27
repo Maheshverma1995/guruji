@@ -14,8 +14,8 @@ const Videos = () => {
                         <div class="card ">
                             <video className='img-fluid rounded ' controls muted src=""></video>
                             <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-title">शीर्षक</h5>
+                                <p class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
                                     <Link to="#" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
@@ -29,8 +29,8 @@ const Videos = () => {
                         <div class="card ">
                             <video className='img-fluid rounded ' controls muted src=""></video>
                             <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-title">शीर्षक</h5>
+                                <p class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
                                     <Link to="#" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
@@ -44,8 +44,8 @@ const Videos = () => {
                         <div class="card ">
                             <video className='img-fluid rounded ' controls muted src=""></video>
                             <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-title">शीर्षक</h5>
+                                <p class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
                                     <Link to="#" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
@@ -59,8 +59,8 @@ const Videos = () => {
                         <div class="card ">
                             <video className='img-fluid rounded ' controls muted src=""></video>
                             <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-title">शीर्षक</h5>
+                                <p class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
                                     <Link to="#" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
@@ -74,8 +74,8 @@ const Videos = () => {
                         <div class="card ">
                             <video className='img-fluid rounded ' controls muted src=""></video>
                             <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-title">शीर्षक</h5>
+                                <p class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
                                     <Link to="#" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
@@ -89,8 +89,8 @@ const Videos = () => {
                         <div class="card ">
                             <video className='img-fluid rounded ' controls muted src=""></video>
                             <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-title">शीर्षक</h5>
+                                <p class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
                                     <Link to="#" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
@@ -104,8 +104,8 @@ const Videos = () => {
                         <div class="card ">
                             <video className='img-fluid rounded ' controls muted src=""></video>
                             <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-title">शीर्षक</h5>
+                                <p class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
                                     <Link to="#" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
@@ -119,8 +119,8 @@ const Videos = () => {
                         <div class="card ">
                             <video className='img-fluid rounded ' controls muted src=""></video>
                             <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-title">शीर्षक</h5>
+                                <p class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
                                     <Link to="#" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
@@ -134,8 +134,8 @@ const Videos = () => {
                         <div class="card ">
                             <video className='img-fluid rounded ' controls muted src=""></video>
                             <div class="card-body">
-                                <h5 class="card-title">Heading</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-title">शीर्षक</h5>
+                                <p class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
                                     <Link to="#" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>

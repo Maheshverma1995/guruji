@@ -34,6 +34,8 @@
     background-image: url(../../public/images/back-home.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+    
+    
 } 
 .home-section-1-row-1 p{
     position: absolute;
@@ -50,4 +52,17 @@
     bottom: 0;
     width: 100%;
     background-color: azure;
+}
+.slider-image
+{
+    min-height: 300px;
+    max-height: 300px;
+    color: black;
+}
+.image-more
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto;
 }

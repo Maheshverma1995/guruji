@@ -28,9 +28,9 @@ const News = () => {
           <div className="card">
             <img src={sagar} className="card-img-top height" alt="sss" />
             <div className="card-body mx-0">
-              <h5 className="card-title">lorem jad cmd</h5>
-              <p className="card-text">lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, tempora! Odit doloribus totam quos dignissimos?</p>
-              <Link to="#" class="btn btn-primary">See more</Link>
+              <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
+              <p className="card-text">जिन सम्यक्दर्शनज्ञान आदि गुणों के आधारभूत महापुरुषों से भव्यजीव स्वर्ग-मोक्षरूप अमृत बीजभूत व्रतों को ग्रहण कर अपने हित के लिए आचरण करते हैं, व्रतों का पालन करते हैं व जो दीक्षा देते हैं, वे आचार्य कहलाते हैं।</p>
+              <Link to="#" class="btn btn-primary">और देखें</Link>
             </div>
           </div>
         </div>
@@ -39,9 +39,9 @@ const News = () => {
           <div className="card">
             <img src={sagar} className="card-img-top height" alt="sss" />
             <div className="card-body mx-0">
-              <h5 className="card-title">lorem jad cmd</h5>
-              <p className="card-text">loremn Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex reiciendis labore, laborum corporis fugit repellendus.</p>
-              <Link to="#" class="btn btn-primary">See more</Link>
+              <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
+              <p className="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
+              <Link to="#" class="btn btn-primary">और देखें</Link>
             </div>
           </div>
         </div>
@@ -61,9 +61,9 @@ const News = () => {
           <div className="card">
             <img src={sagar} className="card-img-top height" alt="sss" />
             <div className="card-body mx-0">
-              <h5 className="card-title">lorem jad cmd</h5>
-              <p className="card-text">lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, tempora! Odit doloribus totam quos dignissimos?</p>
-              <Link to="#" class="btn btn-primary">See more</Link>
+              <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
+              <p className="card-text">जिन सम्यक्दर्शनज्ञान आदि गुणों के आधारभूत महापुरुषों से भव्यजीव स्वर्ग-मोक्षरूप अमृत बीजभूत व्रतों को ग्रहण कर अपने हित के लिए आचरण करते हैं, व्रतों का पालन करते हैं व जो दीक्षा देते हैं, वे आचार्य कहलाते हैं।</p>
+              <Link to="#" class="btn btn-primary">और देखें</Link>
             </div>
           </div>
         </div>
@@ -72,9 +72,9 @@ const News = () => {
           <div className="card">
             <img src={sagar} className="card-img-top height" alt="sss" />
             <div className="card-body mx-0">
-              <h5 className="card-title">lorem jad cmd</h5>
-              <p className="card-text">loremn Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex reiciendis labore, laborum corporis fugit repellendus.</p>
-              <Link to="#" class="btn btn-primary">See more</Link>
+              <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
+              <p className="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
+              <Link to="#" class="btn btn-primary">और देखें</Link>
             </div>
           </div>
         </div>
@@ -94,9 +94,9 @@ const News = () => {
           <div className="card">
             <img src={sagar} className="card-img-top height" alt="sss" />
             <div className="card-body mx-0">
-              <h5 className="card-title">lorem jad cmd</h5>
-              <p className="card-text">lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, tempora! Odit doloribus totam quos dignissimos?</p>
-              <Link to="#" class="btn btn-primary">See more</Link>
+              <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
+              <p className="card-text">जिन सम्यक्दर्शनज्ञान आदि गुणों के आधारभूत महापुरुषों से भव्यजीव स्वर्ग-मोक्षरूप अमृत बीजभूत व्रतों को ग्रहण कर अपने हित के लिए आचरण करते हैं, व्रतों का पालन करते हैं व जो दीक्षा देते हैं, वे आचार्य कहलाते हैं।</p>
+              <Link to="#" class="btn btn-primary">और देखें</Link>
             </div>
           </div>
         </div>
@@ -105,9 +105,9 @@ const News = () => {
           <div className="card">
             <img src={sagar} className="card-img-top height" alt="sss" />
             <div className="card-body mx-0">
-              <h5 className="card-title">lorem jad cmd</h5>
-              <p className="card-text">loremn Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex reiciendis labore, laborum corporis fugit repellendus.</p>
-              <Link to="#" class="btn btn-primary">See more</Link>
+              <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
+              <p className="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
+              <Link to="#" class="btn btn-primary">और देखें</Link>
             </div>
           </div>
         </div>
@@ -127,9 +127,9 @@ const News = () => {
           <div className="card">
             <img src={sagar} className="card-img-top height" alt="sss" />
             <div className="card-body mx-0">
-              <h5 className="card-title">lorem jad cmd</h5>
-              <p className="card-text">lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, tempora! Odit doloribus totam quos dignissimos?</p>
-              <Link to="#" class="btn btn-primary">See more</Link>
+              <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
+              <p className="card-text">जिन सम्यक्दर्शनज्ञान आदि गुणों के आधारभूत महापुरुषों से भव्यजीव स्वर्ग-मोक्षरूप अमृत बीजभूत व्रतों को ग्रहण कर अपने हित के लिए आचरण करते हैं, व्रतों का पालन करते हैं व जो दीक्षा देते हैं, वे आचार्य कहलाते हैं।</p>
+              <Link to="#" class="btn btn-primary">और देखें</Link>
             </div>
           </div>
         </div>
@@ -138,9 +138,9 @@ const News = () => {
           <div className="card">
             <img src={sagar} className="card-img-top height" alt="sss" />
             <div className="card-body mx-0">
-              <h5 className="card-title">lorem jad cmd</h5>
-              <p className="card-text">loremn Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex reiciendis labore, laborum corporis fugit repellendus.</p>
-              <Link to="#" class="btn btn-primary">See more</Link>
+              <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
+              <p className="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
+              <Link to="#" class="btn btn-primary">और देखें</Link>
             </div>
           </div>
         </div>
@@ -160,9 +160,9 @@ const News = () => {
           <div className="card">
             <img src={sagar} className="card-img-top height" alt="sss" />
             <div className="card-body mx-0">
-              <h5 className="card-title">lorem jad cmd</h5>
-              <p className="card-text">lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, tempora! Odit doloribus totam quos dignissimos?</p>
-              <Link to="#" class="btn btn-primary">See more</Link>
+              <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
+              <p className="card-text">जिन सम्यक्दर्शनज्ञान आदि गुणों के आधारभूत महापुरुषों से भव्यजीव स्वर्ग-मोक्षरूप अमृत बीजभूत व्रतों को ग्रहण कर अपने हित के लिए आचरण करते हैं, व्रतों का पालन करते हैं व जो दीक्षा देते हैं, वे आचार्य कहलाते हैं।</p>
+              <Link to="#" class="btn btn-primary">और देखें</Link>
             </div>
           </div>
         </div>
@@ -171,9 +171,9 @@ const News = () => {
           <div className="card">
             <img src={sagar} className="card-img-top height" alt="sss" />
             <div className="card-body mx-0">
-              <h5 className="card-title">lorem jad cmd</h5>
-              <p className="card-text">loremn Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex reiciendis labore, laborum corporis fugit repellendus.</p>
-              <Link to="#" class="btn btn-primary">See more</Link>
+              <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
+              <p className="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
+              <Link to="#" class="btn btn-primary">और देखें</Link>
             </div>
           </div>
         </div>

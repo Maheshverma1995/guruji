@@ -21,10 +21,10 @@ const NavBar = () => {
 
             <nav class="navbar navbar-light ">
                 <div class="container-fluid">
-                    <Link class=" link-text-color navbar-brand">Logo</Link>
+                    <Link class=" link-text-color navbar-brand">प्रतीक चिन्ह</Link>
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <button class="btn btn-outline-success" type="submit">खोज</button>
                     </form>
                 </div>
             </nav>
@@ -37,34 +37,35 @@ const NavBar = () => {
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <Link class=" link-text-color nav-link "  to="">Home</Link>
+                                    <Link class=" link-text-color nav-link "  to="">होम </Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link class=" link-text-color nav-link" to="gallery">Gallery</Link>
+                                    <Link class=" link-text-color nav-link" to="gallery">गैलरी</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link class=" link-text-color nav-link" to="acharayJi">AcharayJi</Link>
+                                    <Link class=" link-text-color nav-link" to="acharayJi">आचार्य जी</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link class=" link-text-color nav-link" to="videos">Videos</Link>
+                                    <Link class=" link-text-color nav-link" to="videos">वीडियो</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link class=" link-text-color nav-link" to="maharaj">Maharaj</Link>
+                                    <Link class=" link-text-color nav-link" to="maharaj">महाराज जी</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link class=" link-text-color nav-link" to="news">News</Link>
+                                    <Link class=" link-text-color nav-link" to="news">समाचार</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link class=" link-text-color nav-link" to="jainDharam">JainDharam</Link>
+                                    <Link class=" link-text-color nav-link" to="jainDharam">जैन धर्म</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link class=" link-text-color nav-link" to="mahotsav">Mahotsav</Link>
+                                    <Link class=" link-text-color nav-link" to="mahotsav">महोत्सव</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link class=" link-text-color nav-link" to="jivenparichay">JivenParichay</Link>
+                                    <Link class=" link-text-color nav-link" to="jivenparichay">
+जीवन परिचय</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link class=" link-text-color nav-link" to="videodetails">VideoDetails</Link>
+                                    <Link class=" link-text-color nav-link" to="videodetails">वीडियो विवरण</Link>
                                 </li>
                                 
 

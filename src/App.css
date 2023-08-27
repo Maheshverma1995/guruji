@@ -1,103 +1,62 @@
 .body {
-    background-image: linear-gradient(#fef2de, #fdd27c);
-    padding-bottom: 50px;
+  background-image: linear-gradient(#fef2de, #fdd27c);
+  padding-bottom: 50px;
 }
 
 .sticky-nav {
-<<<<<<< HEAD
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    z-index: 1000;
-    /* opacity: 1;
-  position: relative; */
-=======
   position: fixed;
   top: 0;
   left: 0;
   background-color: rgb(0, 0, 0);
   width: 100%;
-   z-index: 1000;
- 
->>>>>>> 0dd9d2043d39eeda8700eca6e4470e7281681a61
+  z-index: 1000;
+  /* opacity: 1;
+  position: relative; */
 }
 
 .bg-side-2-img {
-    width: 100px;
+  width: 100px;
 }
 
 .gallery-img {
-    width: 340px;
-    height: 100%;
+  width: 340px;
+  height: 100%;
 }
 
 .navbar-header {
-    z-index: 1000;
-<<<<<<< HEAD
-    width: 99%;
-    background-image: url('../public/images/back-home.jpeg');
-=======
-    
-    background-image: url('../public/images/back-home.jpeg');  
->>>>>>> 0dd9d2043d39eeda8700eca6e4470e7281681a61
-    background-repeat: no-repeat;
-    background-size: cover;
+  z-index: 1000;
+  width: 99%;
+  background-image: url('../public/images/back-home.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .home-section-2-h1 {
-    background-color: #dadada;
+  background-color: #dadada;
+  border-radius: 20px 20px 0px 0px;
+  padding: 10px;
 }
-<<<<<<< HEAD
 
 .home-section-div {
-    background-color: #838383;
-    text-align: justify;
+  background-color: #838383;
+  text-align: justify;
+  padding: 10px;
+  margin-top: -15px;
+  border-radius: 0 0 20px 20px;
+  min-height: 300px;
 }
 
 .icon-col {
-    border: 2px solid black;
-    display: flex;
-    justify-content: space-around;
-    border-radius: 50%;
-    padding-top: 20PX;
-    padding-bottom: 20PX;
-}
-
-.link-text-color {
-    color: white;
-}
-=======
-.home-section-2-h1
-{
-  background-color: #dadada;
-  border-radius: 10px 10px 0px 0px;
-  padding: 10px;
-}
-.home-section-div
-{
-  background-color: #838383;
-  text-align: justify;
-  margin-top: -10px;
-  border-radius: 0 0 10px 10px;
-  min-height: 300px;
-  padding: 10px;
-  
-}
-.icon-col
-{
   border: 2px solid black;
   display: flex;
   justify-content: space-around;
   border-radius: 50%;
-
-  padding: 20px;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  border: 5px solid orange;
 }
-.link-text-color
-{
+
+.link-text-color {
   color: white;
-} 
->>>>>>> 0dd9d2043d39eeda8700eca6e4470e7281681a61
+}
