@@ -9,8 +9,8 @@ const AcharayJi = () => {
       <div className='container'>
         <div className='row'>
           <div className='col'>
-            <img className='img-fluid shadow-lg' style={{ width: '100%', height: '400px' }} src="./images/acharya-vishuddha-sagar-ji-.webp" alt="" />
-
+            <img className='img-fluid rounded shadow p-3 w-100 h-auto' src="./images/acharya-vishuddha-sagar-ji-.webp" alt="" />
+            {/* style={{ width: '100%', height: '400px' }} */}
           </div>
         </div>
       </div>
@@ -34,7 +34,7 @@ const AcharayJi = () => {
         <div className='container'>
           <div className='row'>
             <div className='col-md-6'>
-              <img className='img-fluid shadow-lg' src="./images/download (1).jpg" alt="" />
+              <img className='img-fluid rounded' style={{ height:'400px'}} src="./images/download (1).jpg" alt=''/>
             </div>
             <div className='col-md-6'>
               <p>बीजांकुर न्याय के समान श्रुतज्ञान की परम्परा और आचार्यपरम्परा एक दूसरे के पूरक हैं। आचरंति यस्माद् व्रतानी त्याचार्यः ।।3।। यस्माद् सम्यग्ज्ञानादि गुणाधारा हृदय व्रतानि स्वर्गापवर्ग सुखामृत बीजानि भव्या हितार्थ माचरति स आचार्यः |(त.वा. 9/20) जिनसे व्रतों को धारण कर आचरण किया जाता है, वे आचार्य हैं। जिन सम्यक्दर्शनज्ञान आदि गुणों के आधारभूत महापुरुषों से भव्यजीव स्वर्ग-मोक्षरूप अमृत बीजभूत व्रतों को ग्रहण कर अपने हित के लिए आचरण करते हैं, व्रतों का पालन करते हैं व जो दीक्षा देते हैं, वे आचार्य कहलाते हैं।</p>

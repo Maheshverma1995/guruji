@@ -10,12 +10,10 @@ const News = () => {
       <HomeSection2/>
     <div className="grid">
       
-
-      {/* ////////////////////////////////////////////////////////////////////////////// */}
       <div className="row py-3" style={{ width: "100%", margin: "auto", backgroundColor: "#fceccb" }}>
 
 
-        <div className="col-sm-4 my-2 ">
+        <div className="col-sm-4 my-2">
           <div className="card" >
             <img src={sagar} className="card-img-top" alt="sss" />
             <div className="card-body mx-0">
