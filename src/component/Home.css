@@ -2,6 +2,24 @@
 .first-dev{
     padding-bottom: 100px;
 }
+.home-row
+{
+    background-image: url(../../public/images/back-home.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+.home-row h4{
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: justify;
+
+}
+.home-row p{
+    color: white;
+    text-align: center;
+}
 .first-img{
     /* position: relative; */
     width: 100%;
@@ -13,12 +31,7 @@
     
 
 }
-.home-img{
-    
-    margin-top: -150px;
-    width: 100%;
-    
-}
+
 .first-h1{
     
     color: black;
@@ -32,14 +45,14 @@
     /* position: absolute; */
     font-size: 2vw;
     color: white;
-    margin-left: 5%;
+    
     width: 40%;
     text-align: end;
     
     
 }
 .first-btn{
-    margin-left: 5%;
+    
     margin-bottom: 40px;
 }
 .row-bg{

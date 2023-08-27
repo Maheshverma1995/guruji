@@ -3,7 +3,7 @@ import '../App.css'
 
 const HomeSection2 = () => {
     return (
-        <div className='container-fluid home-section-2'>
+        <div className='container'>
             <div className='container'>
                 <div className='row'>
                     <div className='col-md-3'>
