@@ -17,7 +17,7 @@ const NavBar = () => {
         }
     };
     return (
-        <div className='navbar-header'>
+        <div className='navbar-header container-fluid'>
 
             <nav class="navbar navbar-light ">
                 <div class="container-fluid">

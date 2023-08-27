@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div>
             <div className='container-fluid'>
-                <img className='home-img img-fluid ' src="./images/3page_8.png" alt="" />
+                <img className='home-img img-fluid mt-0 ' src="./images/back-home.jpeg" alt="" />
                 <div className='row position-absolute top-50 start-'>
                     <div className='col-md-6 '>
                     <h4>
@@ -97,16 +97,19 @@ const Home = () => {
 
             {/* /////////////////////////////carousel//////////////////////////////// */}
 
-            <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
+            <div className='container-fluid'>
+                <div className='row'>
+                    <div className='col'>
+                    <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner three">
                     <div className="carousel-item active">
-                        <img src="https://wallpapers.com/images/hd/contrasting-scenic-vi ews-a5u9zq0a0ymy2dug.jpg" className="d-block w-100 three" alt="kd" />
+                        <img src="./images/mahavir-jayanti-min.png" className="d-block img-fluid w-100" alt="kd" />
                     </div>
                     <div class="carousel-item">
-                        <img src="https://cdn.wallpapersafari.com/22/29/fdqrYk.jpg" clas sName="d-block w-100 three" alt="jnj" />
+                        <img src="./images/mahavir-jayanti-min.png" clas sName="d-block img-fluid w-100" alt="jnj" />
                     </div>
                     <div class="carousel-item">
-                        <img src="https://wallpapercave.com/wp/wp7737090.jpg" className="d-block w-100 three" alt="jj" />
+                        <img src="./images/mahavir-jayanti-min.png" className="d-block img-fluid w-100" alt="jj" />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -117,6 +120,9 @@ const Home = () => {
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
+            </div>
+                    </div>
+                </div>
             </div>
             {/* /////////////////////////////////////////////////////////////////// */}
             <div className="grid">
@@ -186,9 +192,15 @@ const Home = () => {
 
                 </div>
                 {/* ////////////////////////////////////////////////////////////////////////// */}
-                <div className="row">
+               <div className='container-fluid'>
+                <div className='row'>
+                    <div className='col'>
+                    <div className="row">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/uAH9qMJFk5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
+                    </div>
+                </div>
+               </div>
                 {/* ///////////////////////////////////////////////// */}
 
                 <div className="row py-3" style={{ width: "100%", margin: "auto" }}>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Icons = () => {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid mb-4'>
       <div className='container'>
         <div className='row d-flex justify-content-evenly'>
             <div className='col-md-2  icon-col'>

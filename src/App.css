@@ -29,10 +29,10 @@
 {
   
     z-index: 1000;
-    width: 100%;
-  
- 
-  
+    width: 99%;
+    background-image: url('../public/images/back-home.jpeg');  
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .home-section-2-h1
@@ -43,8 +43,7 @@
 {
   background-color: #838383;
   text-align: justify;
-  padding: 10px;
-  word-spacing: 2px;
+  
 }
 .icon-col
 {

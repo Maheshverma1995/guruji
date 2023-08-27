@@ -1,52 +1,6 @@
-.one{
-    background: orange;
-    padding-top: 20px;
-    padding-left: 1%;
+.row-news
+{
+    height: 100px;
+    overflow-y: scroll;
     
-}
-.row{
-    /* padding-left: 15px;
-    padding-right: 15px; */
-    padding: 8px;
-}
-.row1{
-    background: rgb(187, 184, 184);
-}
-#row_col2{
-    background: white;
-    padding: 7px;
-}
-.data1{
-    background: paleturquoise;
-    border-radius: 7px;
-    text-align: left;
-    padding: 7px;
-    margin:7px;
-}
-.data2{
-    background: black;
-    color: white;
-    border-radius: 7px;
-    text-align: center;
-    padding: 8px;
-    font-size: 20px;
-}
-#icon{
-   
-    text-align: center;
-
-    
-}
-#icon img{
-    margin-top:80px;
-    border-radius: 50%;
-    width:60px;
-    height: 60px;
-    box-shadow: 2px 2px 7px 2px rgba(61, 2, 2, 0.274);
-}
-
-@media screen and (max-width:768px){
-    #icon img{
-        margin-top: 0px;
-    }
 }
