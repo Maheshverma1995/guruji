@@ -5,9 +5,9 @@ import HomeSection2 from './HomeSection2'
 const Mahotsav = () => {
   return (
     <div className='body'>
-        <HomeSection2/>
+        <HomeSection2/> 
       <div class="main">
-        <div style={{width: "100%"}}>
+        <div style={{width: "100%",textAlign:'center'}}>
             <img className='img-fluid' style={{width: "100%;"}}src="images/panchyakalvynak-removebg-preview.png" alt=""/>
         </div>
 

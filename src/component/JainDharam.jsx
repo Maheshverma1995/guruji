@@ -5,7 +5,7 @@ const JainDharam = () => {
     return (
         <div className='body'>
             <HomeSection2/>
-            <div className='container'>
+            <div className='container mt-5 mb-5'>
                 <div className='row'>
                     <div className='col d-flex justify-content-center'>
 

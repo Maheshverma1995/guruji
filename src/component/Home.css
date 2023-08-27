@@ -28,121 +28,26 @@
     background-position: center;
     /* background-repeat: no-repeat; */
     /* background-attachment: fixed; */
-    
-
-}
-
-.first-h1{
-    
-    color: black;
-    
-
-    
-
-
-}
-.first-p{
-    /* position: absolute; */
-    font-size: 2vw;
-    color: white;
-    
-    width: 40%;
-    text-align: end;
-    
-    
-}
-.first-btn{
-    
-    margin-bottom: 40px;
-}
-.row-bg{
-    background-color: #f7eded;
-    /* opacity: .6; */
-    margin: auto;
-
-}
-.sec-h1{
-    font-size: 5vw;
-    margin-left: 9%;
-    padding-top: 20px;
-    /* line-height: 15vh; */
-    /* color: white; */
-    text-align: justify;
-
-}
-.sec-p{
-    /* position: absolute; */
-    /* font-size: 1rem; */
-    /* color: white; */
-    margin-left: 9%;
-    width: 90%;
-    text-align: justify;
-    
-}
-.sec-btn{
-    margin-left: 9%;
-}
-
-.two_cards{
-    box-sizing: border-box;
-}
-.bg-layoutt{
-    /* background-image: url(./Pics/bg-layout02.jpeg); */
+}  
+.home-section-1-row-1
+{
+    background-image: url(../../public/images/back-home.jpeg);
     background-size: cover;
-    /* height: 100%; */
-    /* box-shadow:0px 6px 5px gray; */
+    background-repeat: no-repeat;
+} 
+.home-section-1-row-1 p{
+    position: absolute;
+    width: 50%;
+    color: white;
+    top: 0;
+    right: 0;
+    
 }
-.drop-shadow{
-    box-shadow:6px 6px 5px gray; 
+.home-section-1-row-1 span
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: azure;
 }
-
-.foto{
-    width: 30vw;
-    /* margin-left: -40%;
-    margin-top: -8%; */
-}
-.sec-foto{
-    width: 30vw;
-    /* margin-left: -40%;
-    margin-top: -8%; */
-}
-
-@media (min-width:1100px) {
-    #first{
-        font-size: 20px;
-    } }
-
-    @media (max-width:700px) {
-        #first{
-            font-size: 20px;
-        } }
-
-
-        /* ///////////////////////////////// */
-       
-
-            @media (max-width:590px) {
-                .three{
-                    height: 28vh;
-                } }
-                @media (min-width:600px) {
-                    .three{
-                        height: 30vh;
-                    } }
-                    @media (min-width:900px) {
-                        .three{
-                            height: 80vh;
-                        } }
-
-       /* ///////////////////////////////////////////////////////////////////          */
-
-            @media (min-width:600px) {
-            #frame{
-                  background-image: url(./Pics/bg-layout02.jpeg);
-                
-            } }
-
-            @media (max-width:590px) {
-                #frame{
-                    background-color: #fceccb;
-                } }     
