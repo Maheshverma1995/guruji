@@ -16,7 +16,7 @@ const Mahotsav = () => {
             <img
               className="img-fluid"
               src="images/mahavir-jayanti-min.png"
-              alt=".."
+              alt="..."
             />
           </div>
           <div className="data3">

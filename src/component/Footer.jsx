@@ -52,12 +52,12 @@ const Footer = () => {
 
                             </div>
                             <div className='col mt-5'><input className='rounded w-75' type="text"  placeholder='comment' /></div>
-                            <div className='col mt-4'><button  type="button" class="btn btn-dark w-75">Dark</button></div>
+                            <div className='col mt-4'><button  type="button" className="btn btn-dark w-75">Dark</button></div>
                         </div>
 
                         <div className='col-md-4 mt-4'>
                             <div className='row'>
-                                <Iframe className='rounded' src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d448713.71846192505!2d77.07221524153388!3d28.52240403697898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1693116547906!5m2!1sen!2sin" style={{ width: '100%', height: '100%' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></Iframe></div>
+                                <Iframe className='rounded' src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d448713.71846192505!2d77.07221524153388!3d28.52240403697898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1693116547906!5m2!1sen!2sin" style={{ width: '100%', height: '100%' }} allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></Iframe></div>
                             <div className='row mt-4'>
                                 <div className='col-md-2'><span style={{ fontSize: '50px' }}><FaFacebookSquare /></span></div>
                                 <div className='col-md-2'><span style={{ fontSize: '50px' }}><FaYoutube /></span></div>
@@ -84,4 +84,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;
