@@ -43,14 +43,14 @@ const Home = () => {
             <div className='container mt-4 mb-5'>
                 <div className='row d-flex justify-content-between'>
 
-                    <div className='col-md-6 p-5'>
+                    <div className='col-md-6 '>
                         <div className='row '>
                             <img className='img-fluid' src="./images/Layout for Front page (2).jpg" alt="" />
 
 
                         </div>
                         <div className='row home-section-1-row-2'>
-                            <div className='col'>
+                            <div className='col p-5'>
                                 <h1 className='text-center'>शीर्षक </h1>
                                 <p>श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <button type="button" class="btn btn-danger">और पढ़ें</button>
@@ -58,15 +58,15 @@ const Home = () => {
                         </div>
 
                     </div>
-                    <div className='col-md-6 p-5  border-start'>
-                        <img className='img-fluid border-start h-75' src="./images/Annotation 2023-08-05 120024.png" alt="" />
+                    <div className='col-md-6 border-start'>
+                        <img className='img-fluid border-start ' src="./images/Annotation 2023-08-05 120024.png" alt="" />
 
                     </div>
 
                 </div>
             </div>
             <div className='container-fluid mt-5'>
-                <div className='row'>
+                <div className='row '>
                     <div className='col'>
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -106,40 +106,44 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <div className='container-fluid body'>
             <div className='container mt-5'>
-                <div className='row'>
-                    <div className='col-md-4'>
+                <div className='row   mb-5'>
+                    <div className='col-md-4 mt-3'>
                         <img src="./images/Layout for Front page (1).jpg" class="img-thumbnail shadow-lg" alt="..." />
                     </div>
-                    <div className='col-md-4'>
+                    <div className='col-md-4 mt-3'>
                         <img src="./images/Layout for Front page (2).jpg" class="img-thumbnail shadow-lg" alt="..." />
                     </div>
-                    <div className='col-md-4'>
+                    <div className='col-md-4 mt-3 '>
                         <img src="./images/Layout for Front page (1).jpg" class="img-thumbnail shadow-lg" alt="..." />
                     </div>
-                    <button type="button" class="btn btn-danger image-more"><FaAngleDown /></button>
+                    <button type="button" class="btn btn-danger mt-3 image-more"><FaAngleDown /></button>
                 </div>
             </div>
+            </div>
             <div className='container-fluid  '>
-                <div className='row mt-5'>
+                <div className='row '>
                     <div className='col '>
                         <video className='img-fluid video-home' style={{ height: '300px', width: '100%' }} poster='./images/bottum-image.png' controls autoPlay muted src=""></video>
                     </div>
                 </div>
             </div>
-            <div className='container mt-5'>
-                <div className='row'>
-                    <div className='col-md-4'>
+            <div className='container-fluid body'>
+            <div className='container'>
+                <div className='row body mt-3'>
+                    <div className='col-md-4 mt-3'>
                         <video className='img-fluid video-home' poster='./images/bottum-image.png' controls autoPlay muted src=""></video>
                     </div>
-                    <div className='col-md-4'>
+                    <div className='col-md-4 mt-3'>
                         <video className='img-fluid video-home' poster='./images/bottum-image.png' controls autoPlay muted src=""></video>
                     </div>
-                    <div className='col-md-4'>
+                    <div className='col-md-4 mt-3'>
                         <video className='img-fluid video-home' poster='./images/bottum-image.png' controls autoPlay muted src=""></video>
                     </div>
-                    <button type="button" class="btn btn-danger image-more"><FaAngleDown /></button>
+                    <button type="button" class="btn btn-danger mt-2 image-more"><FaAngleDown /></button>
                 </div>
+            </div>
             </div>
 
         </div>

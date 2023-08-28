@@ -75,44 +75,44 @@ const VideoDetails = () => {
         
        <div className="container">
        <div className="row">
-            <div className="col-md-4">
-                <div className="card"style={{width:'18rem'}}>
+            <div className="col-md-4 mt-2 mb-4">
+                <div className="card">
           <img src="Images/vishudh-sagar.webp" className="card-img-top" alt="..." />
           <div className="card-body">
             <h2 className="card-title">शीर्षक</h2>
             <p className="card-text">
             श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
             </p>
-            <Link to="#" className="btn btn-primary">
-            Read More
+            <Link to="#" class="btn btn-danger">
+            और पढ़ें
             </Link>
           </div>
         </div>
             </div>
-            <div className="col-md-4">
-                <div className="card"style={{width:'18rem'}}>
+            <div className="col-md-4 mt-2 mb-4">
+                <div className="card">
           <img src="Images/vishudh-sagar.webp" className="card-img-top" alt="..." />
           <div className="card-body">
             <h2 className="card-title">शीर्षक</h2>
             <p className="card-text">
             श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
             </p>
-            <Link to="#" className="btn btn-primary">
-            Read More
+            <Link to="#" class="btn btn-danger">
+            और पढ़ें
             </Link>
           </div>
         </div>
             </div>
-            <div className="col-md-4">
-                <div className="card"style={{width:'18rem'}}>
+            <div className="col-md-4 mt-2 mb-4">
+                <div className="card">
           <img src="Images/vishudh-sagar.webp" className="card-img-top" alt="..." />
           <div className="card-body">
             <h2 className="card-title">शीर्षक</h2>
             <p className="card-text">
             श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
             </p>
-            <Link to="#" className="btn btn-primary">
-            Read More
+            <Link to="#" class="btn btn-danger">
+            और पढ़ें
             </Link>
           </div>
         </div>
@@ -133,7 +133,7 @@ const VideoDetails = () => {
                             <p>श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                         </div>
                         <div className="card1_button">
-                            <button>Read More</button>
+                            <button>और पढ़ें</button>
                         </div>
                     </div>
 
@@ -148,7 +148,7 @@ const VideoDetails = () => {
                             <p>श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                         </div>
                         <div className="card1_button">
-                            <button>Read More</button>
+                            <button>और पढ़ें</button>
                         </div>
                     </div>
 
@@ -163,7 +163,7 @@ const VideoDetails = () => {
                             <p>श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                         </div>
                         <div className="card1_button">
-                            <button>Read More</button>
+                            <button>और पढ़ें</button>
                         </div>
                     </div>
                 </div> */}

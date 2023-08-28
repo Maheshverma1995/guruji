@@ -9,7 +9,7 @@
   left: 0;
   background-image: url(../public/images/back-home.jpeg);
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   width: 100%;
   z-index: 1000;
   background-repeat: no-repeat;
@@ -46,6 +46,7 @@
   background-color: #dadada;
   border-radius: 20px 20px 0px 0px;
   padding: 10px;
+  text-align: center;
 }
 
 .home-section-div {

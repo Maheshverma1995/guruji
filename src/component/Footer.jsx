@@ -52,7 +52,7 @@ const Footer = () => {
 
                             </div>
                             <div className='col mt-5'><input className='rounded w-75' type="text"  placeholder='comment' /></div>
-                            <div className='col mt-4'><button  type="button" className="btn btn-dark w-75">Dark</button></div>
+                            <div className='col mt-4'><button  type="button" className="btn btn-dark w-75">मोबाइल ऐप डाउनलोड करें</button></div>
                         </div>
 
                         <div className='col-md-4 mt-4'>
