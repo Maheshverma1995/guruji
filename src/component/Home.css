@@ -45,6 +45,16 @@
     right: 0;
     
 }
+.card-home
+{
+    margin-top: 120px;
+}
+@media screen and (min-width: 993px) {
+    .card-home {
+      margin-top: 0px;
+    }
+  }
+
 .home-section-1-row-1 span
 {
     position: absolute;

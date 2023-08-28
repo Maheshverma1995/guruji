@@ -18,21 +18,21 @@ const Home = () => {
 
                     </div>
                     <div className='col-md-6'>
-                        <img src="./images/Acharya_Vishuddh_Sagar_Ji-removebg-preview.png" alt="" />
+                        <img className='img-fluid' src="./images/Acharya_Vishuddh_Sagar_Ji-removebg-preview.png" alt="" />
                     </div>
                 </div>
             </div>
             <div className='container-fluid body'>
                 <div className='row d-flex justify-content-center ' >
-                    <div className='col-5' style={{ marginTop: '-120px' }}>
-                        <div class=" d-flex shadow-lg p-3 mb-5 bg-body rounded">
-                            <div className='col-8' style={{ width: '300px' }}>
+                    <div className='col-md-5 card-home' >
+                        <div class=" row shadow-lg p-3 mb-5 bg-body rounded">
+                            <div className='col-md-8' style={{ width: '300px' }}>
                                 <h1>शीर्षक </h1>
                                 <p style={{ textAlign: 'justify', padding: '10px' }}>श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <button style={{ width: '200px' }} type="button" class="btn btn-danger">और पढ़ें</button>
                             </div>
-                            <div className='col-4'>
-                                <img style={{ width: '300px' }} className='img-fluid' src="./images/Acharya_Vishuddh_Sagar_Ji-removebg-preview.png" alt="" />
+                            <div className='col-md-4'>
+                                <img  className='img-fluid' src="./images/Acharya_Vishuddh_Sagar_Ji-removebg-preview.png" alt="" />
                             </div>
 
                         </div>
@@ -46,7 +46,7 @@ const Home = () => {
                     <div className='col-md-6 p-5'>
                         <div className='row '>
                             <img className='img-fluid' src="./images/Layout for Front page (2).jpg" alt="" />
-                            
+
 
                         </div>
                         <div className='row home-section-1-row-2'>
@@ -95,8 +95,10 @@ const Home = () => {
             <div className='container mt-5'>
                 <div className='row mt-5 mb-5'>
                     <div className='col-md-6'>
-                        <h1>शीर्षक</h1>
-                        <p>श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
+                        <h1>प्रथमानुयोग मर्या-ख्यानं, चरितं पुराण मपि पुण्यम् । बोधि समाधि निधानं, बोधति बोधः समीचीनः ।। 43।।</h1>
+                        <p>अर्थ- जिस ग्रन्थ में चारों पुरुषार्थों (धर्म, अर्थ, काम, मोक्ष) का किसी एक महापुरुष के चारित्र का वर्णन होता है, उन कथाचरित्र और पुराण कहे जाने वाले ग्रन्थों को "प्रथमानुयोग" कहते हैं। इनके पठन-पाठन (पारायण) से, जानने से पुण्य तथा बोधि और समाधि की प्राप्ति होती है। यह सम्यग्ज्ञान का विषय है।
+                            वे दोनों धर्मपरायण सुधी श्रावक अपने गृह ग्राम की ओर प्रस्थान करते हैं। मार्ग में ही एक दूसरे की
+                        </p>
                         <button type="button" class="btn btn-danger">और पढ़ें</button>
                     </div>
                     <div className='col-md-6'>
@@ -121,20 +123,20 @@ const Home = () => {
             <div className='container-fluid  '>
                 <div className='row mt-5'>
                     <div className='col '>
-                        <video className='img-fluid' style={{ height:'300px',width:'100%'}} poster='./image/bottum-image.png' controls autoPlay muted  src=""></video>
+                        <video className='img-fluid video-home' style={{ height: '300px', width: '100%' }} poster='./images/bottum-image.png' controls autoPlay muted src=""></video>
                     </div>
                 </div>
             </div>
             <div className='container mt-5'>
                 <div className='row'>
                     <div className='col-md-4'>
-                        <video className='img-fluid'  poster='./image/bottum-image.png' controls autoPlay muted  src=""></video>
+                        <video className='img-fluid video-home' poster='./images/bottum-image.png' controls autoPlay muted src=""></video>
                     </div>
                     <div className='col-md-4'>
-                        <video className='img-fluid'  poster='./image/bottum-image.png' controls autoPlay muted  src=""></video>
+                        <video className='img-fluid video-home' poster='./images/bottum-image.png' controls autoPlay muted src=""></video>
                     </div>
                     <div className='col-md-4'>
-                        <video className='img-fluid'  poster='./image/bottum-image.png' controls autoPlay muted  src=""></video>
+                        <video className='img-fluid video-home' poster='./images/bottum-image.png' controls autoPlay muted src=""></video>
                     </div>
                     <button type="button" class="btn btn-danger image-more"><FaAngleDown /></button>
                 </div>
