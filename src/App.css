@@ -12,8 +12,15 @@
   justify-content: center;
   width: 100%;
   z-index: 1000;
-  /* opacity: 1;
-  position: relative; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row-news1
+{
+    height: 300px;
+    overflow-y: scroll;
+    text-align: center;
+    
 }
 
 .bg-side-2-img {
@@ -52,7 +59,7 @@
 
 }
 
-.icon-col {
+#icon-col {
   border: 2px solid black;
   display: flex;
   justify-content: space-around;

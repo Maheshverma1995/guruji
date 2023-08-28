@@ -15,118 +15,77 @@ const HomeSection2 = () => {
                     </div>
                     <div className='col-md-3  mt-5'>
                         <span><h1 className='home-section-2-h1'> कैलेंडर </h1></span>
-                        <div className='home-section-div' >
-                            <p class="overflow-auto">
-                                
-                                {/* <tr>
-                                    <td className='border p-1'>4 जनवरी 2023</td>
-                                    <td className='border p-1'>रोहिणी व्रत</td>
-                                    
-                                </tr>
-                                <tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr>
-                                <tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr>
-                                <tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr>
-                                <tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr>
-                                <tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr>
-                                <tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr> */}
-                                {/* <tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr>
-                                <tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr>
-                                <tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr>
-                                <tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr>
-                                <tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr>
-                                <tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr><tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr>
-                                <tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr><tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr><tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr><tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr><tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr><tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr><tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr><tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr><tr>
-                                    <td className='border p-1'>20 जनवरी 2023</td>
-                                    <td className='border p-1'>मेरु त्रयोदशी</td>
-                                    
-                                </tr> */}
+                        <div className='home-section-div'>
+                                <div className='row  row-news1'>
 
-                            </p>
-                        </div>
+                                    <div className='col-6 '>
+                                        <p>7 सितंबर 2023</p>
+                                    </div>
+                                    <div className='col-6'>रोहिणी व्रत</div>
+                                    <div className='col-6 '>
+                                        <p>11 सितंबर 2023</p>
+                                    </div>
+                                    <div className='col-6'>	पर्युषण पर्वारंभ</div>
+                                    <div className='col-6 '>
+                                        <p>20 सितंबर 2023</p>
+                                    </div>
+                                    <div className='col-6'>सम्वत्सरी पर्व</div>
+                                    <div className='col-6 '>
+                                        <p>4 अक्टूबर 2023</p>
+                                    </div>
+                                    <div className='col-6'>रोहिणी व्रत</div>
+                                    <div className='col-6 '>
+                                        <p>21 अक्टूबर 2023</p>
+                                    </div>
+                                    <div className='col-6'>अश्विन नवपद ओली प्रारंभ</div>
+
+                                    <div className='col-6 '>
+                                        <p>28 अक्टूबर 2023</p>
+                                    </div>
+                                    <div className='col-6'>अश्विन नवपद ओली पूर्ण</div>
+                                    <div className='col-6 '>
+                                        <p>31 अक्टूबर 2023</p>
+                                    </div>
+                                    <div className='col-6'>रोहिणी व्रत</div>
+                                    <div className='col-6 '>
+                                        <p>12 नवंबर 2023</p>
+                                    </div>
+                                    <div className='col-6'>लक्ष्मी पूजा</div>
+                                    <div className='col-6 '>
+                                        <p>14 नवंबर 2023</p>
+                                    </div>
+                                    <div className='col-6'>गुजराती नया साल</div>
+                                    <div className='col-6 '>
+                                        <p>18 नवंबर 2023</p>
+                                    </div>
+                                    <div className='col-6'>लाभ पंचमी</div>
+                                    <div className='col-6 '>
+                                        <p>19 नवंबर 2023</p>
+                                    </div>
+                                    <div className='col-6'>कार्तिक अष्टान्हिका विधान प्रारंभ</div>
+                                    <div className='col-6 '>
+                                        <p>26 नवंबर 2023</p>
+                                    </div>
+                                    <div className='col-6'>कार्तिक चौमासी चौदस</div>
+                                    <div className='col-6 '>
+                                        <p>27 नवंबर 2023</p>
+                                    </div>
+                                    <div className='col-6'>कार्तिक अष्टान्हिका विधान पूर्ण</div>
+                                    <div className='col-6 '>
+                                        <p>27 नवंबर 2023</p>
+                                    </div>
+                                    <div className='col-6'>कार्तिक रथ यात्रा</div>
+                                    <div className='col-6 '>
+                                        <p>28 नवंबर 2023</p>
+                                    </div>
+                                    <div className='col-6'>रोहिणी व्रत</div>
+                                    <div className='col-6 '>
+                                        <p>25 दिसंबर 2023</p>
+                                    </div>
+                                    <div className='col-6'>रोहिणी व्रत</div>
+                                </div>
+
+                            </div>
                     </div>
                     <div className='col-md-3 mt-5'>
                         <span><h1 className='home-section-2-h1'> आज का विचार</h1></span>

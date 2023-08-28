@@ -25,13 +25,13 @@ const Home = () => {
             <div className='container-fluid body'>
                 <div className='row d-flex justify-content-center ' >
                     <div className='col-md-5 card-home' >
-                        <div class=" row shadow-lg p-3 mb-5 bg-body rounded">
-                            <div className='col-md-8' style={{ width: '300px' }}>
+                        <div class=" row  shadow-lg p-3 mb-5 bg-body rounded" id='card-home-div'>
+                            <div className='col-md-8 ' style={{ width: '300px' }}>
                                 <h1>शीर्षक </h1>
                                 <p style={{ textAlign: 'justify', padding: '10px' }}>श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <button style={{ width: '200px' }} type="button" class="btn btn-danger">और पढ़ें</button>
                             </div>
-                            <div className='col-md-4'>
+                            <div className='col-md-4 mt-5'>
                                 <img  className='img-fluid' src="./images/Acharya_Vishuddh_Sagar_Ji-removebg-preview.png" alt="" />
                             </div>
 
