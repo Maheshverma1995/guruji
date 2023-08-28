@@ -4,7 +4,7 @@ import '../App.css'
 
 const HomeSection2 = () => {
     return (
-        <div className='container'>
+        <div className='container mb-5'>
             <div className='container'>
                 <div className='row'>
                     <div className='col-md-3 mt-5'>

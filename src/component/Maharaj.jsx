@@ -10,7 +10,7 @@ const Maharaj = () => {
                 <div class="wrapper">
                     <div class="container-no-1">
                         <div class="left-side">
-                            <img src="/images/5a5ee69379ef7_1-shantisagarji_Page_05.jpg.72d2418fe879c1b51fa5f2a8fdb5dcd9.jpg"
+                            <img className='img-fluid mt-5' src="/images/5a5ee69379ef7_1-shantisagarji_Page_05.jpg.72d2418fe879c1b51fa5f2a8fdb5dcd9.jpg"
                                 alt="" />
                         </div>
                         <div class="right-side">
@@ -35,7 +35,7 @@ const Maharaj = () => {
                 <div class="wrapper1" >
                     <div class="container-no-2">
                         <div class="left-side">
-                            <img src="/images/5a5ee755b64d3_1-veersagarji_Page_06-Copy.jpg.d5800e9691288719a5e04b146698cd85.jpg"
+                            <img className='img-fluid mt-5' src="/images/5a5ee755b64d3_1-veersagarji_Page_06-Copy.jpg.d5800e9691288719a5e04b146698cd85.jpg"
                                 alt="" />
                         </div>
                         <div class="right-side">
@@ -57,7 +57,7 @@ const Maharaj = () => {
                 <div class="wrapper">
                     <div class="container-no-1">
                         <div class="left-side">
-                            <img src="/images/5a5ecf8a1840f_1-shivsagarji_Page_06.thumb.jpg.318bf3e8145427e4ae87639c7a7b5d50.jpg"
+                            <img className='img-fluid mt-5' src="/images/5a5ecf8a1840f_1-shivsagarji_Page_06.thumb.jpg.318bf3e8145427e4ae87639c7a7b5d50.jpg"
                                 alt="" />
                         </div>
                         <div class="right-side">
@@ -82,7 +82,7 @@ const Maharaj = () => {
                 <div class="wrapper1" >
                     <div class="container-no-2">
                         <div class="left-side">
-                            <img src="/images/5a59d0a514401_1-gyansagarji_Page_07.thumb.jpg.a25feab3085e650fa997484cadfeef79.jpg"
+                            <img className='img-fluid mt-5' src="/images/5a59d0a514401_1-gyansagarji_Page_07.thumb.jpg.a25feab3085e650fa997484cadfeef79.jpg"
                                 alt="" />
                         </div>
                         <div class="right-side">
@@ -107,7 +107,7 @@ const Maharaj = () => {
                 <div class="wrapper">
                     <div class="container-no-1">
                         <div class="left-side">
-                            <img src="/images/5a5ece4b1f4b3_1-_Page_13.thumb.jpg.c0534cff902f24a3dc936b2e5ed241b2.jpg"
+                            <img className='img-fluid mt-5' src="/images/5a5ece4b1f4b3_1-_Page_13.thumb.jpg.c0534cff902f24a3dc936b2e5ed241b2.jpg"
                                 alt="" />
                         </div>
                         <div class="right-side">

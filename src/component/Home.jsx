@@ -10,14 +10,14 @@ const Home = () => {
 
 
                 <div className='row home-row'>
-                    <div className='col-md-6   '>
+                    <div className='col-md-6  p-5 '>
                         <h4>
                             " ज्ञान गुणी होता है, ज्ञान के बिना परमात्मा और आत्मा की परिकल्पना भी नहीं कर सकते। जिस व्यक्ति के पास ज्ञान है वो कभी भी उग्र नहीं हो सकता। वह शीतल जल के सामान शांत रहता है।"
                         </h4>
                         <p>श्री 108 विशुद्धसागर जी महाराज</p>
 
                     </div>
-                    <div className='col-md-6'>
+                    <div className='col-md-6 mt-5 p-5' >
                         <img className='img-fluid' src="./images/Acharya_Vishuddh_Sagar_Ji-removebg-preview.png" alt="" />
                     </div>
                 </div>
@@ -26,9 +26,9 @@ const Home = () => {
                 <div className='row d-flex justify-content-center ' >
                     <div className='col-md-5 card-home' >
                         <div class=" row  shadow-lg p-3 mb-5 bg-body rounded" id='card-home-div'>
-                            <div className='col-md-8 ' style={{ width: '300px' }}>
+                            <div className='col-md-8 p-5 '>
                                 <h1>शीर्षक </h1>
-                                <p style={{ textAlign: 'justify', padding: '10px' }}>श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
+                            <p>श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <button style={{ width: '200px' }} type="button" class="btn btn-danger">और पढ़ें</button>
                             </div>
                             <div className='col-md-4 mt-5'>

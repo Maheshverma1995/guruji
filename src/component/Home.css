@@ -2,32 +2,31 @@
 .first-dev{
     padding-bottom: 100px;
 }
-.home-row
-{
-    background-image: url(../../public/images/back-home.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 50px;
-}
 .home-row h4{
     color: white;
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 20px;
     text-align: justify;
 
+}
+.home-row
+{
+    background-image: url('../../public/images/back-home.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
 }
 .home-row p{
     color: white;
     text-align: center;
 }
 .first-img{
-    /* position: relative; */
     width: 100%;
     height: auto;
     background-size: cover;
     background-position: center;
-    /* background-repeat: no-repeat; */
-    /* background-attachment: fixed; */
+   
 }  
 .home-section-1-row-1
 {
@@ -37,6 +36,7 @@
     
     
 } 
+
 .home-section-1-row-1 p{
     position: absolute;
     width: 50%;
@@ -48,6 +48,8 @@
 .card-home
 {
     margin-top: -120px;
+    z-index: 2;
+   
 }
 @media screen and (max-width: 768px) {
     .card-home {
