@@ -19,10 +19,10 @@ const Footer = () => {
                 <div className='container '>
                     <div className="row">
                         <div className='col-md-4 mt-5'>
-                            <h1 data-aos="fade-up-right" className='text-white' > डायरी</h1>
+                            <h1 data-aos="fade-up" className='text-white' > डायरी</h1>
                             <div className='row'>
 
-                                <div className='col-md-4 mt-5'data-aos="fade-up-left">
+                                <div className='col-md-4 mt-5'data-aos="fade-up">
                                     <img className='img-fluid' src="./images/Acharya_Vishuddh_Sagar_Ji-removebg-preview.png" alt="" />
                                 </div>
                                 <div className='col-md-8 '>
@@ -32,7 +32,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className='col-md-4 mt-5'data-aos="fade-up">
-                            <h1 className='text-white' data-aos="fade-up-left"> नवीनतम समाचार </h1>
+                            <h1 className='text-white' data-aos="fade-up"> नवीनतम समाचार </h1>
                             <div className='col'>
                                 <div className='row row-news'>
 
@@ -59,13 +59,13 @@ const Footer = () => {
                                 </div>
 
                             </div>
-                            <div className='col mt-5'><input className='rounded w-75' type="text"  placeholder='comment' /></div>
+                            <div className='col mt-5'><input className='rounded' type="text"  placeholder='comment' /></div>
                             <div className='col mt-4'><button  type="button" className="btn btn-dark w-75">मोबाइल ऐप डाउनलोड करें</button></div>
                         </div>
 
-                        <div className='col-md-4 mt-5 mt-4'data-aos="fade-up-left">
-                            <div className='row'>
-                                <Iframe className='rounded' src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d448713.71846192505!2d77.07221524153388!3d28.52240403697898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1693116547906!5m2!1sen!2sin" style={{ width: '100%', height: '100%' }} allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></Iframe></div>
+                        <div className='col-md-4 mt-5 mt-4'data-aos="fade-up">
+                            
+                                <Iframe className='rounded' src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d448713.71846192505!2d77.07221524153388!3d28.52240403697898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1693116547906!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></Iframe>
                             <div className='row mt-4'>
                                 <div className='col-2'><span style={{ fontSize: '50px' }}><FaFacebookSquare /></span></div>
                                 <div className='col-2'><span style={{ fontSize: '50px' }}><FaYoutube /></span></div>
@@ -77,7 +77,7 @@ const Footer = () => {
                 </div>
                 <div className='row shadow-lg p-3 mt-5 rounded'>
                     <div className='col-md-6'>
-                        <h1>2023 vishuddhsagar.com</h1>
+                        <h1 className='text-white'>2023 vishuddhsagar.com</h1>
                     </div>
                     <div className='col-md-6'>
                         <Marquee>

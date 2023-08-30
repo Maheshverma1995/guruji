@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { FaSearch } from "react-icons/fa";
+import { FaSearch ,FaThList } from "react-icons/fa";
 
 const NavBar = () => {
     const [stickyClass, setStickyClass] = useState('');
@@ -26,16 +26,17 @@ const NavBar = () => {
     const handleToggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
+    
 
     return (
         <div className={`navbar-header container-fluid ${isHomePage ? 'background-enabled' : 'navbar-header1'}`}>
             <nav className={`navbar navbar-light ${navbarToggled ? 'show' : ''}`}>
                 
-                <div className="container-fluid">
-                    <Link className=' nav-link text-white position-relative  ps-5' onClick={handleToggleMenu}>प्रतीक चिन्ह</Link>
-                    <form className="d-flex">
-                        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn position-absolute end-0" style={{paddingRight:'25px'}} type="submit"><FaSearch/></button>
+                <div className="container-fluid d-flex">
+                    <Link className=' nav-link text-white ' onClick={handleToggleMenu}>प्रतीक चिन्ह</Link>
+                    <form className="d-flex position-relative">
+                        <input className="form-control" style={{minWidth:'150px',width:'200px'}} type="search" placeholder="Search" aria-label="Search" />
+                        <button className="btn position-absolute end-0" type="submit"><FaSearch/></button>
                     </form>
                 </div>
                 
@@ -43,8 +44,8 @@ const NavBar = () => {
             <div className={`navbar  ${stickyClass}`}>
                 <nav className={`navbar-expand-lg ${navbarToggled ? 'show' : ''}`}>
                     <div className="container">
-                        <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
+                        <button  id='togool-button' type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="togool-icon"><FaThList/></span>
                         </button>
                         <div className={`offcanvas offcanvas-start ${menuOpen ? 'show' : ''}`} tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasLabel">
                             <div className="offcanvas-header">

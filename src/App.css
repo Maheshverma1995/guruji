@@ -1,8 +1,33 @@
+/* *
+{
+  overflow-x: hidden;
+  object-fit: cover;
+  
+} */
 .body {
   background-image: linear-gradient(#fef2de, #fdd27c);
+  
 }
 .body1{
   background-image: linear-gradient(#ededed, #aba7a7);
+}
+.togool-icon
+{
+  font-size: 30px;
+  color: white;
+   
+}
+#togool-button
+{
+  background-color: #f0f8ff00;
+    border: none;
+    display: none;
+}
+@media screen and (max-width: 993px) {
+  #togool-button{
+    display: block;  
+    
+  }
 }
 .shadow
 {
@@ -63,6 +88,7 @@ z-index: 5;
   z-index: 3;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 
@@ -89,6 +115,10 @@ z-index: 5;
   width: 100%;
   
   
+}
+.home-card-2
+{
+  z-index: 10;
 }
 .mahotsav-paragraph
 {
@@ -130,10 +160,20 @@ z-index: 5;
 
 }
 .home-section-div-card {
+  background-color: #838383;
   text-align: justify;
   padding: 10px;
+  margin-top: -15px;
+  border-radius: 0 0 20px 20px;
   min-height: 250px;
-  
+  color: white;
+
+}
+.row-news
+{
+    height: 100px;
+    overflow-y: scroll;
+    
 }
 
 #icon-col {

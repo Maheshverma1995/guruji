@@ -24,15 +24,15 @@ const VideoDetails = () => {
         </div>
         <div className="row">
           <div className="col mt-5 ">
-            <span data-aos="fade-right"  className="me-2 ms-2 pe-2 ps-2 fs-1"><FaThumbsUp /></span>
+            <span data-aos="fade-up"  className="me-2 ms-2 pe-2 ps-2 fs-1"><FaThumbsUp /></span>
             <span data-aos="fade-up" className="me-2 ms-2 pe-2 ps-2 fs-1"><FaShareAlt /></span>
-            <span data-aos="fade-left" className="me-2 ms-2 pe-2 ps-2 fs-1"><FaDownload /></span>
+            <span data-aos="fade-up" className="me-2 ms-2 pe-2 ps-2 fs-1"><FaDownload /></span>
           </div>
 
           <h2 className="text-center text-danger mt-5 mb-3">शीर्षक</h2>
 
           <div className="col">
-            <p data-aos="fade-right" className="mahotsav-paragraph p-4">
+            <p data-aos="fade-up" className="mahotsav-paragraph p-4">
               बीजांकुर न्याय के समान श्रुतज्ञान की परम्परा और आचार्यपरम्परा एक
               दूसरे के पूरक हैं। आचरंति यस्माद् व्रतानी त्याचार्यः ।।3।। यस्माद्
               सम्यग्ज्ञानादि गुणाधारा हृदय व्रतानि स्वर्गापवर्ग सुखामृत बीजानि
@@ -93,7 +93,7 @@ const VideoDetails = () => {
               <video  data-aos="flip-up" className="img-fluid" controls muted  src=""></video>
               <div className="card-body">
                 <h2 className="card-title">शीर्षक</h2>
-                <p data-aos="fade-left" className="card-text">
+                <p data-aos="fade-up" className="card-text">
                   श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
                 </p>
                 <Link to="#" class="btn btn-danger">
@@ -107,7 +107,7 @@ const VideoDetails = () => {
               <video  data-aos="flip-up" className="img-fluid" controls muted  src=""></video>
               <div className="card-body">
                 <h2 className="card-title">शीर्षक</h2>
-                <p data-aos="fade-right" className="card-text">
+                <p data-aos="fade-up" className="card-text">
                   श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
                 </p>
                 <Link to="#" class="btn btn-danger">
@@ -121,7 +121,7 @@ const VideoDetails = () => {
               <video  data-aos="flip-up" className="img-fluid" controls muted  src=""></video>
               <div className="card-body">
                 <h2 className="card-title">शीर्षक</h2>
-                <p data-aos="fade-left" className="card-text">
+                <p data-aos="fade-up" className="card-text">
                   श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
                 </p>
                 <Link to="#" class="btn btn-danger">

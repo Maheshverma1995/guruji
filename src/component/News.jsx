@@ -18,7 +18,7 @@ const News = () => {
       
       <div className="row">
         <div className="col-md-4 mt-2 mb-3">
-          <div className="card" data-aos="flip-right" >
+          <div className="card" data-aos="flip-up" >
             <img src={sagar} className="img-fluid .jiven-parichay-img1" alt="sss" />
             <div className="card-body body1  position-relative home-section-div-card">
               <h5 className="card-title">lorem</h5>
@@ -29,7 +29,7 @@ const News = () => {
         </div>
 
         <div className="col-md-4 mt-2 mb-3 " >
-          <div className="card" data-aos="flip-right">
+          <div className="card" data-aos="flip-up">
             <img src={sagar} className="img-fluid .jiven-parichay-img1 height" alt="sss" />
             <div className="card-body body1  position-relative home-section-div-card">
               <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
@@ -40,7 +40,7 @@ const News = () => {
         </div>
 
         <div className="col-md-4 mt-2 mb-3  ">
-          <div className="card" data-aos="flip-right">
+          <div className="card" data-aos="flip-up">
             <img src={sagar} className="img-fluid .jiven-parichay-img1 height" alt="sss" />
             <div className="card-body body1  position-relative home-section-div-card">
               <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
@@ -51,7 +51,7 @@ const News = () => {
         </div>
 
         <div className="col-md-4 mt-2 mb-3 ">
-          <div className="card" data-aos="flip-right" >
+          <div className="card" data-aos="flip-up" >
             <img src={sagar} className="img-fluid .jiven-parichay-img1" alt="sss" />
             <div className="card-body body1  position-relative home-section-div-card">
               <h5 className="card-title">lorem</h5>
@@ -62,7 +62,7 @@ const News = () => {
         </div>
 
         <div className="col-md-4 mt-2 mb-3 " >
-          <div className="card" data-aos="flip-right">
+          <div className="card" data-aos="flip-up">
             <img src={sagar} className="img-fluid .jiven-parichay-img1 height" alt="sss" />
             <div className="card-body body1  position-relative home-section-div-card">
               <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
@@ -73,7 +73,7 @@ const News = () => {
         </div>
 
         <div className="col-md-4 mt-2 mb-3  ">
-          <div className="card" data-aos="flip-right">
+          <div className="card" data-aos="flip-up">
             <img src={sagar} className="img-fluid .jiven-parichay-img1 height" alt="sss" />
             <div className="card-body body1  position-relative home-section-div-card">
               <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
@@ -84,7 +84,7 @@ const News = () => {
         </div>
 
         <div className="col-md-4 mt-2 mb-3 ">
-          <div className="card" data-aos="flip-right" >
+          <div className="card" data-aos="flip-up" >
             <img src={sagar} className="img-fluid .jiven-parichay-img1" alt="sss" />
             <div className="card-body body1  position-relative home-section-div-card">
               <h5 className="card-title">lorem</h5>
@@ -95,7 +95,7 @@ const News = () => {
         </div>
 
         <div className="col-md-4 mt-2 mb-3 " >
-          <div className="card" data-aos="flip-right">
+          <div className="card" data-aos="flip-up">
             <img src={sagar} className="img-fluid .jiven-parichay-img1 height" alt="sss" />
             <div className="card-body body1  position-relative home-section-div-card">
               <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
@@ -106,7 +106,7 @@ const News = () => {
         </div>
 
         <div className="col-md-4 mt-2 mb-3  ">
-          <div className="card" data-aos="flip-right">
+          <div className="card" data-aos="flip-up">
             <img src={sagar} className="img-fluid .jiven-parichay-img1 height" alt="sss" />
             <div className="card-body body1  position-relative home-section-div-card">
               <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
@@ -117,7 +117,7 @@ const News = () => {
         </div>
 
         <div className="col-md-4 mt-2 mb-3 ">
-          <div className="card" data-aos="flip-right" >
+          <div className="card" data-aos="flip-up" >
             <img src={sagar} className="img-fluid .jiven-parichay-img1" alt="sss" />
             <div className="card-body body1  position-relative home-section-div-card">
               <h5 className="card-title">lorem</h5>
@@ -128,7 +128,7 @@ const News = () => {
         </div>
 
         <div className="col-md-4 mt-2 mb-3 " >
-          <div className="card" data-aos="flip-right">
+          <div className="card" data-aos="flip-up">
             <img src={sagar} className="img-fluid .jiven-parichay-img1 height" alt="sss" />
             <div className="card-body body1  position-relative home-section-div-card">
               <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
@@ -139,7 +139,7 @@ const News = () => {
         </div>
 
         <div className="col-md-4 mt-2 mb-3  ">
-          <div className="card" data-aos="flip-right">
+          <div className="card" data-aos="flip-up">
             <img src={sagar} className="img-fluid .jiven-parichay-img1 height" alt="sss" />
             <div className="card-body body1  position-relative home-section-div-card">
               <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
@@ -150,7 +150,7 @@ const News = () => {
         </div>
 
         <div className="col-md-4 mt-2 mb-3 ">
-          <div className="card" data-aos="flip-right" >
+          <div className="card" data-aos="flip-up" >
             <img src={sagar} className="img-fluid .jiven-parichay-img1" alt="sss" />
             <div className="card-body body1  position-relative home-section-div-card">
               <h5 className="card-title">lorem</h5>
@@ -161,7 +161,7 @@ const News = () => {
         </div>
 
         <div className="col-md-4 mt-2 mb-3 " >
-          <div className="card" data-aos="flip-right">
+          <div className="card" data-aos="flip-up">
             <img src={sagar} className="img-fluid .jiven-parichay-img1 height" alt="sss" />
             <div className="card-body body1  position-relative home-section-div-card">
               <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
@@ -172,7 +172,7 @@ const News = () => {
         </div>
 
         <div className="col-md-4 mt-2 mb-3  ">
-          <div className="card" data-aos="flip-right">
+          <div className="card" data-aos="flip-up">
             <img src={sagar} className="img-fluid .jiven-parichay-img1 height" alt="sss" />
             <div className="card-body body1  position-relative home-section-div-card">
               <h5 className="card-title">आशीर्वाद प्रत्यग् आत्मदर्शी</h5>
