@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import '../component/Maharaj.css'
 import HomeSection2 from './HomeSection2'
 import '../App.css'
 import Aos from 'aos'

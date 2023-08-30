@@ -81,6 +81,19 @@ z-index: 5;
   box-shadow: 13px 22px 15px 1px rgba(0, 0, 0, 0.219);
   
 }
+.mahotsav-paragraph
+{
+  margin-left: 50px;
+  padding: 20px;
+  text-align: justify;
+}
+@media screen and (min-width: 786px) {
+  .mahotsav-paragraph {
+   
+    margin-left: 0px;
+  padding: 2px;
+  }
+}
 
 .bg-side-2-img {
   width: 100px;
