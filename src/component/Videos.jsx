@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaDownload } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import HomeSection2 from './HomeSection2';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Videos = () => {
+    useEffect(()=>
+    {
+      Aos.init({duration:1000});
+    },
+    []);
     return (
         <div className='body'>
             <HomeSection2/>
@@ -12,10 +19,10 @@ const Videos = () => {
                 <div className='row'>
                     <div className='col-md-4 mt-3 mb-4 rounded'>
                         <div class="card ">
-                            <video className='img-fluid rounded ' controls muted src=""></video>
+                            <video data-aos="zoom-in-down" className='img-fluid rounded ' controls muted src=""></video>
                             <div class="card-body">
-                                <h5 class="card-title">शीर्षक</h5>
-                                <p class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
+                                <h5 data-aos="fade-down-left" class="card-title">शीर्षक</h5>
+                                <p data-aos="fade-down-right" class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
                                     <Link to="#" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
@@ -27,10 +34,10 @@ const Videos = () => {
                     </div>
                     <div className='col-md-4 mt-3 mb-4 rounded'>
                         <div class="card ">
-                            <video className='img-fluid rounded ' controls muted src=""></video>
+                            <video data-aos="zoom-in-down" className='img-fluid rounded ' controls muted src=""></video>
                             <div class="card-body">
-                                <h5 class="card-title">शीर्षक</h5>
-                                <p class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
+                                <h5 data-aos="fade-down-left" class="card-title">शीर्षक</h5>
+                                <p data-aos="fade-down-right" class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
                                     <Link to="#" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
@@ -42,10 +49,10 @@ const Videos = () => {
                     </div>
                     <div className='col-md-4 mt-3 mb-4 rounded'>
                         <div class="card ">
-                            <video className='img-fluid rounded ' controls muted src=""></video>
+                            <video data-aos="zoom-in-down" className='img-fluid rounded ' controls muted src=""></video>
                             <div class="card-body">
-                                <h5 class="card-title">शीर्षक</h5>
-                                <p class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
+                                <h5 data-aos="fade-down-left" class="card-title">शीर्षक</h5>
+                                <p data-aos="fade-down-right" class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
                                     <Link to="#" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
@@ -57,10 +64,10 @@ const Videos = () => {
                     </div>
                     <div className='col-md-4 mt-3 mb-4 rounded'>
                         <div class="card ">
-                            <video className='img-fluid rounded ' controls muted src=""></video>
+                            <video data-aos="zoom-in-down" className='img-fluid rounded ' controls muted src=""></video>
                             <div class="card-body">
-                                <h5 class="card-title">शीर्षक</h5>
-                                <p class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
+                                <h5 data-aos="fade-down-left" class="card-title">शीर्षक</h5>
+                                <p data-aos="fade-down-right" class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
                                     <Link to="#" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
@@ -72,10 +79,10 @@ const Videos = () => {
                     </div>
                     <div className='col-md-4 mt-3 mb-4 rounded'>
                         <div class="card ">
-                            <video className='img-fluid rounded ' controls muted src=""></video>
+                            <video data-aos="zoom-in-down" className='img-fluid rounded ' controls muted src=""></video>
                             <div class="card-body">
-                                <h5 class="card-title">शीर्षक</h5>
-                                <p class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
+                                <h5 data-aos="fade-down-left" class="card-title">शीर्षक</h5>
+                                <p data-aos="fade-down-right" class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
                                     <Link to="#" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
@@ -87,10 +94,10 @@ const Videos = () => {
                     </div>
                     <div className='col-md-4 mt-3 mb-4 rounded'>
                         <div class="card ">
-                            <video className='img-fluid rounded ' controls muted src=""></video>
+                            <video data-aos="zoom-in-down" className='img-fluid rounded ' controls muted src=""></video>
                             <div class="card-body">
-                                <h5 class="card-title">शीर्षक</h5>
-                                <p class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
+                                <h5 data-aos="fade-down-left" class="card-title">शीर्षक</h5>
+                                <p data-aos="fade-down-right" class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
                                     <Link to="#" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
@@ -102,10 +109,10 @@ const Videos = () => {
                     </div>
                     <div className='col-md-4 mt-3 mb-4 rounded'>
                         <div class="card ">
-                            <video className='img-fluid rounded ' controls muted src=""></video>
+                            <video data-aos="zoom-in-down" className='img-fluid rounded ' controls muted src=""></video>
                             <div class="card-body">
-                                <h5 class="card-title">शीर्षक</h5>
-                                <p class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
+                                <h5 data-aos="fade-down-left" class="card-title">शीर्षक</h5>
+                                <p data-aos="fade-down-right" class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
                                     <Link to="#" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
@@ -117,10 +124,10 @@ const Videos = () => {
                     </div>
                     <div className='col-md-4 mt-3 mb-4 rounded'>
                         <div class="card ">
-                            <video className='img-fluid rounded ' controls muted src=""></video>
+                            <video data-aos="zoom-in-down" className='img-fluid rounded ' controls muted src=""></video>
                             <div class="card-body">
-                                <h5 class="card-title">शीर्षक</h5>
-                                <p class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
+                                <h5 data-aos="fade-down-left" class="card-title">शीर्षक</h5>
+                                <p data-aos="fade-down-right" class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
                                     <Link to="#" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
@@ -132,10 +139,10 @@ const Videos = () => {
                     </div>
                     <div className='col-md-4 mt-3 mb-4 rounded'>
                         <div class="card ">
-                            <video className='img-fluid rounded ' controls muted src=""></video>
+                            <video data-aos="zoom-in-down" className='img-fluid rounded ' controls muted src=""></video>
                             <div class="card-body">
-                                <h5 class="card-title">शीर्षक</h5>
-                                <p class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
+                                <h5 data-aos="fade-down-left" class="card-title">शीर्षक</h5>
+                                <p data-aos="fade-down-right" class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
                                     <Link to="#" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>

@@ -1,6 +1,29 @@
 .body {
   background-image: linear-gradient(#fef2de, #fdd27c);
  
+ 
+}
+.shadow
+{
+  box-shadow: 13px 22px 15px 1px rgba(0, 0, 0, 0.219);
+}
+@media screen and (min-width: 993px) {
+  .paragraph-maharaj p{
+   
+    padding-left: 0;
+    margin-top: 0;
+  }
+}
+.paragraph-maharaj h2{
+  text-align: center;
+  color: red;
+}
+.paragraph-maharaj p
+{
+  text-align: justify;
+
+  margin-top: 50px;
+  padding-left: 100px;
 }
 
 .background-enabled
@@ -14,7 +37,7 @@ z-index: 5;
   background-image: url('../public/images/back-home.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -2px;
+  
   
 }
 @media screen and (min-width: 993px) {
@@ -34,13 +57,13 @@ z-index: 5;
   position: fixed;
   top: 0;
   left: 0;
-  background-image: url(../public/images/back-home.jpeg);
-  display: flex;
   width: 100%;
+  background-image: url(../public/images/back-home.jpeg);
   z-index: 3;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 .row-news1
 {
@@ -49,6 +72,14 @@ z-index: 5;
     text-align: center;
     min-height: 235px;
     
+}
+.jiven-parichay-img
+{
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  box-shadow: 13px 22px 15px 1px rgba(0, 0, 0, 0.219);
+  
 }
 
 .bg-side-2-img {
