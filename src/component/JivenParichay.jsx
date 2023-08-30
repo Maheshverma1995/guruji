@@ -32,7 +32,7 @@ const JivenParichay = () => {
                     </div>
                     <div className='row mt-5'>
                         <div className="col">
-                            <img data-aos="zoom-in-down" className='img-fluid' src="images/3page_3.png" alt='..' />
+                            <img data-aos="zoom-in-down" className='img-fluid jiven-parichay-img' src="images/3page_3.png" alt='..' />
                         </div>
                     </div>
                     <div className='row mt-5'>

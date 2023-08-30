@@ -1,22 +1,38 @@
-import React from "react";
-import "./VideoDetails.css";
+import React, { useEffect } from "react";
 import HomeSection2 from "./HomeSection2";
 import { Link } from "react-router-dom";
+import { FaThumbsUp, FaShareAlt, FaDownload } from "react-icons/fa";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const VideoDetails = () => {
+  useEffect(()=>
+  {
+    Aos.init({duration:1000});
+  },
+  []);
   return (
-    <div className="body">
+    <div className="body" >
       <HomeSection2 />
-      <div className="secondpage-container">
-        <div className="secondPage">
-          <div className="video-container">
-            <img alt=".." src="Images/vishudh-sagar.webp" />
+      <div className="container body mb-5">
+        <div className="row">
+          <div className="col">
+            <div className="video-container">
+              <video  data-aos="flip-up" className="img-fluid jiven-parichay-img" controls autoPlay muted loop src=""></video>
+            </div>
           </div>
-          <div className="secondPage-heading">
-            <h2>शीर्षक</h2>
+        </div>
+        <div className="row">
+          <div className="col mt-5 ">
+            <span data-aos="fade-right"  className="me-2 ms-2 pe-2 ps-2 fs-1"><FaThumbsUp /></span>
+            <span data-aos="fade-up" className="me-2 ms-2 pe-2 ps-2 fs-1"><FaShareAlt /></span>
+            <span data-aos="fade-left" className="me-2 ms-2 pe-2 ps-2 fs-1"><FaDownload /></span>
           </div>
-          <div className="secondPage-content">
-            <p>
+
+          <h2 className="text-center text-danger mt-5 mb-3">शीर्षक</h2>
+
+          <div className="col">
+            <p data-aos="fade-right" className="mahotsav-paragraph p-4">
               बीजांकुर न्याय के समान श्रुतज्ञान की परम्परा और आचार्यपरम्परा एक
               दूसरे के पूरक हैं। आचरंति यस्माद् व्रतानी त्याचार्यः ।।3।। यस्माद्
               सम्यग्ज्ञानादि गुणाधारा हृदय व्रतानि स्वर्गापवर्ग सुखामृत बीजानि
@@ -65,110 +81,61 @@ const VideoDetails = () => {
             </p>
           </div>
         </div>
-        <div className="partition">
-          <div className="partition1">
-            <h2>शीर्षक Content</h2>
-          </div>
-          <div className="partition2"></div>
-        </div>
-        {/*  */}
-        
-       <div className="container">
-       <div className="row">
-            <div className="col-md-4 mt-2 mb-4">
-                <div className="card">
-          <img src="Images/vishudh-sagar.webp" className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h2 className="card-title">शीर्षक</h2>
-            <p className="card-text">
-            श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
-            </p>
-            <Link to="#" class="btn btn-danger">
-            और पढ़ें
-            </Link>
-          </div>
-        </div>
-            </div>
-            <div className="col-md-4 mt-2 mb-4">
-                <div className="card">
-          <img src="Images/vishudh-sagar.webp" className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h2 className="card-title">शीर्षक</h2>
-            <p className="card-text">
-            श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
-            </p>
-            <Link to="#" class="btn btn-danger">
-            और पढ़ें
-            </Link>
-          </div>
-        </div>
-            </div>
-            <div className="col-md-4 mt-2 mb-4">
-                <div className="card">
-          <img src="Images/vishudh-sagar.webp" className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h2 className="card-title">शीर्षक</h2>
-            <p className="card-text">
-            श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
-            </p>
-            <Link to="#" class="btn btn-danger">
-            और पढ़ें
-            </Link>
-          </div>
-        </div>
-            </div>
-        </div>  
-       </div>
 
-        {/*  */}
-        {/* <div className="secondpage_cards">
-                    <div className="card1">
-                        <div className="card1_video">
-                            <img alt='..' src="Images/vishudh-sagar.webp" height="300px" width="400px" />
-                        </div>
-                        <div className="card1_heading1">
-                            <h2>शीर्षक</h2>
-                        </div>
-                        <div className="card1_content">
-                            <p>श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
-                        </div>
-                        <div className="card1_button">
-                            <button>और पढ़ें</button>
-                        </div>
-                    </div>
-
-                    <div className="card1">
-                        <div className="card1_video">
-                            <img alt='..' src="Images/vishudh-sagar.webp" height="300px" width="400px" />
-                        </div>
-                        <div className="card1_heading1">
-                            <h2>शीर्षक</h2>
-                        </div>
-                        <div className="card1_content">
-                            <p>श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
-                        </div>
-                        <div className="card1_button">
-                            <button>और पढ़ें</button>
-                        </div>
-                    </div>
-
-                    <div className="card1">
-                        <div className="card1_video">
-                            <img alt='..' src="Images/vishudh-sagar.webp" height="300px" width="400px" />
-                        </div>
-                        <div className="card1_heading1">
-                            <h2>शीर्षक</h2>
-                        </div>
-                        <div className="card1_content">
-                            <p>श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
-                        </div>
-                        <div className="card1_button">
-                            <button>और पढ़ें</button>
-                        </div>
-                    </div>
-                </div> */}
       </div>
+      <div className="container body1 ">
+        <div className="col-3"><h2 className="p-2" style={{ minWidth:'220px', backgroundColor: 'red', bottom: '0' }}>शीर्षक Content</h2>
+        </div>
+        <div style={{ width: '100%', height: '2px', backgroundColor: 'red', marginTop: '-8px' }}></div>
+        <div className="row mt-5 ">
+          <div className="col-md-4 mt-2 mb-4">
+            <div className="card">
+              <video  data-aos="flip-up" className="img-fluid" controls muted  src=""></video>
+              <div className="card-body">
+                <h2 className="card-title">शीर्षक</h2>
+                <p data-aos="fade-left" className="card-text">
+                  श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
+                </p>
+                <Link to="#" class="btn btn-danger">
+                  और पढ़ें
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 mt-2 mb-4">
+            <div className="card">
+              <video  data-aos="flip-up" className="img-fluid" controls muted  src=""></video>
+              <div className="card-body">
+                <h2 className="card-title">शीर्षक</h2>
+                <p data-aos="fade-right" className="card-text">
+                  श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
+                </p>
+                <Link to="#" class="btn btn-danger">
+                  और पढ़ें
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 mt-2 mb-5">
+            <div className="card ">
+              <video  data-aos="flip-up" className="img-fluid" controls muted  src=""></video>
+              <div className="card-body">
+                <h2 className="card-title">शीर्षक</h2>
+                <p data-aos="fade-left" className="card-text">
+                  श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
+                </p>
+                <Link to="#" class="btn btn-danger">
+                  और पढ़ें
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </div>
+
   );
 };
 
