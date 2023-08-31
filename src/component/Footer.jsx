@@ -58,17 +58,21 @@ const Footer = () => {
                                 </div>
 
                             </div>
-                            <div className='col'><input className='rounded' type="text"  placeholder='comment' /></div>
-                            <div className='col mt-4'><button  type="button" className="btn btn-dark w-75">मोबाइल ऐप डाउनलोड करें</button></div>
+                            <div className='col d-flex justify-content-center'><input className='rounded-start mt-4' type="text"  placeholder='comment' />
+                            <button type="button" style={{height:'40px',}} class=" bg-danger btn-danger text-white rounded-end mt-4">Send</button>
+                            </div>
+                            <div className='col d-flex justify-content-center mt-4'><button  type="button" className="btn btn-dark w-50">मोबाइल ऐप डाउनलोड करें</button></div>
                         </div>
 
                         <div className='col-md-4 mt-4'data-aos="fade-up">
                             
                                 <Iframe className='rounded' src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d448713.71846192505!2d77.07221524153388!3d28.52240403697898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1693116547906!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></Iframe>
                             <div className='row mt-4'>
-                                <div className='col-2'><span style={{ fontSize: '50px' }}><FaFacebookSquare /></span></div>
-                                <div className='col-2'><span style={{ fontSize: '50px' }}><FaYoutube /></span></div>
-                                <div className='col-2'><span style={{ fontSize: '50px' }}> <FaInstagram /></span></div>
+                                <div className='col d-flex justify-content-between'>
+                                <div className='col-md-4'><span style={{ color:'#910b0c',fontSize: '50px' }}><FaFacebookSquare/></span></div>
+                                <div className='col-md-4'><span style={{ color:'#910b0c',fontSize: '50px' }}><FaYoutube/></span></div>
+                                <div className='col-md-4'><span style={{ color:'#910b0c',fontSize: '50px' }}><FaInstagram/></span></div>
+                                </div>
                             </div>
                         </div>
                     </div>
