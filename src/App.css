@@ -1,9 +1,4 @@
-/* *
-{
-  overflow-x: hidden;
-  object-fit: cover;
-  
-} */
+
 .body {
   background-image: linear-gradient(#fef2de, #fdd27c);
   
@@ -17,14 +12,16 @@
   color: white;
    
 }
-#togool-button
+#toggle-button
 {
   background-color: #f0f8ff00;
     border: none;
     display: none;
+    color: white;
+    font-size: 30px;
 }
 @media screen and (max-width: 993px) {
-  #togool-button{
+  #toggle-button{
     display: block;  
     
   }
@@ -58,26 +55,35 @@
 position: absolute;
 z-index: 5;
 }
-.navbar-toggal
+.navbar-toggle
 {
-  background-image: url('../public/images/back-home.jpeg');
+  /* background-image: url('../public/images/back-home.jpeg'); */
   background-repeat: no-repeat;
   background-size: cover;
   
   
+  
 }
-@media screen and (min-width: 993px) {
-  .navbar-toggal {
+@media screen and (max-width: 993px) {
+  .navbar-toggle {
    
     background: transparent;
   }
 }
-.navbar-header1
+@media screen and (max-width: 993px) {
+  .navbar-header2
 {
   background-image: url('../public/images/back-home.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
 }
+}
+.navbar-header1{
+  background-image: url('../public/images/back-home.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 .sticky-nav {
   position: fixed;
@@ -185,9 +191,12 @@ z-index: 5;
   height: 100px;
   padding: 15px;
   border: 5px solid orange;
-  background: transparent;
+  
 }
 
-.link-text-color {
-  color: white;
+.footer-row-2
+{
+  background-image: url(../public/images/back-home.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -4,6 +4,7 @@ import HomeSection2 from './HomeSection2';
 import { FaAngleDown } from "react-icons/fa";
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import { Link } from 'react-router-dom';
 
   
 
@@ -19,14 +20,14 @@ const Home = () => {
 
 
                 <div className='row home-row'>
-                    <div className='col-md-6  p-5 ' data-aos="fade-down">
+                    <div className='col-md-6 ps-3 ' data-aos="fade-down">
                         <h4>
                             " ज्ञान गुणी होता है, ज्ञान के बिना परमात्मा और आत्मा की परिकल्पना भी नहीं कर सकते। जिस व्यक्ति के पास ज्ञान है वो कभी भी उग्र नहीं हो सकता। वह शीतल जल के सामान शांत रहता है।"
                         </h4>
                         <p>श्री 108 विशुद्धसागर जी महाराज</p>
 
                     </div>
-                    <div className='col-md-6 mt-5 p-5' data-aos="fade-down" >
+                    <div className='col-md-6 mt-5' data-aos="fade-down" >
                         <img className='img-fluid' src="./images/Acharya_Vishuddh_Sagar_Ji-removebg-preview.png" alt="" />
                     </div>
                 </div>
@@ -127,7 +128,10 @@ const Home = () => {
                     <div className='col-md-4 mt-3 'data-aos="fade-up">
                         <img src="./images/Layout for Front page (1).jpg" class="img-thumbnail shadow-lg" alt="..." />
                     </div>
-                    <button type="button" class="btn btn-danger mt-3 image-more"><FaAngleDown /></button>
+                    
+                </div>
+                <div className='row d-flex justify-content-center '>
+                <Link class="btn btn-danger mb-4 image-more" to="gallery" role="button"><FaAngleDown /></Link>
                 </div>
             </div>
             </div>
@@ -150,7 +154,10 @@ const Home = () => {
                     <div className='col-md-4 mt-3'data-aos="fade-up">
                         <video className='img-fluid video-home' poster='./images/bottum-image.png' controls autoPlay muted src=""></video>
                     </div>
-                    <button type="button" class="btn btn-danger mt-2 image-more"><FaAngleDown /></button>
+                    
+                </div>
+                <div className='row d-flex justify-content-center '>
+                <Link class="btn btn-danger mb-4 image-more" to="videos" role="button"><FaAngleDown /></Link>
                 </div>
             </div>
             </div>

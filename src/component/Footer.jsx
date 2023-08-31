@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './Footer.css'
+import '../App.css'
 import Marquee from 'react-fast-marquee'
 import Iframe from 'react-iframe'
 import { FaFacebookSquare, FaYoutube, FaInstagram } from "react-icons/fa";
@@ -15,9 +15,9 @@ const Footer = () => {
     []);
     return (
         <div>
-            <div className='container-fluid mb-5' style={{ backgroundColor: 'orange' }}>
-                <div className='container '>
-                    <div className="row">
+            <div className='container-fluid shadow-lg' style={{ backgroundColor: 'orange' }}>
+                <div className='container'>
+                    <div className="row ">
                         <div className='col-md-4 mt-5'>
                             <h1 data-aos="fade-up" className='text-white' > डायरी</h1>
                             <div className='row'>
@@ -75,13 +75,13 @@ const Footer = () => {
                     </div>
 
                 </div>
-                <div className='row shadow-lg p-3 mt-5 rounded'>
+                <div className='row footer-row-2 shadow-lg p-3 mt-5'>
                     <div className='col-md-6'>
                         <h1 className='text-white'>2023 vishuddhsagar.com</h1>
                     </div>
                     <div className='col-md-6'>
                         <Marquee>
-                            <span className='text-white' style={{ width: '50px' }}>&#169;</span> <p className='text-white'>COPYRIGHT KLIK PLUS SOLUTION IT PRIVATE LIMITED</p>
+                             <p className='text-white ' style={{ fontSize:'20px'}}> &#169;  COPYRIGHT KLIK PLUS SOLUTION IT PRIVATE LIMITED</p>
                         </Marquee>
                     </div>
                 </div>

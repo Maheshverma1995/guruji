@@ -11,19 +11,21 @@ const Icons = () => {
   []);
   return (
     
-      <div className='container  body '>
-        <div className='row  d-flex justify-content-around'>
-            <div data-aos='fade-up' className='col-md-3    ' id='icon-col'>
+      <div className='container-fluid  body '>
+        <div className='row'>
+            <div className='col mt-3 mb-4 d-flex justify-content-around'>
+            <div data-aos='fade-up' className='col-md-6 ' id='icon-col'>
                 <img style={{width:'80px'}} className='img-fluid' src="./images/jain-dharm.png" alt="" />
             </div>
-            <div data-aos='fade-up' className='col-md-3  ' id='icon-col'>
+            <div data-aos='fade-up' className='col-md-6  ' id='icon-col'>
                 <img style={{width:'80px'}} className='img-fluid' src="./images/logo-image.png" alt="" />
             </div>
-            <div data-aos='fade-up' className='col-md-3 mt-4  ' id='icon-col'>
+            <div data-aos='fade-up' className='col-md-6  ' id='icon-col'>
                 <img style={{width:'80px'}} className='img-fluid' src="./images/logo-video-image.png" alt="" />
             </div>
-            <div data-aos='fade-up' className='col-md-3 mt-4  me-1 ' id='icon-col'>
+            <div data-aos='fade-up' className='col-md-6 ' id='icon-col'>
                 <img style={{width:'80px'}} className='img-fluid' src="./images/logo-news-image.png" alt="" />
+            </div>
             </div>
         </div>
       </div>
