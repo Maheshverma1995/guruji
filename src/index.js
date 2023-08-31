@@ -28,7 +28,7 @@ root.render(
 
       <Routes>
         <Route path="/" element={<Home/>}></Route>
-        <Route path="https://vishuddhsagar.netlify.app/acharayJi" element={<AcharayJi/>}></Route>
+        <Route path="acharayJi" element={<AcharayJi/>}></Route>
           <Route path='gallery' element={<Gallery/>} />
           <Route path='mahotsav' element={<Mahotsav/>} />
           <Route path='jivenparichay' element={<JivenParichay/>} />
