@@ -75,7 +75,7 @@ const NavBar = () => {
                                             <Link className=' nav-link text-white' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="gallery">गैलरी</Link>
                                         </li> */}
                                         <li className="nav-item">
-                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="acharayJi">आचार्य जी</Link>
+                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="https://vishuddhsagar.netlify.app/acharayJi">आचार्य जी</Link>
                                         </li>
                                         {/* <li className="nav-item">
                                             <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="videos">वीडियो</Link>
