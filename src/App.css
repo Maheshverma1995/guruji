@@ -1,4 +1,18 @@
-
+*
+{
+    text-align: justify;
+       
+}
+@media screen and (max-width: 993px) {
+  .para{
+    padding: 0px 0px 0px 0px;
+    
+  }
+}
+.para{
+  padding: 5px 20px 5px 100px;
+  
+}
 .body {
   background-image: linear-gradient(#fef2de, #fdd27c);
   
@@ -37,6 +51,18 @@
     margin-top: 0;
   }
 }
+@media screen and (max-width: 993px) {
+  .card-image-row-2{
+   
+    
+    margin-top: 20px;
+  }
+}
+.card-image-row-2
+{
+  border-left: 1px solid black;
+}
+
 .paragraph-maharaj h2{
   text-align: center;
   color: red;
@@ -152,17 +178,21 @@ z-index: 5;
   background-color: #dadada;
   border-radius: 20px 20px 0px 0px;
   padding: 10px;
+  background-image: url(../public/images/back-home.jpeg);
   text-align: center;
+  color: white;
 }
 
 .home-section-div {
   background-color: #838383;
   text-align: justify;
+  box-shadow: 13px 22px 15px 1px rgba(0, 0, 0, 0.219);
+  background-image: linear-gradient(#fef2de, #fdd27c);
   padding: 10px;
   margin-top: -15px;
   border-radius: 0 0 20px 20px;
   min-height: 250px;
-  color: white;
+  color: black;
 
 }
 .home-section-div-card {

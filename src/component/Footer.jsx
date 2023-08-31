@@ -16,22 +16,21 @@ const Footer = () => {
     return (
         <div>
             <div className='container-fluid shadow-lg' style={{ backgroundColor: 'orange' }}>
-                <div className='container'>
-                    <div className="row ">
-                        <div className='col-md-4 mt-5'>
-                            <h1 data-aos="fade-up" className='text-white' > डायरी</h1>
+                <div className='container-fluid'>
+                    <div className="row">
+                        <div className='col-md-4'>
                             <div className='row'>
-
-                                <div className='col-md-4 mt-5'data-aos="fade-up">
-                                    <img className='img-fluid' src="./images/Acharya_Vishuddh_Sagar_Ji-removebg-preview.png" alt="" />
+                            <h1 data-aos="fade-up" className='text-white text-center' > डायरी</h1>
+                                <div className='col-md-6'data-aos="fade-up">
+                                    <img className='img-fluid mt-3' src="./images/Acharya_Vishuddh_Sagar_Ji-removebg-preview.png" alt="" />
                                 </div>
-                                <div className='col-md-8 '>
-                                    <p className='text-white' data-aos="fade-up">बीजांकुर न्याय के समान श्रुतज्ञान की परम्परा और आचार्यपरम्परा एक दूसरे के पूरक हैं। आचरंति यस्माद् व्रतानी त्याचार्यः ।।3।। यस्माद् सम्यग्ज्ञानादि गुणाधारा हृदय व्रतानि स्वर्गापवर्ग सुखामृत बीजानि भव्या हितार्थ माचरति स आचार्यः |</p>
+                                <div className='col-md-6'>
+                                    <p className='text-white mt-4' data-aos="fade-up">बीजांकुर न्याय के समान श्रुतज्ञान की परम्परा और आचार्यपरम्परा एक दूसरे के पूरक हैं। आचरंति यस्माद् व्रतानी त्याचार्यः ।।3।। यस्माद् सम्यग्ज्ञानादि गुणाधारा हृदय व्रतानि स्वर्गापवर्ग सुखामृत बीजानि भव्या हितार्थ माचरति स आचार्यः |</p>
                                 </div>
                                 {/* <div className='col mt-3'><input className='rounded w-75' type="text"  placeholder='comment' /></div> */}
                             </div>
                         </div>
-                        <div className='col-md-4 mt-5'data-aos="fade-up">
+                        <div className='col-md-4'data-aos="fade-up">
                             <h1 className='text-white' data-aos="fade-up"> नवीनतम समाचार </h1>
                             <div className='col'>
                                 <div className='row row-news'>
@@ -59,11 +58,11 @@ const Footer = () => {
                                 </div>
 
                             </div>
-                            <div className='col mt-5'><input className='rounded' type="text"  placeholder='comment' /></div>
+                            <div className='col'><input className='rounded' type="text"  placeholder='comment' /></div>
                             <div className='col mt-4'><button  type="button" className="btn btn-dark w-75">मोबाइल ऐप डाउनलोड करें</button></div>
                         </div>
 
-                        <div className='col-md-4 mt-5 mt-4'data-aos="fade-up">
+                        <div className='col-md-4 mt-4'data-aos="fade-up">
                             
                                 <Iframe className='rounded' src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d448713.71846192505!2d77.07221524153388!3d28.52240403697898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1693116547906!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></Iframe>
                             <div className='row mt-4'>
@@ -75,7 +74,7 @@ const Footer = () => {
                     </div>
 
                 </div>
-                <div className='row footer-row-2 shadow-lg p-3 mt-5'>
+                <div className='row footer-row-2 shadow-lg p-3'>
                     <div className='col-md-6'>
                         <h1 className='text-white'>2023 vishuddhsagar.com</h1>
                     </div>
