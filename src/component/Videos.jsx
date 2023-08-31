@@ -24,7 +24,7 @@ const Videos = () => {
                                 <h5 data-aos="fade-down-up" class="card-title">शीर्षक</h5>
                                 <p data-aos="fade-down-up" class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
-                                    <Link to="#" class="btn btn-danger">Read More</Link>
+                                    <Link to="videodetails" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
                                 </div>
 
@@ -39,7 +39,7 @@ const Videos = () => {
                                 <h5 data-aos="fade-down-up" class="card-title">शीर्षक</h5>
                                 <p data-aos="fade-down-up" class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
-                                    <Link to="#" class="btn btn-danger">Read More</Link>
+                                    <Link to="videodetails" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
                                 </div>
 
@@ -54,7 +54,7 @@ const Videos = () => {
                                 <h5 data-aos="fade-down-up" class="card-title">शीर्षक</h5>
                                 <p data-aos="fade-down-up" class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
-                                    <Link to="#" class="btn btn-danger">Read More</Link>
+                                    <Link to="videodetails" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
                                 </div>
 
@@ -69,7 +69,7 @@ const Videos = () => {
                                 <h5 data-aos="fade-down-up" class="card-title">शीर्षक</h5>
                                 <p data-aos="fade-down-up" class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
-                                    <Link to="#" class="btn btn-danger">Read More</Link>
+                                    <Link to="videodetails" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
                                 </div>
 
@@ -84,7 +84,7 @@ const Videos = () => {
                                 <h5 data-aos="fade-down-up" class="card-title">शीर्षक</h5>
                                 <p data-aos="fade-down-up" class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
-                                    <Link to="#" class="btn btn-danger">Read More</Link>
+                                    <Link to="videodetails" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
                                 </div>
 
@@ -99,7 +99,7 @@ const Videos = () => {
                                 <h5 data-aos="fade-down-up" class="card-title">शीर्षक</h5>
                                 <p data-aos="fade-down-up" class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
-                                    <Link to="#" class="btn btn-danger">Read More</Link>
+                                    <Link to="videodetails" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
                                 </div>
 
@@ -114,7 +114,7 @@ const Videos = () => {
                                 <h5 data-aos="fade-down-up" class="card-title">शीर्षक</h5>
                                 <p data-aos="fade-down-up" class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
-                                    <Link to="#" class="btn btn-danger">Read More</Link>
+                                    <Link to="videodetails" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
                                 </div>
 
@@ -129,7 +129,7 @@ const Videos = () => {
                                 <h5 data-aos="fade-down-up" class="card-title">शीर्षक</h5>
                                 <p data-aos="fade-down-up" class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
-                                    <Link to="#" class="btn btn-danger">Read More</Link>
+                                    <Link to="videodetails" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
                                 </div>
 
@@ -144,7 +144,7 @@ const Videos = () => {
                                 <h5 data-aos="fade-down-up" class="card-title">शीर्षक</h5>
                                 <p data-aos="fade-down-up" class="card-text">श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
                                 <div className='d-flex justify-content-between'>
-                                    <Link to="#" class="btn btn-danger">Read More</Link>
+                                    <Link to="videodetails" class="btn btn-danger">Read More</Link>
                                     <span><FaDownload></FaDownload></span>
                                 </div>
 
@@ -157,15 +157,15 @@ const Videos = () => {
             <nav className='d-flex justify-content-center' aria-label="Page navigation  example">
                 <ul className="pagination ">
                     <li className="page-item">
-                        <Link className="page-link" to="#" aria-label="Previous">
+                        <Link className="page-link" to="videodetails" aria-label="Previous">
                             <span aria-hidden="true">&laquo;</span>
                         </Link>
                     </li>
-                    <li className="page-item"><Link className="page-link" to="#">1</Link></li>
-                    <li className="page-item"><Link className="page-link" to="#">2</Link></li>
-                    <li className="page-item"><Link className="page-link" to="#">3</Link></li>
+                    <li className="page-item"><Link className="page-link" to="videodetails">1</Link></li>
+                    <li className="page-item"><Link className="page-link" to="videodetails">2</Link></li>
+                    <li className="page-item"><Link className="page-link" to="videodetails">3</Link></li>
                     <li className="page-item">
-                        <Link className="page-link" to="#" aria-label="Next">
+                        <Link className="page-link" to="videodetails" aria-label="Next">
                             <span aria-hidden="true">&raquo;</span>
                         </Link>
                     </li>

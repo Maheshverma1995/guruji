@@ -24,16 +24,6 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #b30000; 
 }
-@media screen and (max-width: 993px) {
-  .para{
-    padding: 0px 0px 0px 0px;
-    
-  }
-}
-.para{
-  padding: 5px 20px 5px 100px;
-  
-}
 .body {
   background-image: linear-gradient(#fef2de, #fdd27c);
   
@@ -57,7 +47,19 @@
 }
 @media screen and (max-width: 993px) {
   #toggle-button{
-    display: block;  
+    display: block;
+      
+    
+  }
+}
+#navbar 
+{
+  margin-left: 200px;
+}
+@media screen and (max-width: 993px) {
+  #navbar{
+    margin-left: 0;
+      
     
   }
 }
@@ -65,7 +67,7 @@
 {
   box-shadow: 13px 22px 15px 1px rgba(0, 0, 0, 0.219);
 }
-@media screen and (min-width: 993px) {
+@media screen and (max-width: 993px) {
   .paragraph-maharaj p{
    
     padding-left: 0;
@@ -92,8 +94,7 @@
 {
   text-align: justify;
 
-  margin-top: 50px;
-  padding-left: 100px;
+  
 }
 
 .background-enabled
@@ -217,13 +218,9 @@ z-index: 5;
 
 }
 .home-section-div-card {
-  background-color: #838383;
   text-align: justify;
-  padding: 10px;
-  margin-top: -15px;
-  border-radius: 0 0 20px 20px;
   min-height: 250px;
-  color: white;
+  color: black;
 
 }
 .row-news

@@ -49,9 +49,9 @@ const NavBar = () => {
                     </form>
                 </div>
             </nav>
-            <div className={`navbar ${stickyClass}`}>
+            <div className={`navbar ${stickyClass}`} >
                 <nav className={`navbar-expand-lg ${navbarToggled ? 'show' : ''}`}>
-                    <div className="container">
+                    <div className="container ">
                         <button id="toggle-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="toggle-icon"><FaThList /></span>
                         </button>
@@ -64,9 +64,9 @@ const NavBar = () => {
                     </form>
                                 <button type="button" className="btn-close bg-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
-                            <div className="offcanvas-body navbar-toggle">
+                            <div className="offcanvas-body  navbar-toggle">
                                 <div className="navbar-collapse" id="navbarNav">
-                                    <ul className="navbar-nav text-center">
+                                    <ul className="navbar-nav text-center" id='navbar'>
                                         <li className="nav-item">
                                             <Link className='nav-link text-white' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="/">होम</Link>
                                         </li>
@@ -96,9 +96,9 @@ const NavBar = () => {
                                             <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="jivenparichay">
                                                 जीवन परिचय</Link>
                                         </li>
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                             <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="videodetails">वीडियो विवरण</Link>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                             </div>
