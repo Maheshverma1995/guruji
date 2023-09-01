@@ -141,7 +141,7 @@ const Home = () => {
             <div className='container-fluid body'>
                 <div className='row'>
                     <div className='col mb-3'>
-                        <video className='img-fluid video-home' style={{ height: '300px', width: '100%' }} poster='./images/bottum-image.png' controls autoPlay muted src=""></video>
+                        <video className='img-fluid video-home' style={{ height: '300px', width: '100%' }} poster='./images/bottum-image.png' controls  autoPlay muted src=""></video>
                     </div>
                 </div>
             </div>

@@ -41,7 +41,7 @@ const NavBar = () => {
             <nav className={`navbar navbar-light ${navbarToggled ? 'show' : ''}`}>
                 <div className="container-fluid d-flex">
                     <Link className="nav-link text-white" onClick={handleToggleMenu}>
-                        प्रतीक चिन्ह
+                        <img style={{width:'100px'}} className='img-fluid mt-2' src="./images/logo.png" alt="" />
                     </Link>
                     <form className="d-flex position-relative">
                         <input className="form-control" style={{ minWidth: '150px', width: '200px' }} type="search" placeholder="Search" aria-label="Search" />
@@ -57,7 +57,7 @@ const NavBar = () => {
                         </button>
                         <div className={`offcanvas navbar-header2 offcanvas-start ${menuOpen ? 'show' : ''}`} tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasLabel">
                             <div className="offcanvas-header">
-                                <h5 className="offcanvas-title text-white" id="offcanvasLabel">प्रतीक चिन्ह</h5>
+                                <h5 className="offcanvas-title text-white" id="offcanvasLabel"><img style={{width:'100px'}} className='img-fluid mt-2' src="./images/logo.png" alt="" /></h5>
                                 <form className="d-flex position-relative">
                         <input className="form-control" style={{ minWidth: '150px', width: '200px' }} type="search" placeholder="Search" aria-label="Search" />
                         <button className="btn position-absolute end-0" type="submit"><FaSearch /></button>
@@ -66,14 +66,14 @@ const NavBar = () => {
                             </div>
                             <div className="offcanvas-body  navbar-toggle">
                                 <div className="navbar-collapse" id="navbarNav">
-                                    <ul className="navbar-nav text-center" id='navbar'>
+                                    <ul className="navbar-nav text-center">
                                         <li className="nav-item">
                                             <Link className='nav-link text-white' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="/">होम</Link>
                                         </li>
 
-                                        {/* <li className="nav-item">
-                                            <Link className=' nav-link text-white' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="gallery">गैलरी</Link>
-                                        </li> */}
+                                        <li className="nav-item">
+                                            <Link className=' nav-link text-white' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="chaturmass">चातुर्मास</Link>
+                                        </li>
                                         <li className="nav-item">
                                             <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="acharayJi">आचार्य जी</Link>
                                         </li>

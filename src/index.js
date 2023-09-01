@@ -19,6 +19,7 @@ import JivenParichay from './component/JivenParichay';
 import VideoDetails from './component/VideoDetails';
 import Icons from './component/Icons';
 import Maharaj from './component/Maharaj';
+import Chaturmass from './component/Chaturmass';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -30,6 +31,7 @@ root.render(
         <Route path="/" element={<Home/>}></Route>
         <Route path="acharayJi" element={<AcharayJi/>}></Route>
           <Route path='gallery' element={<Gallery/>} />
+          <Route path='chaturmass' element={<Chaturmass/>} />
           <Route path='mahotsav' element={<Mahotsav/>} />
           <Route path='jivenparichay' element={<JivenParichay/>} />
           <Route path='videos/videodetails' element={<VideoDetails/>} />
