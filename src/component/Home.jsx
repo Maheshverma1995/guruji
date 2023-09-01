@@ -1,284 +1,173 @@
-import React from 'react'
-import { Button } from 'react-bootstrap'
+import React, { useEffect } from 'react'
 import "./Home.css";
-import  vill  from './Pics/baba_5.png';
-import  sagar  from './Pics/Acharya_Vishuddh_Sagar_Ji.jpg';
+import HomeSection2 from './HomeSection2';
+import { FaAngleDown } from "react-icons/fa";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import { Link } from 'react-router-dom';
 
+
+
 const Home = () => {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    },
+        []);
     return (
         <div >
-
-            <div className='first-img img-fluid'>
-                <div className='first-dev'>
-                    <h1 className='first-h1'>
-                        " ज्ञान गुणी होता है, ज्ञान के बिना परमात्मा और आत्मा की परिकल्पना भी नहीं कर सकते। जिस व्यक्ति के पास ज्ञान है वो कभी भी उग्र नहीं हो सकता। वह शीतल जल के सामान शांत रहता है।"
-                    </h1>
-                    <p className='first-p py-3'>श्री 108 विशुद्धसागर जी महाराज</p>
-                </div>
+            <div className='container-fluid'>
 
 
-            </div>
-            {/* <div className='container mb-5'>
-                <div className='row card-heading'>
-                    <div className='col d-flex'>
-                        <div className='col-8  p-2'>
-                            <h1>dsfjklfdsk</h1>
-                            <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi quibusdam minima officia nisi. Excepturi ipsum, delectus natus obcaecati vero ratione tempora deserunt ipsam quae aspernatur rem similique consequuntur sit libero.</p>
-                        </div>
-                        <div className='col-4  ms-2 '>
-                            <img className='img-fluid' src="./images/01_03_2017-01agcrr007.jpg" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-            <div className='grid'>
-                <div className="bg-layoutt" id='frame'>
-                    <div className="row py-5  " style={{ width: "90%", margin: "auto" }}>
-                        <div className="col-lg-3 col-md-6  my-3   " >
-                            <div className="card p-2">
-                                <h2 className='bg-primary text-center p-2' style={{ width: "100%" }}>Live Updates</h2>
-                                <p >Itaque, veritatis quas. Aliquam Lorem ipsum dolor sit amet conse ctetur. Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Enim? lorem 100 sequi asperiores qui alias persp iciatis, expedita ducimus iste quod quibusdam cumque suscipit quis in molestias dolore facilis fugit?  sit amet ctetur adipisicing elit.</p>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-6  my-3   " >
-                            <div className="card p-2">
-                                <h2 className='bg-primary text-center p-2' style={{ width: "100%" }}>Calender</h2>
-                                <p >Itaque, veritatis quas. Aliquam Lorem ipsum dolor sit amet conse ctetur. Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Enim? lorem 100 sequi asperiores qui alias persp iciatis, expedita ducimus iste quod quibusdam cumque suscipit quis in molestias dolore facilis fugit?  sit amet ctetur adipisicing elit.</p>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-6  my-3   " >
-                            <div className="card p-2">
-                                <h2 className='bg-primary text-center p-2' style={{ width: "100%" }}>Thoughts</h2>
-                                <p >Itaque, veritatis quas. Aliquam Lorem ipsum dolor sit amet conse ctetur. Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Enim? lorem 100 sequi asperiores qui alias persp iciatis, expedita ducimus iste quod quibusdam cumque suscipit quis in molestias dolore facilis fugit?  sit amet ctetur adipisicing elit.</p>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-6  my-3   " >
-                            <div className="card p-2">
-                                <h2 className='bg-primary text-center p-2' style={{ width: "100%" }}>Live Sessions</h2>
-                                <p >Itaque, veritatis quas. Aliquam Lorem ipsum dolor sit amet conse ctetur. Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Enim? lorem 100 sequi asperiores qui alias persp iciatis, expedita ducimus iste quod quibusdam cumque suscipit quis in molestias dolore facilis fugit?  sit amet ctetur adipisicing elit.</p>
-                            </div>
-                        </div>
-
-
-
-
-
+                <div className='row home-row'>
+                    <div className='col-md-6 ps-3 ' data-aos="fade-down">
+                        <h4>
+                            " ज्ञान गुणी होता है, ज्ञान के बिना परमात्मा और आत्मा की परिकल्पना भी नहीं कर सकते। जिस व्यक्ति के पास ज्ञान है वो कभी भी उग्र नहीं हो सकता। वह शीतल जल के सामान शांत रहता है।"
+                        </h4>
+                        <p>श्री 108 विशुद्धसागर जी महाराज</p>
 
                     </div>
-                </div>
-
-                <div className="row " >
-                    <div className="col-md-5 my-3 drop-shadow " style={{ margin: "auto" }}>
-                        <div className="card p-2">
-                            <div className="card-body">
-                                <iframe width={"100%"} height={"320"} src="https://www.youtube.com/embed/uAH9qMJFk5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                <h1>heading</h1>
-                                <p>80 साल तक जीना कठोर काम नहीं इतने समय तक निष्कलंक होके जीना कठिन है _- आचार्य विशुद्ध सागर जी</p>
-                                <Button>Read more</Button>
-
-                            </div>
-
-                        </div>
+                    <div className='col-md-6 mt-5' data-aos="fade-down" >
+                        <img className='img-fluid' src="./images/Acharya_Vishuddh_Sagar_Ji-removebg-preview.png" alt="" />
                     </div>
-
-                    <div className="col-md-5 my-3 drop-shadow " style={{ margin: "auto" }} >
-                        <div className="card p-2">
-                            <div className="card-body">
-                                <iframe width={"100%"} height={"320"} src="https://www.youtube.com/embed/uAH9qMJFk5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                <h1>heading</h1>
-                                <p>80 साल तक जीना कठोर काम नहीं इतने समय तक निष्कलंक होके जीना कठिन है _- आचार्य विशुद्ध सागर जी</p>
-                                <Button>Read more</Button>
-                            </div>
-
-                        </div>
-                    </div>
-
                 </div>
             </div>
+            <div className='container-fluid'>
+                <div className='row d-flex  justify-content-center body ' >
+                    <div className='col-md-5 card-home' data-aos="fade-up">
+                        <div class=" row  shadow-lg p-3 mb-5 body rounded" id='card-home-div'>
+                            <div className='col-md-8 body shadow '>
+                                <h1 className='text-center mt-3'>शीर्षक </h1>
+                                <p >श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
+                                <button style={{ width: '200px' }} type="button" class="btn btn-danger mb-3">और पढ़ें</button>
+                            </div>
+                            <div className='col-md-4 card-image-row-2 body shadow '>
+                                <img className='img-fluid p-3' src="./images/Acharya_Vishuddh_Sagar_Ji-removebg-preview.png" alt="" />
+                            </div>
 
-            {/* /////////////////////////////carousel//////////////////////////////// */}
-
-            <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
-                <div className="carousel-inner three">
-                    <div className="carousel-item active">
-                        <img src="./images/3page_8.png" className="d-block w-100 three" alt="kd" />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://cdn.wallpapersafari.com/22/29/fdqrYk.jpg" clas sName="d-block w-100 three" alt="jnj" />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://wallpapercave.com/wp/wp7737090.jpg" className= "d-block w-100 three" alt="jj" />
+                        </div>
                     </div>
                 </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
+                <div className='row'><HomeSection2 /></div>
             </div>
-            {/* /////////////////////////////////////////////////////////////////// */}
-            <div className="grid">
-                <div className="row " >
-                    <div className="col-md-5 my-4 drop-shadow " style={{ margin: "auto" }}>
-                        <div className="card p-2">
-                            <div className="card-body">
-                                <h1 className="fs-1 sec-h1">lorem</h1>
-                                <p className='  sec-p' id='first'>Lorem ipsum dolor sit, Lorem, ipsum dolor sit amet cons ecte tur adipisicing elit. Assumenda cupiditate sed voluptatum quam dolorem! amet consectetur adipisicing elit. Unde consequatur deserunt, omnis ea molestias placeat?</p>
-                                <Button className='sec-btn'>read more</Button>
+            <div className='container-fluid body'>
+                <div className='container'>
+                    <div className='row  body d-flex justify-content-between'>
 
+                        <div className='col-md-6 mt-3 mb-4 ' data-aos="fade-up">
+                            <div className='row '>
+                                <img className='img-fluid' src="./images/Layout for Front page (2).jpg" alt="" />
+
+
+                            </div>
+                            <div className='row home-section-1-row-2' data-aos="fade-up">
+                                <div className='col p-3'>
+                                    <h1 className='text-center'>शीर्षक </h1>
+                                    <p>श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।</p>
+                                    <button type="button" class="btn btn-danger">और पढ़ें</button>
+                                </div>
                             </div>
 
                         </div>
-                    </div>
-
-                    <div className="col-md-5 my-4 drop-shadow " style={{ margin: "auto" }} >
-                        <div className="card p-2">
-                            <img src={vill} className='img-fluid' style={{ height: "100%" }} alt='..'  />
-
+                        <div className='col-md-6 mt-3 mb-4 mb-4 border-start' data-aos="fade-up">
+                            <img className='img-fluid border-start ' src="./images/Annotation 2023-08-05 120024.png" alt="" />
 
                         </div>
 
                     </div>
-
                 </div>
-
-
-
-                {/* /////////////////////////////////////////////////////////// */}
-                <div className="row my-1 py-3" style={{ width: "100%", margin: "auto" }}>
-
-
-                    <div className="col-sm-4 my-2 ">
-                        <div className="card">
-                            <img src={sagar} className="card-img-top" alt="sss" />
-                             <div className="card-body mx-0">
-                                <h5 className="card-title">lorem jad cmd</h5>
-                                <p className="card-text">lorem</p>
-                                <Link to="#" class="btn btn-primary">See more</Link>
+            </div>
+            <div className='container-fluid body'>
+                <div className='row'>
+                    <div className='col mt-3 mb-4'>
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./images/3.thumb.png.91ba6627087d30f9721388f4fe348721.png" class="d-block w-100 slider-image img-fluid" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/3page_2.jpg" class="d-block w-100 slider-image img-fluid" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/3page_2.png" class="d-block w-100 slider-image img-fluid" alt="..." />
+                                </div>
                             </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
                     </div>
-
-                    <div className="col-sm-4 my-2 ">
-                        <div className="card">
-                            <img src={sagar} className="card-img-top" alt="sss" />
-                             <div className="card-body mx-0">
-                                <h5 className="card-title">lorem jad cmd</h5>
-                                <p className="card-text">lorem</p>
-                                <Link to="#" class="btn btn-primary">See more</Link>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-sm-4 my-2  ">
-                        <div className="card">
-                            <img src={sagar} className="card-img-top height" alt="sss" />
-                             <div className="card-body mx-0">
-                                <h5 className="card-title">lorem jad cmd</h5>
-                                <p className="card-text">lorem</p>
-                                <Link to="#" class="btn btn-primary">See more</Link>
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
-                {/* ////////////////////////////////////////////////////////////////////////// */}
-                <div className="row">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uAH9qMJFk5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div className='container-fluid body'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-md-6 mt-5  body' data-aos="fade-up">
+                            <h1>प्रथमानुयोग मर्या-ख्यानं, चरितं पुराण मपि पुण्यम् । बोधि समाधि निधानं, बोधति बोधः समीचीनः ।। 43।।</h1>
+                            <p >अर्थ- जिस ग्रन्थ में चारों पुरुषार्थों (धर्म, अर्थ, काम, मोक्ष) का किसी एक महापुरुष के चारित्र का वर्णन होता है, उन कथाचरित्र और पुराण कहे जाने वाले ग्रन्थों को "प्रथमानुयोग" कहते हैं। इनके पठन-पाठन (पारायण) से, जानने से पुण्य तथा बोधि और समाधि की प्राप्ति होती है। यह सम्यग्ज्ञान का विषय है।
+                                वे दोनों धर्मपरायण सुधी श्रावक अपने गृह ग्राम की ओर प्रस्थान करते हैं। मार्ग में ही एक दूसरे की
+                            </p>
+                            <button type="button" class="btn btn-danger mb-5">और पढ़ें</button>
+                        </div>
+                        <div className='col-md-6  mb-5 body' data-aos="fade-up">
+                            <img className='img-fluid mt-5' src="./images/Acharya_Vishuddh_Sagar_Ji-removebg-preview.png" alt="" />
+                        </div>
+                    </div>
                 </div>
-                {/* ///////////////////////////////////////////////// */}
-
-                <div className="row py-3" style={{ width: "100%", margin: "auto" }}>
-
-
-                    <div className="col-sm-4 my-2 ">
-                        <div className="card" >
-                            <img src={sagar} className="card-img-top" alt="sss" />
-                             <div className="card-body mx-0">
-                                <h5 className="card-title py-8">lorem</h5>
-                                <p className="card-text">lorem</p>
-                                <Link to="#" className="btn btn-primary">Go somewhere</Link>
-                            </div>
+            </div>
+            <div className='container-fluid body'>
+                <div className='container'>
+                    <div className='row mb-2'>
+                        <div className='col-md-4 mt-3' data-aos="fade-up">
+                            <img src="./images/Layout for Front page (1).jpg" class="img-thumbnail shadow-lg" alt="..." />
                         </div>
-                    </div>
-
-                    <div className="col-sm-4 my-2 " >
-                        <div className="card">
-                            <img src={sagar} className="card-img-top height" alt="sss" />
-                             <div className="card-body mx-0">
-                                <h5 className="card-title">lorem jad cmd</h5>
-                                <p className="card-text">lorem</p>
-                                <Link to="#" class="btn btn-primary">See more</Link>
-                            </div>
+                        <div className='col-md-4 mt-3' data-aos="fade-down">
+                            <img src="./images/Layout for Front page (2).jpg" class="img-thumbnail shadow-lg" alt="..." />
                         </div>
-                    </div>
-
-                    <div className="col-sm-4 my-2  ">
-                        <div className="card">
-                            <img src={sagar} className="card-img-top height" alt="sss" />
-                             <div className="card-body mx-0">
-                                <h5 className="card-title">lorem jad cmd</h5>
-                                <p className="card-text">lorem</p>
-                                <Link to="#" class="btn btn-primary">See more</Link>
-                            </div>
+                        <div className='col-md-4 mt-3 ' data-aos="fade-up">
+                            <img src="./images/Layout for Front page (1).jpg" class="img-thumbnail shadow-lg" alt="..." />
                         </div>
-                    </div>
 
+                    </div>
+                    <div className='row d-flex justify-content-center '>
+                        <Link class="btn btn-danger mb-4 image-more" to="gallery" role="button"><FaAngleDown /></Link>
+                    </div>
                 </div>
-                {/* /////////////////////////////////////////////////////////////////// */}
-                <div className="row py-3" style={{ width: "100%", margin: "auto" }}>
-
-
-                    <div className="col-md-3 my-2 ">
-                        <div className="card p-4" >
-                            <img src="https://play-lh.googleusercontent.com/x0IbpAmkccXWXYQm UPtpwX68KQ2eudOhxwF_r8Fy9Iyb7TNyGN1_X8OxveZSNWZa6g" className="card-img-top img-fluid circle" alt="sss" />
-                            <div className="card-body mx-0">
-                                <h5 className="card-title">lorem jad lorem </h5>
-                            </div>
-                        </div>
+            </div>
+            <div className='container-fluid body'>
+                <div className='row'>
+                    <div className='col mb-3'>
+                        <video className='img-fluid video-home' style={{ height: '300px', width: '100%' }} poster='./images/bottum-image.png' controls autoPlay muted src=""></video>
                     </div>
-
-                    <div className="col-md-3 my-2  " >
-                        <div className="card p-4">
-                            <img src="https://png.pngtree.com/png-vector/20190508/ourmid/png tree-gallery-vector-icon-png-image_1027754.jpg" className="card-img-top img-fluid circle" alt="sss" />
-                            <div className="card-body mx-0">
-                                <h5 className="card-title">lorem jad lorem </h5>
-
-                            </div>
+                </div>
+            </div>
+            <div className='container-fluid body'>
+                <div className='container '>
+                    <div className='row'>
+                        <div className='col-md-4 mt-3' data-aos="fade-up">
+                            <video className='img-fluid video-home' poster='./images/bottum-image.png' controls autoPlay muted src=""></video>
                         </div>
-                    </div>
-
-                    <div className="col-md-3 my-2  ">
-                        <div className="card p-4">
-                            <img src="https://ps.w.org/yotuwp-easy-youtube-embed/assets/icon -256x256.png?rev=2869253" className="card-img-top img-fluid circle" alt="sss" />
-                            <div className="card-body mx-0">
-                                <h5 className="card-title">lorem jad lorem </h5>
-                            </div>
+                        <div className='col-md-4 mt-3' data-aos="fade-down">
+                            <video className='img-fluid video-home' poster='./images/bottum-image.png' controls autoPlay muted src=""></video>
                         </div>
-                    </div>
-
-                    <div className="col-md-3 my-2  " >
-                        <div className="card p-4">
-                            <img className="col-10 card-img-top img-fluid circle" src="https://st2.depositphotos.com/6789684/12262/v/600/depositphotos_122620866-stock-illustration-illustration-of-flat-icon.jpg" alt="sss" />
-                            <div className="card-body mx-0">
-                                <h5 className="card-title">lorem jad lorem </h5>
-                            </div>
+                        <div className='col-md-4 mt-3' data-aos="fade-up">
+                            <video className='img-fluid video-home' poster='./images/bottum-image.png' controls autoPlay muted src=""></video>
                         </div>
+
                     </div>
-
-
+                    <div className='row d-flex justify-content-center '>
+                        <Link class="btn btn-danger mb-4 image-more" to="videos" role="button"><FaAngleDown /></Link>
+                    </div>
                 </div>
             </div>
 
         </div>
+
+
     )
 }
 

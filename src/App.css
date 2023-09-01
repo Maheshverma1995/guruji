@@ -1,16 +1,144 @@
-
-.body
+*
 {
-  background-image: linear-gradient(#f5f0e5 ,#ffb830cc);
-  padding-bottom: 50px;
-
+    text-align: justify;
+       
 }
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+  
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+.body {
+  background-image: linear-gradient(#fef2de, #fdd27c);
+  
+}
+.body1{
+  background-image: linear-gradient(#ededed, #aba7a7);
+}
+.togool-icon
+{
+  font-size: 30px;
+  color: white;
+   
+}
+#toggle-button
+{
+  background-color: #f0f8ff00;
+    border: none;
+    display: none;
+    color: white;
+    font-size: 30px;
+}
+@media screen and (max-width: 993px) {
+  #toggle-button{
+    display: block;
+      
+    
+  }
+}
+#navbar 
+{
+  margin-left: 200px;
+}
+@media screen and (max-width: 993px) {
+  #navbar{
+    margin-left: 0;
+      
+    
+  }
+}
+.shadow
+{
+  box-shadow: 13px 22px 15px 1px rgba(0, 0, 0, 0.219);
+}
+@media screen and (max-width: 993px) {
+  .paragraph-maharaj p{
+   
+    padding-left: 0;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 993px) {
+  .card-image-row-2{
+   
+    
+    margin-top: 20px;
+  }
+}
+.card-image-row-2
+{
+  border-left: 1px solid black;
+}
+
+.paragraph-maharaj h2{
+  text-align: center;
+  color: red;
+}
+.paragraph-maharaj p
+{
+  text-align: justify;
+
+  
+}
+
+.background-enabled
+{
+
+position: absolute;
+z-index: 5;
+}
+.navbar-toggle
+{
+  /* background-image: url('../public/images/back-home.jpeg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  
+}
+@media screen and (max-width: 993px) {
+  .navbar-toggle {
+   
+    background: transparent;
+  }
+}
+@media screen and (max-width: 993px) {
+  .navbar-header2
+{
+  background-image: url('../public/images/back-home.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+.navbar-header1{
+  background-image: url('../public/images/back-home.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 .sticky-nav {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgb(0, 0, 0);
   width: 100%;
+<<<<<<< HEAD
   z-index: 1000;
   /* z-index: 1000;
   opacity: 1;
@@ -19,22 +147,115 @@
 .bg-side-2-img
 {
   width: 100px;
+=======
+  background-image: url(../public/images/back-home.jpeg);
+  z-index: 3;
+  background-repeat: no-repeat;
+  background-size: cover;
+>>>>>>> 399252b621fa3702bf42ff6116a74431698ef0dd
   
 }
-.gallery-img
+
+
+.row-news1
 {
+    height: 235px;
+    overflow-y: scroll;
+    text-align: center;
+    min-height: 235px;
+    
+}
+.jiven-parichay-img
+{
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  box-shadow: 13px 22px 15px 1px rgba(0, 0, 0, 0.219);
+  
+}
+.jiven-parichay-img1
+{
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  
+  
+}
+.home-card-2
+{
+  z-index: 10;
+}
+.mahotsav-paragraph
+{
+  margin-left: 50px;
+  padding: 20px;
+  text-align: justify;
+}
+@media screen and (min-width: 786px) {
+  .mahotsav-paragraph {
+   
+    margin-left: 0px;
+  padding: 2px;
+  }
+}
+
+.bg-side-2-img {
+  width: 100px;
+}
+
+.gallery-img {
   width: 340px;
   height: 100%;
 }
-/* .navbar-header
-{
-  opacity: 0.9;
-  position: absolute;
-  width: 100%;
-  
+.home-section-2-h1 {
+  background-color: #dadada;
+  border-radius: 20px 20px 0px 0px;
+  padding: 10px;
+  background-image: url(../public/images/back-home.jpeg);
+  text-align: center;
+  color: white;
+}
+
+.home-section-div {
+  background-color: #838383;
+  text-align: justify;
+  box-shadow: 13px 22px 15px 1px rgba(0, 0, 0, 0.219);
+  background-image: linear-gradient(#fef2de, #fdd27c);
+  padding: 10px;
+  margin-top: -15px;
+  border-radius: 0 0 20px 20px;
+  min-height: 250px;
+  color: black;
 
 }
-.link-text-color
+.home-section-div-card {
+  text-align: justify;
+  min-height: 250px;
+  color: black;
+
+}
+.row-news
 {
-  color: #080808;
-} */
+    height: 100px;
+    overflow-y: scroll;
+    
+}
+
+#icon-col {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  border: 5px solid orange;
+  
+}
+
+.footer-row-2
+{
+  background-image: url(../public/images/back-home.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

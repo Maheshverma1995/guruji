@@ -1,9 +1,14 @@
-import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom';
-
+import React, { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { FaSearch, FaThList } from 'react-icons/fa';
+import $ from 'jquery';
 
 const NavBar = () => {
     const [stickyClass, setStickyClass] = useState('');
+    const [navbarToggled, setNavbarToggled] = useState(false);
+    const location = useLocation();
+    const isHomePage = location.pathname === '/';
+    const [menuOpen, setMenuOpen] = useState(false);
 
     useEffect(() => {
         window.addEventListener('scroll', stickNavbar);
@@ -11,67 +16,101 @@ const NavBar = () => {
     }, []);
 
     const stickNavbar = () => {
-        if (window !== undefined) {
-            let windowHeight = window.scrollY;
-            windowHeight > 100 ? setStickyClass('sticky-nav') : setStickyClass('');
+        const windowHeight = window.scrollY;
+        if (windowHeight > 100) {
+            setStickyClass('sticky-nav');
+        } else {
+            setStickyClass('');
         }
     };
-    return (
-        <div className='navbar-header'>
 
-            <nav class="navbar navbar-light bg-light">
-                <div class="container-fluid">
-                    <Link class=" link-text-color navbar-brand">Navbar</Link>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+    const toggleNavbar = () => {
+        setNavbarToggled(!navbarToggled);
+    };
+
+    const handleToggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
+    const closeOffcanvas = () => {
+        $('#offcanvasExample').offcanvas('hide');
+    };
+
+    return (
+        <div className={`navbar-header container-fluid ${isHomePage ? 'background-enabled' : 'navbar-header1'}`}>
+            <nav className={`navbar navbar-light ${navbarToggled ? 'show' : ''}`}>
+                <div className="container-fluid d-flex">
+                    <Link className="nav-link text-white" onClick={handleToggleMenu}>
+                        प्रतीक चिन्ह
+                    </Link>
+                    <form className="d-flex position-relative">
+                        <input className="form-control" style={{ minWidth: '150px', width: '200px' }} type="search" placeholder="Search" aria-label="Search" />
+                        <button className="btn position-absolute end-0" type="submit"><FaSearch /></button>
                     </form>
                 </div>
             </nav>
-            <div className={`navbar ${stickyClass}`}>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+            <div className={`navbar ${stickyClass}`} >
+                <nav className={`navbar-expand-lg ${navbarToggled ? 'show' : ''}`}>
+                    <div className="container ">
+                        <button id="toggle-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="toggle-icon"><FaThList /></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <Link class=" link-text-color nav-link active" aria-current="page" to="">Home</Link>
-                                </li>
-                                <li class="nav-item">
-                                    <Link class=" link-text-color nav-link" to="gallery">Gallery</Link>
-                                </li>
-                                <li class="nav-item">
-                                    <Link class=" link-text-color nav-link" to="acharayJi">AcharayJi</Link>
-                                </li>
-                                <li class="nav-item">
-                                    <Link class=" link-text-color nav-link" to="videos">Videos</Link>
-                                </li>
-                                <li class="nav-item">
-                                    <Link class=" link-text-color nav-link" to="news">News</Link>
-                                </li>
-                                <li class="nav-item">
-                                    <Link class=" link-text-color nav-link" to="jainDharam">JainDharam</Link>
-                                </li>
-                                <li class="nav-item">
-                                    <Link class=" link-text-color nav-link" to="mahotsav">Mahotsav</Link>
-                                </li>
-                                <li class="nav-item">
-                                    <Link class=" link-text-color nav-link" to="jivenparichay">JivenParichay</Link>
-                                </li>
-                                <li class="nav-item">
-                                    <Link class=" link-text-color nav-link" to="videodetails">VideoDetails</Link>
-                                </li>
-                                
+                        <div className={`offcanvas navbar-header2 offcanvas-start ${menuOpen ? 'show' : ''}`} tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasLabel">
+                            <div className="offcanvas-header">
+                                <h5 className="offcanvas-title text-white" id="offcanvasLabel">प्रतीक चिन्ह</h5>
+                                <form className="d-flex position-relative">
+                        <input className="form-control" style={{ minWidth: '150px', width: '200px' }} type="search" placeholder="Search" aria-label="Search" />
+                        <button className="btn position-absolute end-0" type="submit"><FaSearch /></button>
+                    </form>
+                                <button type="button" className="btn-close bg-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div className="offcanvas-body  navbar-toggle">
+                                <div className="navbar-collapse" id="navbarNav">
+                                    <ul className="navbar-nav text-center" id='navbar'>
+                                        <li className="nav-item">
+                                            <Link className='nav-link text-white' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="/">होम</Link>
+                                        </li>
 
-                            </ul>
+                                        {/* <li className="nav-item">
+                                            <Link className=' nav-link text-white' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="gallery">गैलरी</Link>
+                                        </li> */}
+                                        <li className="nav-item">
+                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="acharayJi">आचार्य जी</Link>
+                                        </li>
+                                        {/* <li className="nav-item">
+                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="videos">वीडियो</Link>
+                                        </li> */}
+                                        <li className="nav-item">
+                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="maharaj">महाराज जी</Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="news">समाचार</Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="jainDharam">जैन धर्म</Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="mahotsav">महोत्सव</Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="jivenparichay">
+                                                जीवन परिचय</Link>
+                                        </li>
+                                        {/* <li className="nav-item">
+                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="videodetails">वीडियो विवरण</Link>
+                                        </li> */}
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </nav>
             </div>
+            <button className="navbar-toggler" onClick={toggleNavbar}>
+                <span className="navbar-toggler-icon"></span>
+            </button>
         </div>
-    )
-}
+    );
+};
 
-export default NavBar
+export default NavBar;
