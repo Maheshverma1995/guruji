@@ -14,7 +14,7 @@ const JivenParichay = () => {
             {/* <HomeSection2/> */}
             <div className="container-fluid">
                 <div className="container">
-                    <div className="row mt-5">
+                    <div className="row">
                         <img data-aos="zoom-in-down" className='img-fluid jiven-parichay-img' src="images/head.png" alt='..' />
                     </div>
                     <div className="row mt-5">

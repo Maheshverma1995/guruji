@@ -37,56 +37,56 @@ const HomeSection2 = () => {
                                     </div>
                                     <div className='col-6'>सम्वत्सरी पर्व</div>
                                     <div className='col-6 border-end'>
-                                        <p>4 अक्टूबर 2023</p>
+                                        <p>4अक्टूबर 2023</p>
                                     </div>
                                     <div className='col-6'>रोहिणी व्रत</div>
                                     <div className='col-6 border-end'>
-                                        <p>21 अक्टूबर 2023</p>
+                                        <p>21अक्टूबर 2023</p>
                                     </div>
                                     <div className='col-6'>अश्विन नवपद ओली प्रारंभ</div>
 
                                     <div className='col-6 border-end'>
-                                        <p>28 अक्टूबर 2023</p>
+                                        <p>28अक्टूबर 2023</p>
                                     </div>
                                     <div className='col-6'>अश्विन नवपद ओली पूर्ण</div>
                                     <div className='col-6 border-end'>
-                                        <p>31 अक्टूबर 2023</p>
+                                        <p>31अक्टूबर 2023</p>
                                     </div>
                                     <div className='col-6'>रोहिणी व्रत</div>
                                     <div className='col-6 border-end'>
-                                        <p>12 नवंबर 2023</p>
+                                        <p>12नवंबर 2023</p>
                                     </div>
                                     <div className='col-6'>लक्ष्मी पूजा</div>
                                     <div className='col-6 border-end'>
-                                        <p>14 नवंबर 2023</p>
+                                        <p>14नवंबर 2023</p>
                                     </div>
                                     <div className='col-6'>गुजराती नया साल</div>
                                     <div className='col-6 border-end'>
-                                        <p>18 नवंबर 2023</p>
+                                        <p>18नवंबर 2023</p>
                                     </div>
                                     <div className='col-6'>लाभ पंचमी</div>
                                     <div className='col-6 border-end'>
-                                        <p>19 नवंबर 2023</p>
+                                        <p>19नवंबर 2023</p>
                                     </div>
                                     <div className='col-6'>कार्तिक अष्टान्हिका विधान प्रारंभ</div>
                                     <div className='col-6 border-end'>
-                                        <p>26 नवंबर 2023</p>
+                                        <p>26नवंबर 2023</p>
                                     </div>
                                     <div className='col-6'>कार्तिक चौमासी चौदस</div>
                                     <div className='col-6 border-end'>
-                                        <p>27 नवंबर 2023</p>
+                                        <p>27नवंबर 2023</p>
                                     </div>
                                     <div className='col-6'>कार्तिक अष्टान्हिका विधान पूर्ण</div>
                                     <div className='col-6 border-end'>
-                                        <p>27 नवंबर 2023</p>
+                                        <p>27नवंबर 2023</p>
                                     </div>
                                     <div className='col-6'>कार्तिक रथ यात्रा</div>
                                     <div className='col-6 border-end'>
-                                        <p>28 नवंबर 2023</p>
+                                        <p>28नवंबर 2023</p>
                                     </div>
                                     <div className='col-6'>रोहिणी व्रत</div>
                                     <div className='col-6 border-end'>
-                                        <p>25 दिसंबर 2023</p>
+                                        <p>25दिसंबर 2023</p>
                                     </div>
                                     <div className='col-6'>रोहिणी व्रत</div>
                                 </div>
