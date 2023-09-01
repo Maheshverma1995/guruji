@@ -38,18 +38,18 @@ const JainDharam = () => {
                 </div>
                 <div className='row mt-5 '>
                     <div className='col-md-6'>
-                        <div class="card bg-dark text-white">
-                            <img data-aos="zoom-in-down" class="card-img " style={{ height: '400px', textAlige: 'center' }} src="./images/hq720.jpg" alt=".." />
-                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                        <div className="card bg-dark text-white">
+                            <img data-aos="zoom-in-down" className="card-img " style={{ height: '400px', textAlige: 'center' }} src="./images/hq720.jpg" alt=".." />
+                            <div className="card-img-overlay d-flex align-items-center justify-content-center">
                                 <button className='btn btn-danger   'data-aos="fade-up" style={{ width: '200px', height: '60px' }}>और पढ़ें</button>
 
                             </div>
                         </div>
                     </div>
                     <div className='col-md-6'>
-                        <div class="card bg-dark text-white">
-                            <img data-aos="zoom-in-down" class="card-img " style={{ height: '400px', textAlige: 'center' }} src="./images/images (1).jpg" alt=".." />
-                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                        <div className="card bg-dark text-white">
+                            <img data-aos="zoom-in-down" className="card-img " style={{ height: '400px', textAlige: 'center' }} src="./images/images (1).jpg" alt=".." />
+                            <div className="card-img-overlay d-flex align-items-center justify-content-center">
                                 <button className='btn btn-danger  'data-aos="fade-right" style={{ width: '200px', height: '60px' }}>और पढ़ें</button>
 
                             </div>
@@ -58,18 +58,18 @@ const JainDharam = () => {
                 </div>
                 <div className='row mt-2 '>
                     <div className='col-md-6'>
-                        <div class="card bg-dark text-white">
-                            <img data-aos="zoom-in-down" class="card-img " style={{ height: '400px', textAlign: 'center' }} src="./images/hq720.jpg" alt=".." />
-                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                        <div className="card bg-dark text-white">
+                            <img data-aos="zoom-in-down" className="card-img " style={{ height: '400px', textAlign: 'center' }} src="./images/hq720.jpg" alt=".." />
+                            <div className="card-img-overlay d-flex align-items-center justify-content-center">
                                 <button className='btn btn-danger  'data-aos="fade-up" style={{ width: '200px', height: '60px' }}>और पढ़ें</button>
 
                             </div>
                         </div>
                     </div>
                     <div className='col-md-6 mb-5'>
-                        <div class="card bg-dark text-white">
-                            <img data-aos="zoom-in-down" class="card-img " style={{ height: '400px', textAlige: 'center' }} src="./images/images (1).jpg" alt=".." />
-                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                        <div className="card bg-dark text-white">
+                            <img data-aos="zoom-in-down" className="card-img " style={{ height: '400px', textAlige: 'center' }} src="./images/images (1).jpg" alt=".." />
+                            <div className="card-img-overlay d-flex align-items-center justify-content-center">
                                 <button className='btn btn-danger  'data-aos="fade-right" style={{ width: '200px', height: '60px' }}>और पढ़ें</button>
 
                             </div>

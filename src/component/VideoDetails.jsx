@@ -96,7 +96,7 @@ const VideoDetails = () => {
                 <p data-aos="fade-up" className="card-text">
                   श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
                 </p>
-                <Link to="#" class="btn btn-danger">
+                <Link to="#" className="btn btn-danger">
                   और पढ़ें
                 </Link>
               </div>
@@ -110,7 +110,7 @@ const VideoDetails = () => {
                 <p data-aos="fade-up" className="card-text">
                   श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
                 </p>
-                <Link to="#" class="btn btn-danger">
+                <Link to="#" className="btn btn-danger">
                   और पढ़ें
                 </Link>
               </div>
@@ -124,7 +124,7 @@ const VideoDetails = () => {
                 <p data-aos="fade-up" className="card-text">
                   श्रुतज्ञान की परम्परा को भविष्य के लिए वृद्धिंगत करने में मनीषियों, महापुरुषों, आचार्यों तथा मुनियों का बेजोड़ योगदान हर प्रकार के ज्ञान के द्वारा सत्साहित्य का प्रतिपादन होता रहा है।
                 </p>
-                <Link to="#" class="btn btn-danger">
+                <Link to="#" className="btn btn-danger">
                   और पढ़ें
                 </Link>
               </div>

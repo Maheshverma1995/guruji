@@ -12,7 +12,7 @@ const Mahotsav = () => {
   return (
     <div className='body'>
       <HomeSection2 />
-      <div class="container">
+      <div className="container">
         <div className="row mt-5">
           <img className='img-fluid jiven-parichay-img' src="images/panchyakalvynak-removebg-preview.png" alt="" />
         </div>
