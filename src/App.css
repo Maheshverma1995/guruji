@@ -149,10 +149,9 @@ z-index: 5;
 
 .row-news1
 {
-    height: 235px;
     overflow-y: scroll;
     text-align: center;
-    min-height: 235px;
+  height: 200px;   
     
 }
 .jiven-parichay-img
@@ -204,6 +203,8 @@ z-index: 5;
   background-image: url(../public/images/back-home.jpeg);
   text-align: center;
   color: white;
+  min-height: 80px;
+  max-height: 200px;
 }
 
 .home-section-div {
@@ -216,13 +217,13 @@ z-index: 5;
   border-radius: 0 0 20px 20px;
   min-height: 250px;
   color: black;
+  max-height: 250px;
 
 }
 .home-section-div-card {
   text-align: justify;
   min-height: 250px;
   color: black;
-
 }
 .row-news
 {

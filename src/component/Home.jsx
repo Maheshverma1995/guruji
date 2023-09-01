@@ -19,14 +19,14 @@ const Home = () => {
 
 
                 <div className='row home-row'>
-                    <div className='col-md-6 ps-3 ' data-aos="fade-down">
+                    <div className='col-lg-6' data-aos="fade-down">
                         <h4>
                             " ज्ञान गुणी होता है, ज्ञान के बिना परमात्मा और आत्मा की परिकल्पना भी नहीं कर सकते। जिस व्यक्ति के पास ज्ञान है वो कभी भी उग्र नहीं हो सकता। वह शीतल जल के सामान शांत रहता है।"
                         </h4>
                         <p>श्री 108 विशुद्धसागर जी महाराज</p>
 
                     </div>
-                    <div className='col-md-6 mt-5' data-aos="fade-down" >
+                    <div className='col-lg-6 mt-5' data-aos="fade-down" >
                         <img className='img-fluid' src="./images/Acharya_Vishuddh_Sagar_Ji-removebg-preview.png" alt="" />
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const Home = () => {
                                 <button style={{ width: '200px' }} type="button" className="btn btn-danger mb-3">और पढ़ें</button>
                             </div>
                             <div className='col-md-4 card-image-row-2 body shadow '>
-                                <img className='img-fluid p-3' src="./images/Acharya_Vishuddh_Sagar_Ji-removebg-preview.png" alt="" />
+                                <img className='img-fluid' src="./images/Acharya_Vishuddh_Sagar_Ji-removebg-preview.png" alt="" />
                             </div>
 
                         </div>

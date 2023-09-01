@@ -59,7 +59,7 @@ const Footer = () => {
 
                             </div>
                             <div className='col d-flex justify-content-center'><input className='rounded-start mt-4' type="text"  placeholder='comment' />
-                            <button type="button" style={{height:'40px',}} className=" bg-danger btn-danger text-white rounded-end mt-4">Send</button>
+                            <button type="button" style={{height:'40px',}} class=" bg-danger btn-danger text-white rounded-end mt-4">Send</button>
                             </div>
                             <div className='col d-flex justify-content-center mt-4'><button  type="button" className="btn btn-dark w-50">मोबाइल ऐप डाउनलोड करें</button></div>
                         </div>

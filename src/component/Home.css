@@ -19,7 +19,7 @@
 }
 .home-row p{
     color: white;
-    text-align: center;
+    padding-left: 50px;
 }
 .first-img{
     width: 100%;
@@ -51,7 +51,7 @@
     z-index: 2;
    
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 993px) {
     .card-home {
      
       margin-top: 10px;
