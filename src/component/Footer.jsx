@@ -67,7 +67,7 @@ const Footer = () => {
         <div className="col-md-4">
             <div className="row">
                 <div className="img-fluid">
-                    <Iframe>src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224356.8601152399!2d77.2366679395753!3d28.52240362144885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1691661954169!5m2!1sen!2sin"style={{width:'22vw',height:'100%'}}  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"</Iframe>
+                    <Iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224356.8601152399!2d77.2366679395753!3d28.52240362144885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1691661954169!5m2!1sen!2sin"style={{width:'22vw',height:'100%'}}  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></Iframe>
                 </div>
             </div>
             <div className="row" id="icon">
@@ -95,7 +95,7 @@ const Footer = () => {
         </div>
         <div className="col-md-7" >
             <Marquee>
-            <h3>@copyright Archarya Vishuddhsagarji All Rights Reserved</h3>
+            <h3>@copyright kLIK PLUS All Rights Reserved</h3>
             </Marquee>
         </div>
     </div>

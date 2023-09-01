@@ -2,6 +2,16 @@
 .first-dev{
     padding-bottom: 100px;
 }
+.card-heading
+{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
+    margin-top: -100px;
+    min-width: 300px;
+    max-width: 600px;
+    
+}
 .first-img{
     /* position: relative; */
     width: 100%;

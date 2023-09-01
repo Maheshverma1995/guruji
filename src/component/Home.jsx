@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div>
+        <div >
 
             <div className='first-img img-fluid'>
                 <div className='first-dev'>
@@ -19,7 +19,19 @@ const Home = () => {
 
 
             </div>
-            {/* ///////////////////////////////// /////////////////////////// */}
+            {/* <div className='container mb-5'>
+                <div className='row card-heading'>
+                    <div className='col d-flex'>
+                        <div className='col-8  p-2'>
+                            <h1>dsfjklfdsk</h1>
+                            <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi quibusdam minima officia nisi. Excepturi ipsum, delectus natus obcaecati vero ratione tempora deserunt ipsam quae aspernatur rem similique consequuntur sit libero.</p>
+                        </div>
+                        <div className='col-4  ms-2 '>
+                            <img className='img-fluid' src="./images/01_03_2017-01agcrr007.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div> */}
             <div className='grid'>
                 <div className="bg-layoutt" id='frame'>
                     <div className="row py-5  " style={{ width: "90%", margin: "auto" }}>
@@ -93,7 +105,7 @@ const Home = () => {
             <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner three">
                     <div className="carousel-item active">
-                        <img src="https://wallpapers.com/images/hd/contrasting-scenic-vi ews-a5u9zq0a0ymy2dug.jpg" className="d-block w-100 three" alt="kd" />
+                        <img src="./images/3page_8.png" className="d-block w-100 three" alt="kd" />
                     </div>
                     <div class="carousel-item">
                         <img src="https://cdn.wallpapersafari.com/22/29/fdqrYk.jpg" clas sName="d-block w-100 three" alt="jnj" />
