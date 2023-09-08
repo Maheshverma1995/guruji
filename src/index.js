@@ -34,7 +34,7 @@ root.render(
           <Route path='chaturmass' element={<Chaturmass/>} />
           <Route path='mahotsav' element={<Mahotsav/>} />
           <Route path='jivenparichay' element={<JivenParichay/>} />
-          <Route path='videos/videodetails' element={<VideoDetails/>} />
+          <Route path='videodetails' element={<VideoDetails/>} />
           <Route path='news' element={<News/>} />
           <Route path="videos" element={<Videos/>} />
           <Route path="jainDharam" element={<JainDharam/>} />
