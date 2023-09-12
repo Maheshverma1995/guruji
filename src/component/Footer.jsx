@@ -84,7 +84,7 @@ const Footer = () => {
                     </div>
                     <div className='col-md-6'>
                         <Marquee>
-                             <p className='text-white ' style={{ fontSize:'20px'}}> &#169;  COPYRIGHT KLIK PLUS SOLUTION IT PRIVATE LIMITED</p>
+                             <p className='text-white ' style={{ fontSize:'20px'}}> &#169;  COPYRIGHT KLIK PLUS SOLUTION  PRIVATE LIMITED</p>
                         </Marquee>
                     </div>
                 </div>
