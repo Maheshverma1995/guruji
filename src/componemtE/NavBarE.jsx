@@ -71,29 +71,31 @@ const NavBar = () => {
                                 <div className="navbar-collapse" id="navbarNav">
                                     <ul className="navbar-nav text-center">
                                         <li className="nav-item">
-                                            <Link className='nav-link text-white' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="/">होम</Link>
-                                        </li>
-                                        
-                                        <li className="nav-item"> 
-                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="acharayJi">आचार्य जी</Link>
-                                        </li>
-                                        <li className="nav-item">
-                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="jainDharam">जैन धर्म</Link>
-                                        </li>
-                                        <li className="nav-item">
-                                            <Link className=' nav-link text-white' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="chaturmass">वस्तुतः शब्द</Link>
+                                            <Link className='nav-link text-white' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="">Home</Link>
                                         </li>
                                         
                                         <li className="nav-item">
-                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="maharaj">शिष्य</Link>
+                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="acharayJi">Acharya ji</Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="videodetails">प्रवचन</Link>
+                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="jainDharam">jain dharm</Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="gallery">फोटो गैलरी</Link>
-                                        </li>                                        
+                                            <Link className=' nav-link text-white' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="chaturmass">Literally</Link>
+                                        </li>
+                                        
+                                        <li className="nav-item">
+                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="maharaj">Disciple</Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="videodetails">Sermon</Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link className=' nav-link text-white ' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="gallery">Photo gallery</Link>
+                                        </li>
+                                                                                
                                     </ul>
+                                    
                                 </div>
                             </div>
                         </div>

@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import '../App.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Chaturmass = () => {
+    useEffect(()=>
+    {
+      Aos.init({duration:1000});
+    },
+    []);
   return (
     <div>
       <div className='container-fluid body'>
