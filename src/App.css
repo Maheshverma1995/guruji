@@ -165,9 +165,11 @@ z-index: 5;
   width: 100%;
   background-image: url(../public/images/back-home.jpeg);
   z-index: 3;
+  line-height: 80px;
+  padding-top: 20px;
   background-repeat: no-repeat;
   background-size: cover;
-  cursor: pointer;
+  
   
 }
 

@@ -41,7 +41,7 @@ const NavBar = () => {
         <div className={`navbar-header container-fluid ${isHomePage ? 'background-enabled' : 'navbar-header1'}`}>
             <nav className={`navbar navbar-light ${navbarToggled ? 'show' : ''}`}>
                 <div className="container-fluid d-flex">
-                    <Link className="nav-link text-white" onClick={handleToggleMenu}>
+                <Link className='nav-link text-white' onClick={() => { handleToggleMenu(); closeOffcanvas(); }} to="/">
                         <img style={{minWidth:'50px',maxWidth:'50px'}} className='img-fluid mt-2' src="./images/logo.png" alt="" />
                     </Link>
                     

@@ -15,7 +15,7 @@ const HomeSectionE = () => {
                     <div className='col-md-6 col-lg-3 mt-3' data-aos="fade-up">
                         <span><h1 className='home-section-2-h1'> Live Update</h1></span>
                         <div className='home-section-div row-news1 '>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tenetur voluptatibus quis recusandae ratione sunt! Atque suscipit ab doloribus incidunt cumque accusamus voluptate veniam nostrum? Dolorem sunt blanditiis in labore iure eligendi alias enim, voluptates dolore pariatur quo, sapiente dicta aspernatur corporis accusantium? Tempora atque aperiam praesentium ducimus dolorem aut?</p>
+                            <p>Äcärya Visuddhasägara has mastered the science-of-thought (nyäya), and his grip on complex concepts of Jaina metaphysics including anehäntaväda and syädväda is amazing. </p>
                         </div>
                     </div>
                     <div className='col-md-6 col-lg-3  mt-3' data-aos="fade-down">
@@ -99,7 +99,7 @@ const HomeSectionE = () => {
                         <span><h1 className='home-section-2-h1'>
                             Today's</h1></span>
                         <div className='home-section-div row-news1'>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, sed placeat tempora quisquam distinctio cumque reprehenderit </p>
+                            <p>uirodha — To aceept the quality in a substance that is opposite to its nature. ‘The matter (pudgala) has consciousness (cetanä).’</p>
                         </div>
                     </div>
                     <div className='col-md-6 col-lg-3 mt-3 mb-4' data-aos="fade-up">
@@ -107,7 +107,7 @@ const HomeSectionE = () => {
                             Live video</h1></span>
                         <div className='home-section-div row-news1'>
                             <p><video className='img-fluid' controls autoPlay muted src=""></video>
-                                <h6 className='mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit.  </h6>
+                                <h6 className='mt-4'>To assume that one substance can beeome the other substance. ‘The soul is the body.</h6>
                             </p>
                         </div>
                     </div>

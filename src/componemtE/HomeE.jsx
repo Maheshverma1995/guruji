@@ -20,10 +20,10 @@ const HomeE = () => {
 
                 <div className='row home-row'>
                     <div className='col-lg-6' data-aos="fade-down">
-                        <h4>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aperiam harum autem nam doloribus. Et odio accusantium inventore quod fugit sint earum in mollitia quas. Qui placeat libero impedit nostrum!
+                        <h4 className='fs-5 ps-5'>
+                        You are an energetic, ascetic seeker immersed in the practice of truth, conduct according to the teachings, conduct according to the Guru's tradition, character - or should I say, a spiritual good Guru who gives good knowledge to everyone, whose specialty is that he seems to be his own to everyone. Pujya Shri is the holder of broad thoughts and appropriate thinking, beyond religious traditions and blind stereotypes.
                         </h4>
-                        <p>Shree 108 Visudhsagar ji</p>
+                        <p className='fs-3'>Shree 108 Visudhsagar ji</p>
 
                     </div>
                     <div className='col-lg-6 mt-5' data-aos="fade-down" >
@@ -37,7 +37,7 @@ const HomeE = () => {
                         <div className=" row  shadow-lg p-3 mb-5 body rounded" id='card-home-div'>
                             <div className='col-md-8 body shadow '>
                                 <h1 className='text-center mt-3'>Headding </h1>
-                                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum cupiditate maxime non sunt ex ullam tempora, ipsa, tempore maiores suscipit praesentium excepturi ad soluta nesciunt similique deleniti? Soluta, expedita non.</p>
+                                <p >On the one hand, as a result of the Agamic stream emanating from your spiritual nectar-filled speech, hundreds of works give the true understanding of your profound philosophical knowledge, on the other hand, the thirty-three child celibate Dixit Muni is highly educated, proficient in Prakrit, Apabhramsa, Sanskrit, Hindi, English, he is the master of your internal Gives the message of capability-equality and proper policy-expertise.</p>
                                 <button style={{ width: '200px' }} type="button" className="btn btn-danger mb-3">Read More</button>
                             </div>
                             <div className='col-md-4 card-image-row-2 body shadow '>
@@ -62,7 +62,10 @@ const HomeE = () => {
                             <div className='row home-section-1-row-2' data-aos="fade-up">
                                 <div className='col p-3'>
                                     <h1 className='text-center'>Headding </h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus veritatis nemo totam, possimus labore, nihil, praesentium fugiat consectetur libero repellat hic rem sint molestias quod delectus itaque assumenda perspiciatis facilis ratione fuga laborum debitis repellendus laboriosam reprehenderit? Temporibus totam blanditiis dignissimos ad beatae debitis magni illo, animi quam doloribus, quia soluta natus. Quo delectus quod alias earum dolorem pariatur eum quos assumenda reiciendis est praesentium quia facilis nemo autem esse, natus voluptatibus voluptas! Pariatur dolorum facere nostrum a atque dolorem soluta ea unde ullam nesciunt. Eos dicta reprehenderit consectetur quo eaque quaerat voluptas nam tempore quia, ducimus enim nulla eligendi.</p>
+                                    <p>Atall order in this ’Aali age (the fifth aeon, called ‘dusamti’)? Yes, but present in this age also are pious souls, ascetics (muni, sramana) and householders Ésröra#ad, endowed with right-faith (samyahtua, samyag-darsana) who follow laudable conduct (cäritra) according to the level of the destruction-cum-subsidence (Asayopasama) of their conduct-deluding (cäritra-mohanï ya) karmas. Äcärya Visuddhasägara (born 18 December, 1971) is one such rare gem among the present-day ascetics.
+
+A digambara ascetie (nirgrañtha muni) since last twenty-nine years , Âcärya Visuddhasägara’s greatest commitment is to study the Scripture. A worthy son of ’Mother Jinavänï’, he spends maximum time, during the day and at night, in her service. With dedication and extraordinary concentration (eAägratä) he has brought out and assimilated profound concepts and tenets found deep in the ocean of the Scripture, with their associated five kinds of meanings — the word-meaning(sabdärtha), the standpoint- meaning (nayärtha), the sectarian-meaning (maförffia), the scriptural-meaning (ägamärtha) and the spiritual-meaning @/tôutirïfiad — beyond the reach of the ordinary souls.
+</p>
                                     <button type="button" className="btn btn-danger">Read More</button>
                                 </div>
                             </div>
@@ -107,8 +110,8 @@ const HomeE = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-6 mt-5  body' data-aos="fade-up">
-                            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, voluptatem!</h1>
-                            <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga at repellat nemo, id odio iure. Quidem aperiam rerum saepe nisi, at assumenda facere asperiores similique molestias, nulla aspernatur, illo atque!
+                            <h1>Wisdom about the reality of substances Praesentium, voluptatem!</h1>
+                            <p >The one who has the wisdom about the reality of substances, has assimilated the core of the Scripture, knows the ways of the world, has no desire for worldly riches and honour, has sharp intellect, is serene, has sharp wit to know beforehand the answers to all future questions, has the ability to face with calmness almost all kinds of questions, enjoys lordship over the audience, is attractive, and is a repository of good qualities; such leader of the eongregation (sangfia) should deliver his discourse in clear and sweet words, without speaking ill of others.
                             </p>
                             <button type="button" className="btn btn-danger mb-5">Read More</button>
                         </div>

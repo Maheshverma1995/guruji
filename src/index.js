@@ -46,7 +46,7 @@ const AppToggle = () => {
   return (
     <div>
       <div className='d-flex justify-content-end fixed-top'>
-        <button type="button" className=' btn text-white ' style={{ width: "200px" }} onClick={toggleLanguage}>
+        <button type="button" className=' btn text-white ' style={{ width: "200px",paddingTop:'30px' }} onClick={toggleLanguage}>
           {showHindi ? ' Hindi' : ' English'}
         </button>
       </div>
